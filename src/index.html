@@ -12,14 +12,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>interbase</title>
 </head>
 
 <body style='font-family: "Archivo", sans-serif;' class='overflow-x-hidden'>
   <!-- Header Start Done No-media quires yet -->
   <header class='bg-neutral-800 h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 pl-80px'>
-    <div class="flex gap-4">
+    <div class='-z-50'>
+      <img src="assests/lineslefttop.svg" alt="vector image"
+        class='absolute w-[1051px] h-[1162px] -top-[46px] -left-[75px]'>
+    </div>
+    <div class="-z-50">
+      <img src="assests/linerighttop.svg" alt="verctor image"
+        class='absolute w-[1050px] h-[1161px] -top-[70px] left-[630px]'>
+    </div>
+
+    <div class="flex gap-4 mr-59">
       <p class='ml-16 min-w-xs'>
         See what's new in Delphi, C++ Builder, and RAD Studio Watch the Replay
         <span class='underline ml-3'>
@@ -35,15 +44,18 @@
         <li>My Customer Portal</li>
         <li>Contact Us</li>
       </ul>
-      <div class="image">
-        <img src="assests/Frame 1000003349.png" alt="icons image" class='mr-16 w-20 h-20'>
+      <div>
+        <img src="assests/three.svg" alt="icons image" class='mr-16 top-[0px] w-24'>
       </div>
     </div>
   </header>
   <!-- Header End -->
 
   <!-- Navbar Start Done no media queries yet-->
-  <nav class='h-14 flex justify-between pt-[20px] pl-[150px] pr-[150px]'>
+  <nav class='h-14 flex justify-between pt-[20px] pl-[150px] pr-[150px] bg-white relative z-50'>
+    <div
+      class='w-[869px] h-[869px] absolute bg-gradient-to-r from-transparent to-rose-600 opacity-20 blur-[500px] top-0 right-0 -z-50'>
+    </div>
     <div>
       <img src="assests/Frame 811285.png" alt="logo">
     </div>
@@ -56,6 +68,8 @@
         <li>Getit</li>
         <li>New Tools</li>
       </ul>
+
+
     </div>
     <div class="mr-9 flex gap-2">
       <button class='text-sm'>Sign In</button>
@@ -85,33 +99,36 @@
   </div>
   <!-- What's new End -->
 
+  <div class='absolute w-[506px] h-[906px]'>
+    <div
+      class='w-[506px] h-[906px] absolute bg-gradient-to-r from-transparent to-cyan-600 opacity-5  blur-[500px] top-0 left-0'>
+    </div>
+  </div>
+
   <!-- Small container Start Done No media queries yet No gradient -->
   <div class="w-screen h-11 flex justify-center items-center mt-21">
     <p class='flex w-92 h-11 shadow-md bg-zinc-100 pt-3 pt-2 pb-4 pl-4 rounded-xl text-sm'>
       <img src="assests/Frame1.svg" alt="" class='pr-2'>
       <span> <span
-          class='font-semibold bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 ... text-transparent bg-clip-text'
-          style='  background-image: linear-gradient(to right, #2563eb, #22c55e, #6366f1);
-                color: transparent;
-                -webkit-background-clip: text;
-                background-clip: text;'>InterBase
+          class='font-semibold bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text'>InterBase
           2020 </span>Update 3 Released!
         <span class='underline pl-3'>Learn
           More</span>
       </span>
     </p>
   </div>
+  </div>
   <!-- Small container End -->
   <!-- update -->
 
   <!-- Heading Start Done No media queries yet -->
   <div class="w-screen flex justify-center mt-5">
-    <div>
-      <div class="relative pt-[64px]">
-        <img src="assests/image 26.svg" alt="" style='right: 82px;' class='absolute top-[13px] w-[112px] h-[96px]'>
-      </div>
-      <div class="text-center">
-        <h1 class='font-semibold text-5xl text-rose-600'>InterBase</h1>
+    <div class='mt-[64px] relative'>
+      <img src="assests/image 26.svg" alt="" class='absolute right-[82px] -top-[60px] w-[112px] h-[96px]'>
+      <div class='text-center'>
+        <h1
+          class='text-center font-semibold text-5xl bg-gradient-to-r from-[#FE3B76] from-0% via-[#AF29CE] via-50% to-[#2931DD] to-95% text-transparent bg-clip-text inline-block'>
+          InterBase</h1>
       </div>
       <div class="text-lg text-center text-zinc-500 font-semibold mt-4">
         <p>InterBase is an ultrafast, scalable, embeddable SQL database with commercial-grade data</p>
@@ -126,13 +143,18 @@
     </div>
   </div>
   <!-- Heading End -->
+  <div class="absolute">
+    <div
+      class='w-[440px] h-[440px] absolute bg-gradient-to-r from-transparent to-rose-600 opacity-20 border blur-[500px] border top-390 right-0'>
+    </div>
+  </div>
 
   <!-- Video player Start Done no media queries yet -->
   <div class="w-screen flex justify-center mt-24">
-    <div class="w-[1273px] h-[721px] bg-neutral-800 relative flex justify-center items-center rounded-xl">
+    <div class="w-[1274px] h-[721px] bg-neutral-800 relative flex justify-center items-center rounded-xl">
       <img src="assests/image 28.png" alt="pic">
       <div class="absolute bottom-3 flex">
-        <img src="assests/play-btn.svg" alt="play" class='ml-3'>
+        <img src="assests/play-btn.svg" alt="play" class=' ml-3'>
         <img src="assests/time.svg" alt="time" class='ml-2'>
       </div>
     </div>
@@ -141,7 +163,7 @@
 
   <!-- below video Start Done no media queries yet -->
   <div class="w-screen flex justify-center mt-12">
-    <div class="flex justify-between items-center shadow-md bg-zinc-100 w-[1273px] h-[107px] rounded-2xl">
+    <div class="flex justify-between items-center shadow-md bg-zinc-100 w-[1274px] h-[107px] rounded-2xl">
       <div class="div flex items-center">
         <div class="pl-9">
           <img src="assests/image 28.png" alt="" class='w-12 h-12'>
@@ -166,11 +188,14 @@
         <img src="assests/image 25.svg" alt="img" class='w-[229px] h-[133px]'>
       </div>
       <div class="text-[20px] font-[400] ml-7 leading-[150%]">
-        <p>InterBase® is the winner of Total Telco’s IoT Award for “the most innovative use of data” thanks to its
+        <p>InterBase® is the winner of Total Telco’s IoT Award for “the most innovative use of data” thanks to
+          its
           highly scalable</p>
-        <p>patented Change Views technology, which ensures the fastest, simplest and most secure way to track changes to
+        <p>patented Change Views technology, which ensures the fastest, simplest and most secure way to track
+          changes to
         </p>
-        <p>persisted data. Reconnect anytime to get personalized field-level changes for any user/device using standard
+        <p>persisted data. Reconnect anytime to get personalized field-level changes for any user/device using
+          standard
           SQL,</p>
         <p>and update remote cached data rapidly with small, context-aware deltas!</p>
       </div>
@@ -179,7 +204,10 @@
   <!-- text End -->
 
   <!-- Image Start Done no queries yet -->
-  <div style='margin-left: 16px;' class="flex justify-center mt-24">
+  <div class="relative flex justify-center mt-24 ml-4">
+    <div
+      class='absolute border w-[906px] h-[906px] left-5 -top-[120px] bg-gradient-to-l from-transparent to-cyan-600 opacity-40  blur-[500px]'>
+    </div>
     <img src="assests/image 29.svg" alt="image" class='w-[1273px] h-[676px] '>
   </div>
   <!-- Image End -->
@@ -187,9 +215,11 @@
   <!-- More Text Start Done no media queries yet -->
   <div class="w-screen flex justify-center mt-26 ">
     <div class="w-screen relative p-9 ">
-      <img src="assests/Group.svg" alt="" style='right: 540px;' class='absolute right-85 top-0'>
+      <img src="assests/Group.svg" alt="" class='absolute right-85 top-0 right-[540px]'>
       <div class="text-5xl text-center">
-        <h1>More About <span class='text-rose-600'>InterBase</span></h1>
+        <h1>More About <span
+            class='bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text '>InterBase</span>
+        </h1>
       </div>
       <div class="text-center mt-9">
         <p class='text-2xl font-[400] leading-[150%] tracking-[0]'><span class='text-gray-600'>InterBase® is
@@ -197,15 +227,19 @@
           performance,
           ultrafast,<span class='text-grey-600'>
             encryptable, scalable,
-            relational and embeddable </span>multi-platform <br> SQL database <span class='text-grey-600'> with
+            relational and embeddable </span>multi-platform <br> SQL database <span class='text-grey-600'>
+            with
             multi-dimensional </span>data
-          security, disaster recovery <span class='text-grey-600'>and change synchronization for developers who <br>
+          security, disaster recovery <span class='text-grey-600'>and change synchronization for developers
+            who <br>
             want to
             embed a
-          </span>low-cost, zero-admin, <span class='text-grey-600'>secure database into their cross-platform connected
+          </span>low-cost, zero-admin, <span class='text-grey-600'>secure database into their cross-platform
+            connected
             applications.</span>
         </p>
-        <p class='mt-8 text-2xl font-[400] leading-[150%] tracking-[0]'><span class='text-gray-600'>InterBase® is one of
+        <p class='mt-8 text-2xl font-[400] leading-[150%] tracking-[0]'><span class='text-gray-600'>InterBase®
+            is one of
             the first</span> enterprise-grade
           relational
           databases <span class='text-gray-600'>ever produced. Since
@@ -223,10 +257,22 @@
   <!-- More Text End -->
 
   <!-- Boxes Start Done no media queries yet -->
-  <div class="w-screen flex justify-center mt-[128px] mb-[128px]">
-    <div class="grid grid-cols-3 w-[1270px] gap-8">
+  <div class="relative w-screen flex justify-center mt-[128px] mb-[128px]">
+    <div
+      class='w-[869px] h-[869px] absolute left-0 -top-[190px] bg-gradient-to-l from-transparent to-rose-600 opacity-10 border blur-[500px]'>
+    </div>
 
-      <div class="max-w-[405px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+    <div
+      class='w-[497px] h-[497px] absolute left-0 top-[30px] bg-gradient-to-l from-transparent to-cyan-600 opacity-10 border blur-[500px]'>
+    </div>
+
+    <div
+      class='w-[731px] h-[731px] absolute right-0 top-[690px] bg-gradient-to-l from-transparent to-cyan-600 opacity-10 border blur-[500px]'>
+    </div>
+
+    <div class="grid grid-cols-3 w-[1270px] gap-10 padding-[32px]">
+
+      <div class="max-w-[404px] w-full bg-gray-100 rounded-3xl border border-gray-200">
         <div class="mt-7"><img src="assests/box.svg" alt="" class='w-[80px] h-[80px] pl-7'></div>
         <div class="text-[32px] font-semibold ml-7">
           <h1 class='pt-2'>Secure</h1>
@@ -242,7 +288,7 @@
         </div>
       </div>
 
-      <div class="max-w-[405px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div class="max-w-[404px] w-full bg-gray-100 rounded-3xl border border-gray-200">
         <div class="mt-7"><img src="assests/box1.svg" alt="" class="w-[80px] h-[80px] pl-7"></div>
         <div class="text-[32px] font-semibold ml-7">
           <h1 class='pt-2'>Resilient</h1>
@@ -257,7 +303,7 @@
         </div>
       </div>
 
-      <div class="max-w-[405px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div class="max-w-[404px] w-full bg-gray-100 rounded-3xl border border-gray-200">
         <div class="mt-7"><img src="assests/box2.svg" alt="" class="w-[80px] h-[80px] pl-7"></div>
         <div class="text-[32px] font-semibold ml-7">
           <h1 class='pt-2'>Flexible</h1>
@@ -275,7 +321,7 @@
 
 
 
-      <div class="max-w-[405px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div class="max-w-[404px] w-full bg-gray-100 rounded-3xl border border-gray-200">
         <div class="mt-7"><img src="assests/box3.svg" alt="" class="w-[80px] h-[80px] pl-7"></div>
         <div class="head text-[32px] font-semibold ml-7">
           <h1 class='pt-2'>Self-Relient</h1>
@@ -290,7 +336,7 @@
         </div>
       </div>
 
-      <div class="max-w-[405px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div class="max-w-[404px] w-full bg-gray-100 rounded-3xl border border-gray-200">
         <div class="mt-7"><img src="assests/box4.svg" alt="" class="w-[80px] h-[80px] pl-7"></div>
         <div class="text-[32px] font-semibold ml-7">
           <h1 class='pt-2'>Light Weight</h1>
@@ -306,7 +352,7 @@
       </div>
 
 
-      <div class="max-w-[405px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div class="max-w-[404px] w-full bg-gray-100 rounded-3xl border border-gray-200">
         <div class="mt-7"><img src="assests/box5.svg" alt="" class="w-[80px] h-[80px] pl-7"></div>
         <div class="text-[32px] font-semibold ml-7">
           <h1 class='pt-2'>Efficient</h1>
@@ -324,7 +370,7 @@
 
 
 
-      <div class="max-w-[405px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div class="max-w-[404px] w-full bg-gray-100 rounded-3xl border border-gray-200">
         <div class="mt-7"><img src="assests/box6.svg" alt="" class="w-[80px] h-[80px] pl-7"></div>
         <div class="text-[32px] font-semibold ml-7">
           <h1 class='pt-2'>Complaint</h1>
@@ -356,7 +402,15 @@
   <!-- Strip End -->
 
   <!-- Image 30 Start Done no media queries yet -->
-  <div class="flex justify-center pb-[128px]">
+  <div class="flex justify-center pb-[128px] relative">
+    <div
+      class='absolute w-[731px] h-[731px] -left-[294px] bg-gradient-to-l from-transparent to-cyan-600 opacity-10 border blur-[500px]'>
+    </div>
+
+    <div
+      class='absolute w-[497px] h-[497px] right-0 top-[190px] bg-gradient-to-r from-transparent to-indigo-600 opacity-10 border blur-[500px]'>
+    </div>
+
     <img src="assests/image 30.svg" alt="image" class='w-[1536px] h-[380px]'>
   </div>
   <!-- Image 30 End -->
@@ -364,22 +418,25 @@
   <!-- Case Studies -->
   <div class="case-studies w-screen flex justify-center pb-[128px]">
     <div class="w-[1539px] w-screen">
-      <div class="relative"><img src="assests/Arrow 5.svg" alt="" style='left: 530px;'
-          class='absolute left-[490px] h-[56px]'>
+      <div class="relative"><img src="assests/Arrow 5.svg" alt="" class=' absolute left-[530px] h-[56px]'>
       </div>
       <div>
-        <h1 class='text-[48px] text-center pb-[80px]'>InterBase <span class='text-rose-600'>Case Studies</span></h1>
+        <h1 class='text-[48px] text-center pb-[80px]'>InterBase <span
+            class='bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text'>Case
+            Studies</span>
+        </h1>
       </div>
 
-      <div class="flex justify-center gap-8 pb-[64px] w-[1539px]">
+      <div class="flex justify-center gap-12 pb-[64px] mr-19">
 
         <!-- Box-1 -->
-        <div style='padding-right: 64px;'>
+        <div>
           <div>
             <h1 class='text-[32px] font-semibold pb-4'>View From The Tap</h1>
           </div>
           <div>
-            <p class='text-[20px]'>Using InterBase And Delphi, Bulgarium Firm "BSoft" <br> Helps Industry Leaders Keep
+            <p class='text-[20px]'>Using InterBase And Delphi, Bulgarium Firm "BSoft" <br> Helps Industry
+              Leaders Keep
               Operations Flowing
             </p>
           </div>
@@ -390,12 +447,22 @@
         </div>
 
         <!-- Box-2 -->
-        <div>
+        <div class='relative'>
+          <!-- Gradient -->
+          <div
+            class='w-[869px] h-[869px] absolute -left-190 top-50 bg-gradient-to-l from-transparent to-rose-600 opacity-10 border blur-[500px]'>
+          </div>
+
+          <div
+            class='w-[869px] h-[869px] absolute -right-230 top-90 bg-gradient-to-l from-transparent to-rose-600 opacity-10 border blur-[500px]'>
+          </div>
+
           <div>
             <h1 class='text-[32px] font-semibold pb-4'>View From The Tap</h1>
           </div>
           <div>
-            <p class='text-[20px]'>Patients rely on doctors to protect their eyesight. <br> Doctors rely on Delphi and
+            <p class='text-[20px]'>Patients rely on doctors to protect their eyesight. <br> Doctors rely on
+              Delphi and
               InterBase to show them how.
             </p>
           </div>
@@ -406,13 +473,14 @@
         </div>
 
         <!-- Box-3 -->
-        <div style='padding-right: 36px;'>
+        <div>
           <div>
             <h1 class='text-[32px] font-semibold pb-4'>Leave The Stress Behind
             </h1>
           </div>
           <div>
-            <p class='text-[20px]'>Data security and management causing anxiety? <br>InterBase keeps spa managers as
+            <p class='text-[20px]'>Data security and management causing anxiety? <br>InterBase keeps spa
+              managers as
               happy as their <br> clients.
             </p>
           </div>
@@ -426,15 +494,16 @@
 
       <hr class='border-dotted border-t-2 border-gray-200'>
 
-      <div class="flex justify-center gap-16 pt-[64px]">
+      <div class="flex justify-center gap-12 pb-[64px] mr-19 pt-16">
 
         <!-- Box-4 -->
-        <div style='padding-right: 37px;'>
+        <div class='pr-8'>
           <div>
             <h1 class='text-[32px] font-semibold pb-4'>InterBase on Mars?</h1>
           </div>
           <div>
-            <p class='text-[20px]'>Sometimes there's no Room for error... When you’re <br> exploring the universe you
+            <p class='text-[20px]'>Sometimes there's no Room for error... When you’re <br> exploring the
+              universe you
               can’t use just any <br> database.
             </p>
           </div>
@@ -451,7 +520,8 @@
             </h1>
           </div>
           <div>
-            <p class='text-[20px]'>Data security and management causing anxiety? <br>InterBase keeps spa managers as
+            <p class='text-[20px]'>Data security and management causing anxiety? <br>InterBase keeps spa
+              managers as
               happy as their <br>clients.
             </p>
           </div>
@@ -462,12 +532,13 @@
         </div>
 
         <!-- Box-6 -->
-        <div style='padding-right: 36px;'>
+        <div>
           <div>
             <h1 class='text-[32px] font-semibold pb-4'>View From The Tap</h1>
           </div>
           <div>
-            <p class='text-[20px]'>Using InterBase And Delphi, Bulgarium Firm "BSoft" <br> Helps Industry Leaders Keep
+            <p class='text-[20px]'>Using InterBase And Delphi, Bulgarium Firm "BSoft" <br> Helps Industry
+              Leaders Keep
               Operations Flowing
             </p>
           </div>
@@ -485,24 +556,25 @@
 
   <!-- Join us section Start Done no media queries yet -->
   <div class="flex flex-row max-w-[1536px] justify-center">
-    <div class="max-w-[663px] p-18">
-      <h1 class='text-[48px] leading-[120%] tracking-[-1]  '>
-        Join Our <br> <span class='text-rose-600'>
+    <div class="max-w-[780px] p-18">
+      <h1 class='text-[48px] leading-[120%] tracking-[-1]'>
+        Join Our <br> <span
+          class='bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text'>
           Global Developer Community
         </span>
       </h1>
-      <p class='text-[24px]'>Join our email list and receive the latest case studies, event <br> updates,
+      <p class='text-[24px]'>Join our email list and receive the latest case studies, event updates,
         product news,and much more.
       </p>
-      <div class="  mt-6 flex gap-4">
-        <input type="text" style='width: 350px; height: 50px;'
-          class='h-[54px] text-[16px] border border-gray-200 rounded-lg pl-3' placeholder='Your Email'>
+      <div class="mt-6 flex gap-4">
+        <input type="text" class='w-[350px] h-[50px] text-[16px] border border-gray-200 rounded-lg pl-4'
+          placeholder='Your Email'>
         <button style='width: 120px; height: 50px;'
-          class='bg-black text-white text-[16px] rounded-lg pt-2 pb-3 pl-3 pr-2'>Subscribe</button>
+          class='bg-black text-white text-[16px] rounded-lg pt-2 pb-2 pl-2 pr-2'>Subscribe</button>
       </div>
     </div>
-    <div class='object-fill' style='width: 900px; height: 435px;'>
-      <img src="assests/side.svg" alt="" style='width: 900px; height: 435px;' class='border-red-800'>
+    <div class='object-fill'>
+      <img src="assests/side.svg" alt="" class='border-red-800 w-[882px] h-[435px]'>
     </div>
   </div>
 
