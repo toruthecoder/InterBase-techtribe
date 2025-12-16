@@ -27,7 +27,6 @@
     max-[751px]:max-h-[53px]
     
     max-[376px]:max-w-[375px]
-    max-[376px]:max-h-[375px]!
     max-[376px]:pt-4
     max-[376px]:pt-0
     max-[376px]:pr-0
@@ -45,46 +44,50 @@
         class='xl:absolute w-[1050px] h-[1161px] -top-[70px] left-[890px] max-[1441px]:hidden'>
     </div>
     <!-- End -->
-
-    <div class="flex gap-4">
-      <p class='ml-16 min-w-xs 
-      max-[1441px]:ml-0 mr-20 
+    <div class='flex justify-between items-center w-screen
+    max-[376px]:flex-col 
+    max-[376px]:items-center '>
+      <div class="flex gap-4">
+        <p class='ml-24 min-w-xs 
+      max-[1441px]:ml-20  
       max-[751px]:w-[600px]
       max-[751px]:mr-0
-      max-[751px]:ml-0
+      max-[751px]:ml-5
       max-[376px]:max-w-[375px]
       max-[376px]:max-h-[114px]
       max-[376px]:text-center
       border-white
       '>
-        See what's new in Delphi, C++ Builder, and RAD Studio <span class='hidden'>Watch the Replay</span>
-        <span class='underline ml-3'>
-          Watch The Replay
-        </span>
-      </p>
-    </div>
+          See what's new in Delphi, C++ Builder, and RAD Studio <span class='max-[376px]:hidden'>Watch the Replay</span>
+          <span class='underline ml-3 max-[745px]:ml-0'>
+            Watch The Replay
+          </span>
+        </p>
+      </div>
 
-    <div class="flex 
+      <div class="flex 
       max-[376px]:max-w-[375px]
       max-[376px]:max-h-[114px]
       ">
-      <ul class='flex gap-6 text-sm mr-14 
+        <ul class='flex gap-6 text-sm mr-14 
         max-[1441px]:mr-6 text-[14px] 
         max-[751px]:hidden 
         max-[751px]:mr-0 
         max-[751px]:gap-0
         max-[376px]:hidden
         '>
-        <li>My Downloads</li>
-        <li>Upgrade Center</li>
-        <li>My Customer Portal</li>
-        <li>Contact Us</li>
-      </ul>
-      <div>
-        <img src="assests/three.svg" alt="icons image" class='mr-16 top-[0px] w-24 
-        max-[1441px]:mr-[26px]
+          <li>My Downloads</li>
+          <li>Upgrade Center</li>
+          <li>My Customer Portal</li>
+          <li>Contact Us</li>
+        </ul>
+        <div>
+          <img src="assests/three.svg" alt="icons image" class='mr-16 top-[0px] w-24 
+        max-[1441px]:mr-[0px]
         max-[751px]:max-w-[129px]
+        max-[745px]:mr-9
         '>
+        </div>
       </div>
     </div>
   </header>
@@ -195,7 +198,8 @@
       </div>
       <div
         class="text-lg text-center text-zinc-500 font-semibold mt-4 max-[751px]:max-w-[515px] max-[1441px]:max-w-[842px] max-[1921px]:max-w-[752px] max-[376px]:max-w-[343px]">
-        <p>InterBase is an ultrafast, scalable, embeddable SQL database with commercial-grade data
+        <p>InterBase is an ultrafast, scalable, embeddable SQL database with
+          commercial-grade data
           security, disaster recovery, and change synchronization.</p>
       </div>
       <div class="flex justify-center">
@@ -217,12 +221,19 @@
 
   <!-- Video player Start Done no media queries yet -->
   <div class="w-screen flex justify-center mt-24">
-    <div
-      class="w-[1274px] h-[721px] bg-neutral-800 relative flex justify-center items-center rounded-xl max-[745px]:max-w-[695px] max-[745px]:max-h-[389px] max-[745px]:mr-2 max-[376px]:max-w-[343px] max-[376px]:max-h-[192px]">
-      <img src="assests/image 28.png" alt="pic">
+    <div class="w-[1274px] h-[721px] bg-neutral-800 relative flex justify-center items-center rounded-xl 
+      max-[745px]:max-w-[695px] 
+      max-[745px]:max-h-[389px] 
+      max-[745px]:mr-2 
+      max-[376px]:max-w-[343px] 
+      max-[376px]:max-h-[192px]
+      max-[745px]:bg-white
+      ">
+      <img src="assests/image 28.png" alt="pic" class='max-[745px]:hidden'>
+      <img src="assests/Group 811586.svg" alt="" class='hidden max-[745px]:block max-[745px]:w-[695px]'>
       <div class="absolute bottom-3 flex">
-        <img src="assests/play-btn.svg" alt="play" class=' ml-3'>
-        <img src="assests/time.svg" alt="time" class='ml-2'>
+        <img src="assests/play-btn.svg" alt="play" class=' ml-3 max-[745px]:hidden'>
+        <img src="assests/time.svg" alt="time" class='ml-2 max-[745px]:hidden'>
       </div>
     </div>
   </div>
@@ -238,7 +249,7 @@
       <div class="div flex items-center 
       max-[376px]:flex-col 
       max-[376px]:justify-center">
-        <div class="pl-9 max-[376px]:mt-9 max-[376px]:pl-0 max-[376px]:pb-[16px]">
+        <div class="pl-9 max-[376px]:mt-[16px] max-[376px]:pl-0 max-[376px]:pb-[16px]">
           <img src="assests/image 28.png" alt="" class='w-12 h-12'>
         </div>
         <div class="pl-4">
@@ -260,7 +271,7 @@
     <div
       class="flex w-[1273px] justify-around max-[745px]:max-w-[695px] max-[376px]:w-[343px] max-[376px]:flex-col max-[376px]:justify-center max-[376px]:items-center">
       <div class="max-[745px]:max-w-[245px] max-[745px]:mt-19">
-        <img src="assests/image 25.svg" alt="img" class='w-[229px] h-[133px]'>
+        <img src="assests/image 25.svg" alt="img" class='w-[229px] h-[133px] max-[376px]:pb-[24px]'>
       </div>
       <div class="text-[20px] font-[400] ml-7 leading-[150%] 
         max-[745px]:max-w-[426px] 
@@ -308,8 +319,8 @@
             class='bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text '>InterBase</span>
         </h1>
       </div>
-      <div class="text-center mt-9 max-[745px]:max-w-[696px] max-[376px]:w-[343px]">
-        <p class='text-2xl font-[400] leading-[150%] tracking-[0] max-[376px]:text-[20px]'><span
+      <div class="text-center mt-9 flex flex-col items-center max-[745px]:max-w-[696px] max-[376px]:w-[343px]">
+        <p class='text-2xl max-w-[1274px] font-[400] leading-[150%] tracking-[0] max-[376px]:text-[20px]'><span
             class='text-gray-600'>InterBase® is
             a </span>full-featured, high
           performance,
@@ -326,7 +337,7 @@
             connected
             applications.</span>
         </p>
-        <p class='mt-8 text-2xl font-[400] leading-[150%] tracking-[0] max-[376px]:text-[20px]'><span
+        <p class='mt-8 text-2xl max-w-[1274px] font-[400] leading-[150%] tracking-[0] max-[376px]:text-[20px]'><span
             class='text-gray-600'>InterBase®
             is one of
             the first</span> enterprise-grade
@@ -493,7 +504,7 @@
   <div
     class="w-screen border-gray-200 bg-neutral-100 mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[376px]:mb-0 max-[376px]:mb-[80px]">
     <div
-      class="text-[20px] flex max-[745px]:flex-wrap justify-center pt-[32px] pb-[32px] font-semibold gap-8 max-[745px]:gap-[24px] max-[1441px]:gap-15 max-[1441px]:max-w-[1440px] max-[1441px]:tracking-0 max-[1441px]:leading-[150%]">
+      class="text-[20px] flex max-[745px]:flex-wrap justify-center pt-[32px] pb-[32px] font-semibold gap-34 max-[745px]:gap-[24px] max-[1441px]:gap-15 max-[1441px]:max-w-[1440px] max-[1441px]:tracking-0 max-[1441px]:leading-[150%]">
       <p class='max-w[360px] max-[1441px]:max-w-[300px]'>InterBase & Database Security</p>
       <p class='max-w[360px] max-[1441px]:max-w-[260px]'>InterBase & Visual Studio</p>
       <p class='max-w[360px] max-[1441px]:max-w-[260px]'>InterBase & Change Views</p>
@@ -521,141 +532,256 @@
   <div
     class="case-studies w-screen flex justify-center pb-[128px] max-[745px]:pb-0 max-[376px]:pb-0 max-[376px]:pb-[80px]">
     <div class="w-[1539px] w-screen">
+
       <div class="relative"><img src="assests/Arrow 5.svg" alt=""
           class='absolute max-[1921px]:left-[650px] h-[56px] max-[1441px]:left-[430px] max-[745px]:hidden'>
       </div>
+
       <div>
         <h1
-          class='text-[48px] text-center pb-[80px] max-[745px]:font-[600] max-[376px]:text-[32px] max-[376px]:-tracking-1'>
+          class='text-[48px] text-center pb-[80px] max-[745px]:font-[600] max-[376px]:text-[32px] max-[376px]:-tracking-1 max-[745px]:pb-0 max-[745px]:pb-[48px]'>
           InterBase <span
             class='bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text'>Case
             Studies</span>
         </h1>
       </div>
 
-      <div
-        class="flex justify-center gap-12 pb-[64px] mr-19 max-[1441px]:mr-0 max-[1441px]:gap-0 max-[1441px]:max-w-[1280px] max-[1441px]:ml-21 max-[745px]:flex-wrap max-[745px]:max-w-[696px] max-[376px]:w-[343px] max-[376px]:items-center max-[376px]:mr-0 max-[376px]:gap-0">
+      <div class='flex flex-col max-w-screen justify-center
+        max-[745px]:flex-row 
+        max-[745px]:max-w-screen 
+        max-[745px]:justify-center 
+        max-[745px]:gap-0
+        max-[376px]:flex-col 
+        '>
+        <div class="flex gap-12 pb-[64px] mr-0 justify-center max-w-[1536px]
+          max-[1441px]:mr-0 
+          max-[1441px]:gap-0 
+          max-[1441px]:max-w-[1280px] 
+          max-[1441px]:ml-21 
+          max-[745px]:flex-wrap 
+          max-[745px]:max-w-[696px]
+          max-[376px]:w-[343px] 
+          max-[376px]:items-center 
+          max-[376px]:mr-0 
+          max-[376px]:gap-0
+          max-[745px]:flex-col
+          max-[745px]:w-[696px]
+          max-[745px]:ml-0
+          max-[745px]:pl-10
+          max-[745px]:gap-[24px]
+          max-[745px]:pr-5 
+          max-[376px]:max-w-[343px]
+          max-[376px]:pl-0 
+          max-[376px]:ml-5
+          max-[376px]:pb-0
+          ">
 
-        <!-- Box-1 -->
-        <div>
-          <div>
-            <h1 class='text-[32px] font-semibold pb-4'>View From The Tap</h1>
+          <!-- Box-1 -->
+          <div
+            class='max-[745px]:flex max-[745px]:flex-col max-[745px]:gap-[24px] max-[745px]:w-[332px] max-[376px]:pb-[32px]'>
+            <div>
+              <h1
+                class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-0 max-[376px]:text-center'>
+                View From The
+                Tap
+              </h1>
+            </div>
+            <div>
+              <p
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[376px]:text-center'>
+                Using
+                InterBase And Delphi,
+                Bulgarium Firm "BSoft"
+                Helps Industry
+                Leaders Keep
+                Operations Flowing
+              </p>
+            </div>
+            <div>
+              <p
+                class='underline flex text-[20px] pt-6 max-[745px]:font-[400] max-[745px]:pt-0 max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:tracking-0 max-[376px]:justify-center'>
+                Read More <img src="assests/arrao.svg" alt="" class='ml-2 w-[28px] h-[28px]'></p>
+            </div>
           </div>
-          <div>
-            <p class='text-[20px]'>Using InterBase And Delphi, Bulgarium Firm "BSoft" <br> Helps Industry
-              Leaders Keep
-              Operations Flowing
-            </p>
-          </div>
-          <div>
-            <p class='underline flex text-[20px] pt-6'>Read More <img src="assests/arrao.svg" alt=""
-                class='ml-2 w-[28px] h-[28px]'></p>
-          </div>
-        </div>
 
-        <!-- Box-2 -->
-        <div class='relative'>
           <!-- Gradient -->
+          <div class='relative'>
+            <div
+              class='w-[869px] h-[869px] absolute -left-190 top-30 bg-gradient-to-l from-transparent to-rose-600 opacity-10 -z-50 border blur-[400px]'>
+            </div>
+
+            <div
+              class='w-[869px] h-[269px] absolute -right-230 top-90 bg-gradient-to-l from-transparent to-rose-600 opacity-10 -z-50 border blur-[400px]'>
+            </div>
+
+            <!-- Box-2 -->
+            <div
+              class='max-[745px]:flex max-[745px]:flex-col max-[745px]:w-[332px] max-[376px]:border-dotted max-[376px]:border-gray-300 max-[376px]:border-t-4 max-[376px]:pt-[32px]'>
+              <h1 class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-6 max-[745px]:hidden'>
+                View From The Tap</h1>
+              <h1
+                class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-6 hidden max-[745px]:block max-[376px]:text-center'>
+                InterBase on
+                Mars?
+              </h1>
+            </div>
+            <div>
+              <p
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden'>
+                Patients rely on doctors to protect their eyesight. Doctors rely on
+                Delphi and
+                InterBase to show them how.
+              </p>
+              <p
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 hidden max-[745px]:block max-[376px]:text-center'>
+                Sometimes there's no Room for error... When you’re exploring the
+                universe you
+                can’t use just any database.
+              </p>
+            </div>
+            <div>
+              <p
+                class='underline flex text-[20px] pt-6 max-[745px]:font-[400] max-[745px]:pt-6 max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:tracking-0 max-[376px]:justify-center max-[376px]:pb-[32px]'>
+                Read More <img src="assests/arrao.svg" alt="" class='ml-2 w-[28px] h-[28px]'></p>
+            </div>
+          </div>
+
+          <!-- Box-3 -->
           <div
-            class='w-[869px] h-[869px] absolute -left-190 top-30 bg-gradient-to-l from-transparent to-rose-600 opacity-10 -z-50 border blur-[400px]'>
+            class='max-[745px]:flex max-[745px]:flex-col max-[745px]:gap-[24px] max-[745px]:w-[332px] max-[376px]:border-dotted max-[376px]:border-gray-300 max-[376px]:border-t-4 max-[376px]:pt-[32px] max-[376px]:pb-[32px]'>
+            <div>
+              <h1
+                class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-0 max-[745px]:max-w-[332px] max-[376px]:text-center'>
+                Leave The Stress
+                Behind
+              </h1>
+            </div>
+            <div>
+              <p
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[376px]:text-center'>
+                Data security and management causing anxiety? InterBase keeps spa
+                managers as
+                happy as their clients.
+              </p>
+            </div>
+            <div>
+              <p
+                class='underline flex text-[20px] pt-6 max-[745px]:font-[400] max-[745px]:pt-0 max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:tracking-0 max-[376px]:justify-center'>
+                Read More <img src="assests/arrao.svg" alt="" class='ml-2 w-[28px] h-[28px]'></p>
+            </div>
           </div>
 
+        </div>
+
+        <hr class='border-dotted border-t-2 border-gray-200 max-[376px]:hidden'>
+
+        <div class="flex justify-center pb-[64px] pt-16 max-w-[1536px]
+          max-[1441px]:mr-0 
+          max-[1441px]:gap-0 
+          max-[1441px]:max-w-[1280px] 
+          max-[1441px]:ml-21 
+          max-[745px]:flex-col
+          max-[745px]:pt-4
+          max-[745px]:w-[696px]
+          max-[745px]:gap-0
+          max-[745px]:ml-0
+          max-[745px]:pr-10
+          max-[745px]:gap-[24px]
+          max-[745px]:pt-0
+          max-[745px]:mt-0
+          max-[376px]:ml-5
+          max-[1920px]:justify-center
+          max-[376px]:pb-0
+          ">
+
+          <!-- Box-4 -->
+          <div class='pr-8 
+            max-[745px]:flex 
+            max-[745px]:flex-col 
+            max-[745px]:w-[332px] 
+            max-[745px]:pr-0 
+            max-[745px]:gap-[24px] 
+            max-[376px]:border-dotted max-[376px]:border-gray-300 max-[376px]:border-t-4
+            max-[376px]:pt-[32px] max-[376px]:pb-[32px]
+            '>
+            <div>
+              <h1 class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-0 max-[745px]:hidden'>
+                InterBase on Mars?
+              </h1>
+              <h1
+                class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-0 max-[745px]:max-w-[332px] hidden max-[745px]:block max-[376px]:text-center'>
+                Lase Focus on Eyecare
+              </h1>
+            </div>
+            <div>
+              <p
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden'>
+                Sometimes there's no Room for error... When you’re exploring the
+                universe you
+                can’t use just any database.
+              </p>
+              <p
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 hidden max-[745px]:block max-[376px]:text-center'>
+                Patients rely on doctors to protect their eyesight. Doctors rely on
+                Delphi and
+                InterBase to show them how.
+              </p>
+            </div>
+            <div>
+              <p
+                class='underline flex text-[20px] pt-6 max-[745px]:font-[400] max-[745px]:pt-0 max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:tracking-0 max-[376px]:justify-center'>
+                Read More <img src="assests/arrao.svg" alt="" class='ml-2 w-[28px] h-[28px]'></p>
+            </div>
+          </div>
+
+          <!-- Box-5 -->
           <div
-            class='w-[869px] h-[269px] absolute -right-230 top-90 bg-gradient-to-l from-transparent to-rose-600 opacity-10 -z-50 border blur-[400px]'>
+            class='max-[745px]:flex max-[745px]:flex-col max-[745px]:gap-[24px] max-[745px]:w-[332px] max-[376px]:border-dotted max-[376px]:border-gray-300 max-[376px]:border-t-4 max-[376px]:pt-[32px] max-[376px]:pb-[32px]'>
+            <div>
+              <h1
+                class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-0 max-[376px]:text-center'>
+                Leave The Stress
+                Behind
+              </h1>
+            </div>
+            <div>
+              <p
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[376px]:text-center'>
+                Data security and management causing anxiety? InterBase keeps spa
+                managers as
+                happy as their clients.
+              </p>
+            </div>
+            <div>
+              <p
+                class='underline flex text-[20px] pt-6 max-[745px]:font-[400] max-[745px]:pt-0 max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:tracking-0 max-[376px]:justify-center'>
+                Read More <img src="assests/arrao.svg" alt="" class='ml-2 w-[28px] h-[28px]'></p>
+            </div>
           </div>
 
-          <div>
-            <h1 class='text-[32px] font-semibold pb-4'>View From The Tap</h1>
-          </div>
-          <div>
-            <p class='text-[20px]'>Patients rely on doctors to protect their eyesight. <br> Doctors rely on
-              Delphi and
-              InterBase to show them how.
-            </p>
-          </div>
-          <div>
-            <p class='underline flex text-[20px] pt-6'>Read More <img src="assests/arrao.svg" alt=""
-                class='ml-2 w-[28px] h-[28px]'></p>
+          <!-- Box-6 -->
+          <div
+            class='max-[745px]:flex max-[745px]:flex-col max-[745px]:gap-[24px] max-[745px]:w-[332px] max-[376px]:border-dotted max-[376px]:border-gray-300 max-[376px]:border-t-4 max-[376px]:pb-[32px]'>
+            <div>
+              <h1
+                class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-0 max-[376px]:text-center max-[376px]:pt-[32px]'>
+                View From The Tap</h1>
+            </div>
+            <div>
+              <p
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[376px]:text-center'>
+                Using InterBase And Delphi, Bulgarium Firm "BSoft" Helps Industry
+                Leaders Keep
+                Operations Flowing
+              </p>
+            </div>
+            <div>
+              <p
+                class='underline flex text-[20px] pt-6 max-[745px]:font-[400] max-[745px]:pt-0 max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:tracking-0 max-[376px]:justify-center'>
+                Read More <img src="assests/arrao.svg" alt="" class='ml-2 w-[28px] h-[28px]'></p>
+            </div>
           </div>
         </div>
-
-        <!-- Box-3 -->
-        <div>
-          <div>
-            <h1 class='text-[32px] font-semibold pb-4'>Leave The Stress Behind
-            </h1>
-          </div>
-          <div>
-            <p class='text-[20px]'>Data security and management causing anxiety? <br>InterBase keeps spa
-              managers as
-              happy as their <br> clients.
-            </p>
-          </div>
-          <div>
-            <p class='underline flex text-[20px] pt-6'>Read More <img src="assests/arrao.svg" alt=""
-                class='ml-2 w-[28px] h-[28px]'></p>
-          </div>
-        </div>
-
-      </div>
-
-      <hr class='border-dotted border-t-2 border-gray-200'>
-
-      <div
-        class="flex justify-center gap-12 pb-[64px] mr-19 pt-16 max-[1441px]:mr-0 max-[1441px]:gap-0 max-[1441px]:max-w-[1280px] max-[1441px]:ml-21 ">
-
-        <!-- Box-4 -->
-        <div class='pr-8'>
-          <div>
-            <h1 class='text-[32px] font-semibold pb-4'>InterBase on Mars?</h1>
-          </div>
-          <div>
-            <p class='text-[20px]'>Sometimes there's no Room for error... When you’re <br> exploring the
-              universe you
-              can’t use just any <br> database.
-            </p>
-          </div>
-          <div>
-            <p class='underline flex text-[20px] pt-6'>Read More <img src="assests/arrao.svg" alt=""
-                class='ml-2 w-[28px] h-[28px]'></p>
-          </div>
-        </div>
-
-        <!-- Box-5 -->
-        <div>
-          <div>
-            <h1 class='text-[32px] font-semibold pb-4'>Leave The Stress Behind
-            </h1>
-          </div>
-          <div>
-            <p class='text-[20px]'>Data security and management causing anxiety? <br>InterBase keeps spa
-              managers as
-              happy as their <br>clients.
-            </p>
-          </div>
-          <div>
-            <p class='underline flex text-[20px] pt-6'>Read More <img src="assests/arrao.svg" alt=""
-                class='ml-2 w-[28px] h-[28px]'></p>
-          </div>
-        </div>
-
-        <!-- Box-6 -->
-        <div>
-          <div>
-            <h1 class='text-[32px] font-semibold pb-4'>View From The Tap</h1>
-          </div>
-          <div>
-            <p class='text-[20px]'>Using InterBase And Delphi, Bulgarium Firm "BSoft" <br> Helps Industry
-              Leaders Keep
-              Operations Flowing
-            </p>
-          </div>
-          <div>
-            <p class='underline flex text-[20px] pt-6'>Read More <img src="assests/arrao.svg" alt=""
-                class='ml-2 w-[28px] h-[28px]'></p>
-          </div>
-        </div>
-
       </div>
 
     </div>
@@ -687,7 +813,7 @@
         max-[745px]:text-[36px] 
         max-[745px]:text-center 
         max-[376px]:font-[600] 
-        max-[376px]:text-[30px] 
+        max-[376px]:text-[29px] 
         max-[376px]:leading-[140%] 
         max-[376px]:-tracking-1 
         max-[376px]:text-center'>
@@ -737,8 +863,10 @@
       <div class="pt-14 pr-32 
       max-[1441px]:pr-0 
       max-[1441px]:pl-21
+      max-[745px]:pl-10
       max-[376px]:pr-0
       max-[376px]:pl-0
+      max-[376px]:pl-[16px]
       ">
         <img src="assests/Frame 811285.png" alt="">
       </div>
@@ -746,67 +874,72 @@
       <div class="flex justify-center gap-15 ml-[40px] pt-[50px] 
         max-[1441px]:ml-[35px] 
         max-[745px]:flex-wrap 
-        max-[745px]:max-w-[695px] 
+        max-[745px]:w-[695px] 
         max-[745px]:pl-0 
-        max-[745px]:gap-0 
-        max-[745px]:gap-[48px] 
-        max-[745px]:ml-13 
-        
+        max-[745px]:max-w-[695px]
+        max-[745px]:gap-12
+        max-[745px]:justify-between
+        max-[745px]:items-left  
+        max-[745px]:ml-0
         max-[376px]:ml-0
         max-[376px]:gap-0
         max-[376px]:gap-[16px]
+        max-[376px]:w-[343px]
+        max-[376px]:pl-4
+        max-[376px]:pt-0
+        max-[376px]:pt-[32px]
         ">
 
         <!-- Product -->
-        <div>
+        <div class='max-[745px]:pl-12 max-[376px]:pl-0'>
           <h1 class='text-[20px] font-[700] max-[376px]:leading-[20px] max-[376px]:tracking-0 max-[376px]:mt-[40px]'>
             Products
           </h1>
           <ul class='text-base font-normal text-gray-600'>
-            <li class='pt-6'>RAD STUDIO™</li>
-            <li class='pt-6'>DELPHI®</li>
-            <li class='pt-6'>C++BUILDER®</li>
-            <li class='pt-6'>INTERBASE®</li>
-            <li class='pt-6'>RAD SERVER™</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>RAD STUDIO™</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>DELPHI®</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>C++BUILDER®</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>INTERBASE®</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>RAD SERVER™</li>
           </ul>
         </div>
 
         <!-- Free Tools -->
-        <div>
+        <div class='max-[376px]:w-[163px]'>
           <h1 class='text-[20px] font-[700] max-[376px]:leading-[20px] max-[376px]:tracking-0 max-[376px]:mt-[40px]'>
             Free Tools
           </h1>
           <ul class='text-base font-normal text-gray-600'>
-            <li class='pt-6'>C++ Compiler</li>
-            <li class='pt-6'>C++Builder Community ED</li>
-            <li class='pt-6'>DELPHI Community ED</li>
-            <li class='pt-6'>REST Debugger</li>
-            <li class='pt-6'>INTERBASE Developer Edition</li>
-            <li class='pt-6'>FMX STENCILS</li>
-            <li class='pt-6'>DEV-C++</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>C++ Compiler</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>C++Builder Community ED</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>DELPHI Community ED</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>REST Debugger</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>INTERBASE Developer Edition</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>FMX STENCILS</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>DEV-C++</li>
           </ul>
         </div>
 
         <!-- Resources -->
-        <div>
+        <div class='w-[163px]'>
           <h1 class='text-[20px] font-[700] max-[376px]:leading-[20px] max-[376px]:tracking-0 max-[376px]:mt-[40px]'>
             Resources
           </h1>
           <ul class='text-base font-normal text-gray-600'>
-            <li class='pt-6'>Events and Webinars</li>
-            <li class='pt-6'>White Papers</li>
-            <li class='pt-6'>Success Strories</li>
-            <li class='pt-6'>For Educators</li>
-            <li class='pt-6'>Partners</li>
-            <li class='pt-6'>Certifications</li>
-            <li class='pt-6'>MVP Program</li>
-            <li class='pt-6'>WEB APP Development</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Events and Webinars</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>White Papers</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Success Strories</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>For Educators</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Partners</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Certifications</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>MVP Program</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>WEB APP Development</li>
           </ul>
         </div>
 
 
         <!-- Community -->
-        <div>
+        <div class='max-[376px]:hidden max-[745px]:hidden'>
           <h1 class='text-[20px] font-[700] max-[376px]:leading-[20px] max-[376px]:tracking-0 max-[376px]:mt-[40px]'>
             Community
           </h1>
@@ -816,32 +949,32 @@
         </div>
 
         <!-- Company -->
-        <div>
+        <div class='max-[745px]:pl-12 max-[376px]:pl-0'>
           <h1 class='text-[20px] font-[700] max-[376px]:leading-[20px] max-[376px]:tracking-0 max-[376px]:mt-[40px]'>
             Company
           </h1>
           <ul class='text-base font-normal text-gray-600'>
-            <li class='pt-6'>About us</li>
-            <li class='pt-6'>Contact us</li>
-            <li class='pt-6'>Contact sales</li>
-            <li class='pt-6'>Legal</li>
-            <li class='pt-6'>Privacy Policy</li>
-            <li class='pt-6'>Logo</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>About us</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Contact us</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Contact sales</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Legal</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Privacy Policy</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>Logo</li>
           </ul>
         </div>
 
 
         <!-- Get in touch -->
-        <div>
+        <div class='max-[745px]:pr-67 max-[376px]:pr-0'>
           <h1 class='text-[20px] font-[700] max-[376px]:leading-[20px] max-[376px]:tracking-0 max-[376px]:mt-[40px]'>
             Get In Touch
           </h1>
           <ul class='text-base font-normal text-gray-600'>
-            <li class='pt-6'>US: 1 (512) 226-8080
+            <li class='pt-6 max-[376px]:pt-[16px]'>US: 1 (512) 226-8080
             </li>
-            <li class='pt-6'>DE: +49 (0)6103-3866-100
+            <li class='pt-6 max-[376px]:pt-[16px]'>DE: +49 (0)6103-3866-100
             </li>
-            <li class='pt-6'>info@embarcadero.com</li>
+            <li class='pt-6 max-[376px]:pt-[16px]'>info@embarcadero.com</li>
           </ul>
         </div>
 
@@ -857,6 +990,8 @@
       max-[376px]:ml-0
       max-[376px]:flex-col
       max-[376px]:items-center
+      max-[745px]:pl-10
+      max-[745px]:pr-10
       ">
       <div>
         <ul class='flex mr-9 gap-7 max-[1441px]:mr-2 max-[376px]:mt-[32px]'>
