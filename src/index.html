@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class='overflow-x-hidden'>
 
 <head>
   <meta charset="UTF-8" />
@@ -18,20 +18,17 @@
 
 <!-- Comment for simulating redeployment -->
 
-<body style='font-family: "Archivo", sans-serif;' class='overflow-x-hidden max-[1921px]:[overflow-x-hidden]'>
+<body style='font-family: "Archivo", sans-serif;' class='overflow-x-hidden'>
   <!-- Header Start Done No-media quires yet -->
   <header class='bg-neutral-800 h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 pl-80px z-20 
     max-[751px]:max-w-screen
     max-[751px]:pr-0
     max-[751px]:0
-    max-[751px]:max-h-[53px]
-    
-    max-[376px]:max-w-[375px]
-    max-[376px]:pt-4
-    max-[376px]:pt-0
-    max-[376px]:pr-0
-    max-[376px]:pb-12
-    max-[376px]:pl-0
+    max-[751px]:h-[53px]
+    max-[751px]:py-4
+
+    max-[426px]:h-[105px]
+    max-[426px]:w-screen
     '>
 
     <!-- Dotted line image div -->
@@ -45,20 +42,32 @@
     </div>
     <!-- End -->
     <div class='flex justify-between items-center w-screen
-    max-[376px]:flex-col 
-    max-[376px]:items-center '>
-      <div class="flex gap-4">
+ 
+    max-[426px]:flex-col
+    max-[426px]:justify-center
+    '>
+      <div class="flex gap-4 
+      max-[426px]:w-screen
+      max-[426px]:justify-center
+      ">
         <p class='ml-24 min-w-xs 
       max-[1441px]:ml-20  
       max-[751px]:w-[600px]
       max-[751px]:mr-0
       max-[751px]:ml-5
-      max-[376px]:max-w-[375px]
-      max-[376px]:max-h-[114px]
-      max-[376px]:text-center
-      border-white
+      
+
+
+      max-[426px]:max-w-[350px]
+      max-[426px]:text-center
+      max-[426px]:items-center
+      max-[426px]:ml-0
+      max-[426px]:mr-0
+
+      
       '>
-          See what's new in Delphi, C++ Builder, and RAD Studio <span class='max-[376px]:hidden'>Watch the Replay</span>
+          See what's new in Delphi, C++ Builder, and RAD Studio <span
+            class='max-[376px]:hidden max-[426px]:hidden'>Watch the Replay</span>
           <span class='underline ml-3 max-[745px]:ml-0'>
             Watch The Replay
           </span>
@@ -66,8 +75,8 @@
       </div>
 
       <div class="flex 
-      max-[376px]:max-w-[375px]
-      max-[376px]:max-h-[114px]
+      max-[426px]:justify-center
+      max-[426px]:max-w-[350px]
       ">
         <ul class='flex gap-6 text-sm mr-14 
         max-[1441px]:mr-6 text-[14px] 
@@ -75,6 +84,7 @@
         max-[751px]:mr-0 
         max-[751px]:gap-0
         max-[376px]:hidden
+        max-[426px]:hidden
         '>
           <li>My Downloads</li>
           <li>Upgrade Center</li>
@@ -86,6 +96,10 @@
         max-[1441px]:mr-[0px]
         max-[751px]:max-w-[129px]
         max-[745px]:mr-9
+        max-[376px]:mr-0
+        max-[376px]:my-0
+        max-[426px]:mr-0
+        max-[426px]:pt-4
         '>
         </div>
       </div>
@@ -97,14 +111,14 @@
   <nav class='h-14 flex justify-between pt-[20px] pl-[150px] pr-[150px] bg-white relative z-50'>
     <!-- Gradient -->
     <div
-      class='w-[869px] h-[869px] absolute bg-gradient-to-r from-transparent to-rose-600 opacity-10 blur-[400px] top-0 right-0 -z-50'>
+      class='w-[869px] h-[869px] absolute bg-gradient-to-r from-transparent to-rose-600 opacity-10 blur-[400px] top-0 right-0 -z-50 max-[426px]:max-w-[320px] '>
     </div>
 
     <div class='max-[1441px]:-ml-17 max-[745px]:-ml-32'>
       <img src="assests/Frame 811285.png" alt="logo">
     </div>
     <div>
-      <ul class='flex gap-7 mr-14 text-sm max-[751px]:hidden max-[376px]:hidden'>
+      <ul class='flex gap-7 mr-14 text-sm max-[751px]:hidden max-[376px]:hidden  max-[425px]:hidden'>
         <li class='flex'>Products<img src="assests/Vector (3).svg" alt="" class='w-2 ml-2 mt-1'></li>
         <li class='flex'>Free Tools<img src="assests/Vector (3).svg" alt="" class='w-2 ml-2 mt-1'></li>
         <li>Blog</li>
@@ -116,31 +130,44 @@
 
     </div>
     <div class="mr-9 flex gap-2 max-[1441px]:-mr-17 max-[751px]:-mr-30">
-      <button class='text-sm max-[376px]:hidden'>Sign In</button>
-      <button class='border border-solid text-sm rounded-lg px-4 max-[376px]:hidden'>Buy Now</button>
-      <button class='bg-black text-white px-4 rounded-lg text-sm max-[376px]:w-[91px]'>Free Trial</button>
+      <button class='text-sm max-[376px]:hidden max-[426px]:hidden'>Sign In</button>
+      <button class='border border-solid text-sm rounded-lg px-4 max-[376px]:hidden max-[426px]:hidden'>Buy Now</button>
+      <button class='bg-black text-white px-4 rounded-lg text-sm max-[376px]:w-[91px] max-[426px]:w-[91px]'>Free
+        Trial</button>
       <div class="max-[751px]:block hidden max-[751px]:mt-2"><i class="fa-solid fa-bars"></i></div>
     </div>
   </nav>
   <!-- Navbar End -->
 
   <!-- What's new Start Done no media queries yet -->
-  <div class="flex justify-between mt-7 h-[53px] pt-4 pr-[192px] pb-4 pl-[192px] max-[751px]:flex-col">
+  <div
+    class="flex justify-between mt-7 h-[53px] pt-4 pr-[192px] pb-4 pl-[192px] max-[751px]:flex-col max-[426px]:justify-center">
     <p class='flex text-sm pl-36 
     max-[1441px]:-ml-31 
     max-[1441px]:pl-4 
-    max-[751px]:pl-50 
-    max-[376px]:pl-5 
-    max-[376px]:text-[14px]'>Home <img src="assests/Frame.svg" alt="" class='pl-1'>
+    
+    max-[751px]:pl-50
+    
+    max-[376px]:justify-center
+    max-[376px]:ml-0
+    max-[376px]:pl-0 
+    max-[376px]:text-[14px]
+    
+    max-[426px]:pl-0
+    max-[426px]:ml-0
+    max-[426px]:justify-center
+    '>Home <img src="assests/Frame.svg" alt="" class='pl-1'>
       <span class='pl-1'>Products</span>
       <img src="assests/Frame.svg" alt="" class='pl-1'>
       <span class='text-rose-600 font-semibold pl-1'>InterBase</span>
     </p>
-    <p class='text-sm gap-4 pr-47 
+    <p class='text-sm just-between max-w-[1920px]
       max-[1441px]:pr-0 
       max-[1441px]:-mr-27 
+
       max-[751px]:pt-[16px] 
       max-[751px]:-ml-6 
+      
       max-[376px]:w-[327px]
       max-[376px]:pr-0
       max-[376px]:mr-0
@@ -150,6 +177,15 @@
       max-[376px]:items-center
       max-[376px]:flex
       max-[376px]:flex-wrap
+
+      max-[426px]:w-[327px]
+      max-[426px]:-ml-35    
+      max-[426px]:mr-0
+      max-[426px]:pr-0
+      max-[426px]:pl-0
+      max-[426px]:flex-wrap
+      max-[426px]:justify-center
+      max-[426px]:items-center
       '>
       <span class='underline pr-1'>What's New?</span>
       -
@@ -164,9 +200,9 @@
   <!-- What's new End -->
 
   <!-- Gradient -->
-  <div class='absolute w-[506px] h-[906px]'>
+  <div class='absolute w-[506px] h-[906px] overflow-x-hidden max-[426px]:max-w-[320px]'>
     <div
-      class='w-[906px] h-[906px] absolute bg-gradient-to-r from-transparent to-cyan-600 opacity-10  blur-[500px] top-[280px] -left-[280px]'>
+      class='w-[906px] h-[906px] absolute bg-gradient-to-r from-transparent to-cyan-600 opacity-10  blur-[500px] top-[280px] -left-[280px] max-[426px]:max-w-[320px] max-[426px]:left-0 max-[426px]:hidden'>
     </div>
   </div>
 
@@ -197,14 +233,14 @@
           InterBase</h1>
       </div>
       <div
-        class="text-lg text-center text-zinc-500 font-semibold mt-4 max-[751px]:max-w-[515px] max-[1441px]:max-w-[842px] max-[1921px]:max-w-[752px] max-[376px]:max-w-[343px]">
-        <p>InterBase is an ultrafast, scalable, embeddable SQL database with
+        class="text-lg text-center text-zinc-500 font-semibold mt-4 max-[751px]:max-w-[515px] max-[1441px]:max-w-[842px] max-[1921px]:max-w-[752px] max-[376px]:max-w-[343px] max-[426px]:w-[343px]">
+        <p class='max-[426px]:text-[18px]'>InterBase is an ultrafast, scalable, embeddable SQL database with
           commercial-grade data
           security, disaster recovery, and change synchronization.</p>
       </div>
       <div class="flex justify-center">
         <button
-          class='text-base border border-solid rounded-lg h-12 text-base w-47 font-semibold bg-black text-white mt-6 max-[376px]:w-[343px]'>Try
+          class='text-base border border-solid rounded-lg h-12 text-base w-47 font-semibold bg-black text-white mt-6 max-[376px]:w-[343px] max-[426px]:w-[343px]'>Try
           InterBase for
           Free</button>
       </div>
@@ -228,6 +264,8 @@
       max-[376px]:max-w-[343px] 
       max-[376px]:max-h-[192px]
       max-[745px]:bg-white
+      max-[426px]:w-screen
+      max-[426px]:justify-center
       ">
       <img src="assests/image 28.png" alt="pic" class='max-[745px]:hidden'>
       <img src="assests/Group 811586.svg" alt="" class='hidden max-[745px]:block max-[745px]:w-[695px]'>
@@ -530,8 +568,8 @@
 
   <!-- Case Studies -->
   <div
-    class="case-studies w-screen flex justify-center pb-[128px] max-[745px]:pb-0 max-[376px]:pb-0 max-[376px]:pb-[80px]">
-    <div class="w-[1539px] w-screen max-[1920px]:w-screen">
+    class="w-screen flex justify-center pb-[128px] max-[745px]:pb-0 max-[376px]:pb-0 max-[376px]:pb-[80px] max-[1921px]:justify-center border">
+    <div class="w-[1539px] w-screen max-[1920px]:w-[1536px] border border-red-800">
 
       <div class="relative"><img src="assests/Arrow 5.svg" alt=""
           class='absolute max-[1921px]:left-[650px] h-[56px] max-[1441px]:left-[430px] max-[745px]:hidden'>
@@ -546,15 +584,24 @@
         </h1>
       </div>
 
-      <div class='flex flex-col max-w-screen justify-center
+      <div class='flex flex-col justify-center
         max-[745px]:flex-row 
         max-[745px]:max-w-screen 
         max-[745px]:justify-center 
         max-[745px]:gap-0
-        max-[376px]:flex-col 
-        max-[1921px]:max-w-screen
+        max-[376px]:flex-col  
+        
+
+        max-[1921px]:max-w-[1536px]
+        max-[1921px]:justify-center
+        
+        border
+          
         '>
         <div class="flex gap-12 pb-[64px] mr-0 max-w-[1536px]
+          max-[1921px]-justify-center
+          
+
           max-[1441px]:mr-0 
           max-[1441px]:gap-0 
           max-[1441px]:max-w-[1280px] 
@@ -579,7 +626,8 @@
           max-[376px]:pl-0 
           max-[376px]:ml-5
           max-[376px]:pb-0  
-          max-[1921px]:ml-49
+
+          border
           ">
 
           <!-- Box-1 -->
@@ -698,7 +746,6 @@
           max-[376px]:ml-5
           max-[1920px]:justify-center
           max-[376px]:pb-0
-          max-[1921px]:ml-49
           ">
 
           <!-- Box-4 -->
