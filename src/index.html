@@ -20,34 +20,41 @@
 
 <body style='font-family: "Archivo", sans-serif;' class='overflow-x-hidden'>
   <!-- Header Start Done No-media quires yet -->
-  <header class='bg-neutral-800 h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 pl-80px z-20 
-    max-[751px]:max-w-screen
-    max-[751px]:pr-0
-    max-[751px]:0
-    max-[751px]:h-[53px]
-    max-[751px]:py-4
+  <header class='bg-neutral-800 h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 pl-80px 
+    max-[745px]:max-w-screen
+    max-[745px]:pr-0
+    max-[745px]:0
+    max-[745px]:h-[53px]
+    max-[745px]:py-4
+
+    max-[1441px]:max-w-screen
+    max-[1441px]:pl-0
 
     max-[426px]:h-[105px]
     max-[426px]:w-screen
+    max-w-[1920px]
+    mx-auto
     '>
 
     <!-- Dotted line image div -->
     <div class='-z-50'>
       <img src="assests/lineslefttop.svg" alt="vector image"
-        class='xl:absolute w-[1051px] h-[1162px] -top-[95px] -left-[75px] max-[1441px]:invisible'>
+        class='xl:absolute w-[1051px] h-[1162px] -top-[95px] -left-[75px] max-[1441px]:hidden'>
     </div>
     <div class="-z-50">
       <img src="assests/linerighttop.svg" alt="verctor image"
-        class='xl:absolute w-[1050px] h-[1161px] -top-[70px] left-[890px] max-[1441px]:hidden'>
+        class='xl:absolute w-[1050px] h-[1161px] -top-[70px] right-0 max-[1441px]:hidden'>
     </div>
     <!-- End -->
     <div class='flex justify-between items-center w-screen
  
     max-[426px]:flex-col
     max-[426px]:justify-center
+    max-[426px]:items-center
     '>
       <div class="flex gap-4 
-      max-[426px]:w-screen
+      max-[426px]:max-w-[375px]
+      max-[426px]:items-center
       max-[426px]:justify-center
       ">
         <p class='ml-24 min-w-xs 
@@ -56,15 +63,12 @@
       max-[751px]:mr-0
       max-[751px]:ml-5
       
-
-
       max-[426px]:max-w-[343px]
       max-[426px]:text-center
       max-[426px]:items-center
       max-[426px]:ml-0
       max-[426px]:mr-0
 
-      
       '>
           See what's new in Delphi, C++ Builder, and RAD Studio <span
             class='max-[376px]:hidden max-[426px]:hidden'>Watch the Replay</span>
@@ -80,24 +84,26 @@
       ">
         <ul class='flex gap-6 text-sm mr-14 
         max-[1441px]:mr-6 text-[14px] 
-        max-[751px]:hidden 
-        max-[751px]:mr-0 
-        max-[751px]:gap-0
-        max-[376px]:hidden
+        max-[745px]:hidden 
+        max-[745px]:mr-0 
+        max-[745px]:gap-0
         max-[426px]:hidden
+        max-[1441px]:items-center
+        max-[1441px]:justify-center
+        max-[1168px]:hidden
         '>
           <li>My Downloads</li>
           <li>Upgrade Center</li>
-          <li>My Customer Portal</li>
+          <li class='max-[1325px]:hidden'>My Customer Portal</li>
           <li>Contact Us</li>
         </ul>
         <div>
           <img src="assests/three.svg" alt="icons image" class='mr-16 top-[0px] w-24 
         max-[1441px]:mr-[0px]
-        max-[751px]:max-w-[129px]
+        max-[745px]:max-w-[129px]
         max-[745px]:mr-9
-        max-[376px]:mr-0
-        max-[376px]:my-0
+        max-[426px]:mr-0
+        max-[426px]:my-0
         max-[426px]:mr-0
         max-[426px]:pt-4
         '>
@@ -108,46 +114,55 @@
   <!-- Header End -->
 
   <!-- Navbar Start Done no media queries yet-->
-  <nav class='h-14 flex justify-between pt-[20px] pl-[150px] pr-[150px] bg-white relative z-50'>
+  <nav class='h-14 flex justify-between pt-[20px] pl-[150px] pr-[150px] bg-white relative z-50 max-[426px]:justify-around max-[426px]:items-center max-[426px]:pr-0 max-[426px]:pl-0   max-w-[1920px]
+    mx-auto'>
     <!-- Gradient -->
     <!-- <div
       class='w-[869px] h-[869px] absolute bg-gradient-to-r from-transparent to-rose-600 opacity-10 blur-[400px] top-0 right-0 -z-50 max-[426px]:max-w-[320px]'>
     </div> -->
 
-    <div class='max-[1441px]:-ml-17 max-[745px]:-ml-32'>
-      <img src="assests/Frame 811285.png" alt="logo">
+    <div class='max-[1441px]:-ml-17 max-[745px]:-ml-32 max-[426px]:ml-0'>
+      <img src="assests/Frame 811285.png" alt="logo" class='max-[426px]:hidden'>
+      <img src="assests/imagemobile2.png" alt="" class='w-[138px] hidden max-[426px]:block'>
     </div>
     <div>
-      <ul class='flex gap-7 mr-14 text-sm max-[751px]:hidden max-[376px]:hidden  max-[426px]:hidden'>
+      <ul
+        class='flex gap-7 mr-14 text-sm max-[751px]:hidden max-[376px]:hidden  max-[426px]:hidden max-[1441px]:mr-0 max-[1181px]:hidden'>
         <li class='flex'>Products<img src="assests/Vector (3).svg" alt="" class='w-2 ml-2 mt-1'></li>
         <li class='flex'>Free Tools<img src="assests/Vector (3).svg" alt="" class='w-2 ml-2 mt-1'></li>
         <li>Blog</li>
         <li class='flex'>Resources<img src="assests/Vector (3).svg" alt="" class='w-2 ml-2 mt-1'></li>
-        <li>Getit</li>
-        <li>New Tools</li>
+        <li class='max-[1124px]:hidden'>Getit</li>
+        <li class='max-[1201px]:hidden'>New Tools</li>
       </ul>
 
 
     </div>
-    <div class="mr-9 flex gap-2 max-[1441px]:-mr-17 max-[751px]:-mr-30 ">
+    <div class="mr-9 flex gap-2 max-[1441px]:-mr-17 max-[751px]:-mr-30 max-[426px]:mr-0">
       <button class='text-sm max-[376px]:hidden max-[426px]:hidden'>Sign In</button>
       <button class='border border-solid text-sm rounded-lg px-4 max-[376px]:hidden max-[426px]:hidden'>Buy Now</button>
-      <button class='bg-black text-white px-4 rounded-lg text-sm max-[376px]:w-[91px] max-[426px]:w-[91px]'>Free
+      <button class='bg-black text-white px-4 rounded-lg text-sm max-[426px]:w-[91px] max-[426px]:w-[91px]'>Free
         Trial</button>
-      <div class="max-[751px]:block hidden max-[751px]:mt-2"><i class="fa-solid fa-bars"></i></div>
+      <div class="max-[751px]:block hidden max-[751px]:mt-2 max-[1181px]:block max-[1441px]:mt-2"><i
+          class="fa-solid fa-bars"></i></div>
     </div>
   </nav>
   <!-- Navbar End -->
 
   <!-- What's new Start Done no media queries yet -->
-  <div class="flex justify-between mt-7 h-[53px] pt-4 pr-[192px] pb-4 pl-[192px] 
+  <div class="flex justify-between mt-7 h-[53px] pt-4 pr-[192px] pb-4 pl-[160px] mx-auto
     max-[751px]:flex-col 
     max-[426px]:justify-center 
     max-[426px]:mx-auto 
     max-[426px]:pl-0 
-    max-[426px]:pr-0">
-    <p class='flex text-sm pl-36 
-    max-[1441px]:-ml-31 
+    max-[426px]:pr-0
+    max-[426px]:max-w-full
+    max-[426px]:items-center
+    max-w-[1920px]
+    mx-auto
+    ">
+    <p class='flex text-sm
+    max-[1441px]:-ml-31
     max-[1441px]:pl-4 
     
     max-[751px]:pl-50
@@ -172,6 +187,7 @@
       max-[751px]:pt-[16px] 
       max-[751px]:-ml-6 
 
+      max-[426px]:max-w-[343px]
       max-[426px]:w-screen
       max-[426px]:ml-0
       max-[426px]:mr-0
@@ -179,7 +195,8 @@
       max-[426px]:pl-0
       max-[426px]:flex-wrap
       max-[426px]:justify-center
-      
+      max-[426px]:items-center
+      max-[426px]:text-center
       '>
       <span class='underline pr-1'>What's New?</span>
       -
@@ -194,20 +211,21 @@
   <!-- What's new End -->
 
   <!-- Gradient -->
-  <div class='absolute w-[506px] h-[906px] overflow-x-hidden max-[426px]:hidden hidden'>
+  <!-- <div class='absolute w-[506px] h-[906px] overflow-x-hidden max-[426px]:hidden hidden'>
     <div class='w-[906px] h-[906px] absolute bg-gradient-to-r from-transparent to-cyan-600 opacity-10  blur-[500px] top-[280px] -left-[280px] 
       max-[426px]:hidden'>
     </div>
-  </div>
+  </div> -->
 
   <!-- Small container Start Done No media queries yet No gradient -->
-  <div class="w-screen h-11 flex justify-center items-center mt-21 ">
-    <p class='flex w-92 h-11 bg-zinc-100 pt-3 pt-2 pb-4 pl-4 rounded-xl text-sm max-[426px]:max-w-[343px]'>
+  <div class="w-screen flex justify-center items-center mt-21 max-[426px]:max-w-[343px] max-[426px]:max-w-screen">
+    <p
+      class='flex w-92  bg-zinc-100 pt-4 pt-2 pb-4 pl-4 rounded-xl text-sm max-[426px]:max-w-[343px] max-[426px]:w-full max-[426px]:pl-2'>
       <img src="assests/Frame1.svg" alt="" class='pr-2'>
       <span> <span
           class='font-semibold bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text max-[426px]:text-[14px]'>InterBase
           2020 </span>Update 3 Released!
-        <span class='underline pl-3 max-[426px]:text-[12px]'>Learn
+        <span class='underline pl-3 max-[426px]:text-[12px] max-[426px]:pl-1'>Learn
           More</span>
       </span>
     </p>
@@ -227,14 +245,14 @@
           InterBase</h1>
       </div>
       <div
-        class="text-lg text-center text-zinc-500 font-semibold mt-4 max-[751px]:max-w-[515px] max-[1441px]:max-w-[842px] max-[1921px]:max-w-[752px] max-[426px]:max-w-[343px] max-[426px]:w-screen  max-[426px]:flex-wrap max-[426px]:w-[343px] max-[426px]:flex max-[426px]:text-center max-[426px]:items-center max-[426px]:justify-center max-[426px]:mr-0 max-[426px]:pr-0">
-        <p class='max-[426px]:text-[18px]  '>InterBase is an ultrafast, scalable, embeddable SQL database with
+        class="text-lg text-center text-zinc-500 font-semibold mt-4 max-[751px]:max-w-[515px] max-[1441px]:max-w-[842px] max-[1921px]:max-w-[752px] max-[426px]:max-w-[343px] max-[426px]:w-screen  max-[426px]:flex-wrap max-[426px]:max-w-[343px] max-[426px]:flex max-[426px]:text-center max-[426px]:justify-center max-[426px]:items-center max-[426px]:mr-0 max-[426px]:pr-0">
+        <p class='max-[426px]:text-[18px]'>InterBase is an ultrafast, scalable, embeddable SQL database with
           commercial-grade data
           security, disaster recovery, and change synchronization.</p>
       </div>
       <div class="flex justify-center">
         <button
-          class='text-base border border-solid rounded-lg h-12 text-base w-47 font-semibold bg-black text-white mt-6 max-[376px]:w-[343px] max-[426px]:w-[343px]'>Try
+          class='text-base border border-solid rounded-lg h-12 text-base w-47 font-semibold bg-black text-white mt-6 max-[426px]:w-[343px] max-[426px]:max-w-screen'>Try
           InterBase for
           Free</button>
       </div>
@@ -243,11 +261,11 @@
   <!-- Heading End -->
 
   <!-- Gradient -->
-  <div class="absolute">
+  <!-- <div class="absolute">
     <div
       class='w-[440px] h-[440px] absolute bg-gradient-to-r from-transparent to-rose-600 opacity-10 border blur-[400px] border top-390 right-0'>
     </div>
-  </div>
+  </div> -->
 
   <!-- Video player Start Done no media queries yet -->
   <div class="w-screen flex justify-center mt-24">
@@ -258,11 +276,13 @@
       max-[745px]:bg-white
       max-[426px]:w-screen
       max-[426px]:justify-center
+      max-[426px]:items-center
       max-[426px]:mr-0
+      max-[426px]:max-w-[343px]
       ">
-      <img src="assests/image 28.png" alt="pic" class='max-[745px]:hidden'>
+      <img src="assests/image 28.png" alt="pic" class='max-[745px]:hidden max-[426px]:hidden'>
       <img src="assests/Group 811586.svg" alt=""
-        class='hidden max-[745px]:block max-[745px]:w-[695px] max-[426px]:max-w-[343px]'>
+        class='hidden max-[745px]:block max-[426px]:block max-[745px]:w-[695px] max-[426px]:max-w-[343px] max-[426px]:max-w-full'>
       <div class="absolute bottom-3 flex">
         <img src="assests/play-btn.svg" alt="play" class=' ml-3 max-[745px]:hidden max-[426px]:hidden'>
         <img src="assests/time.svg" alt="time" class='ml-2 max-[745px]:hidden max-[426px]:hidden'>
@@ -272,26 +292,34 @@
   <!-- Video player End -->
 
   <!-- below video Start Done no media queries yet -->
-  <div class="w-screen flex justify-center mt-12">
+  <div class=" flex justify-center mt-12">
     <div class="flex justify-between items-center shadow-md bg-zinc-100 w-[1274px] h-[107px] rounded-2xl 
       max-[745px]:max-w-[695px] 
       max-[426px]:flex-col 
       max-[426px]:max-w-[343px]
-      max-[426px]:h-[222px]">
+      max-[426px]:h-[222px]
+      max-[426px]:w-full
+      ">
       <div class="div flex items-center 
       max-[426px]:flex-col 
       max-[426px]:justify-center">
-        <div class="pl-9 max-[426px]:mt-[16px] max-[426px]:pl-0 max-[426px]:pb-[16px]">
+        <div class="pl-9 max-[426px]:mt-[16px] max-[426px]:pl-0 max-[426px]:pb-[16px] ">
           <img src="assests/image 28.png" alt="" class='w-12 h-12'>
         </div>
-        <div class="pl-4">
-          <p class='font-semibold text-[22px] max-[426px]:text-center'>InterBase Resources</p>
-          <p class='text-[17px] max-[426px]:text-center'>PDF's, Video & Courses of the Product</p>
+        <div class="pl-4 max-[426px]:pl-0">
+          <p
+            class='font-semibold text-[22px] max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[426px]:justify-center'>
+            InterBase
+            Resources</p>
+          <p
+            class='text-[17px] max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[426px]:justify-center max-[426px]:items-center'>
+            PDF's, Video & Courses
+            of the Product</p>
         </div>
       </div>
-      <div class="pr-9 max-[426px]:pr-0 max-[426px]:pb-[16px]">
+      <div class="pr-9 max-[426px]:pr-0 max-[426px]:pb-[16px] max-[426px]:max-w-full">
         <button
-          class='border border-solid rounded-xl text-base bg-neutral-800 text-white w-[167px] h-[43px] max-[426px]:w-[311px]'>View
+          class='border border-solid rounded-xl text-base bg-neutral-800 text-white w-[167px] h-[43px] max-[426px]:w-[311px] max-[426px]:max-w-full'>View
           Resources</button>
       </div>
     </div>
@@ -333,12 +361,15 @@
   <!-- Image Start Done no queries yet -->
   <div class="relative flex justify-center mt-24 ml-4 max-[1441px]:ml-0 max-[745px]:mt-[80px] max-[426px]:w-screen">
     <!-- Gradient -->
-    <div
+    <!-- <div
       class='absolute border w-[906px] h-[906px] -left-[279px] -top-[120px] bg-gradient-to-l from-transparent to-cyan-600 opacity-10  blur-[400px] -z-20'>
-    </div>
+    </div> -->
 
     <img src="assests/image 29.svg" alt="image"
-      class='w-[1273px] h-[676px] max-[745px]:max-w-[695px] max-[745px]:max-h-[456px] max-[426px]:w-[343px] max-[426px]:h-[240px]'>
+      class='max-w-[1273px] w-full max-[745px]:max-w-[695px]  max-[426px]:hidden'>
+
+    <img src="assests/imagemobile.svg" alt="image"
+      class='max-[426px]:max-w-[343px] max-[426px]:w-full hidden max-[426px]:block'>
   </div>
   <!-- Image End -->
 
@@ -351,14 +382,14 @@
         max-[1921px]:top-0 max-[1921px]:left-[1200px] 
         max-[1441px]:top-0 max-[1441px]:left-[970px]
         max-[745px]:hidden'>
-      <div class="text-5xl text-center max-[426px]:text-[30px] max-[426px]:w-[343px]">
-        <h1 class='max-[745px]:font-[600]'>More About <span
+      <div class="text-5xl text-center max-[426px]:text-[30px] max-[426px]:w-[343px] max-[426px]:max-w-screen">
+        <h1 class='max-[745px]:font-[600] max-[426px]:max-w-full'>More About <span
             class='bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text '>InterBase</span>
         </h1>
       </div>
       <div class="text-center mt-9 flex flex-col items-center max-[745px]:max-w-[696px] max-[426px]:w-[343px]">
         <p
-          class='text-2xl max-w-[1274px] font-[400] leading-[150%] tracking-[0] max-[426px]:text-[20px] flex-wrap flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen'>
+          class='text-2xl max-w-[1274px] font-[400] leading-[150%] tracking-[0] max-[426px]:text-[20px] flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen'>
           <span class='text-gray-600'>InterBase® is
             a </span>full-featured, high
           performance,
@@ -376,7 +407,7 @@
             applications.</span>
         </p>
         <p
-          class='mt-8 text-2xl max-w-[1274px] font-[400] leading-[150%] tracking-[0] max-[426px]:text-[20px] flex-wrap flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen'>
+          class='mt-8 text-2xl max-w-[1274px] font-[400] leading-[150%] tracking-[0] max-[426px]:text-[20px] flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen'>
           <span class='text-gray-600'>InterBase®
             is one of
             the first</span> enterprise-grade
@@ -399,7 +430,7 @@
   <div
     class="relative w-screen flex justify-center mt-[128px] mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mt-0 max-[426px]:mt-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px]">
     <!-- Gradient -->
-    <div
+    <!-- <div
       class='w-[869px] h-[869px] absolute left-0 -top-[190px] bg-gradient-to-l from-transparent to-rose-600 opacity-10 border blur-[400px]'>
     </div>
 
@@ -409,20 +440,33 @@
 
     <div
       class='w-[731px] h-[731px] absolute -right-120 top-[690px] bg-gradient-to-l from-transparent to-cyan-600 opacity-10 border blur-[400px]'>
-    </div>
+    </div> -->
     <!-- Gradient -->
 
     <!-- 1 div -->
-    <div
-      class="grid grid-cols-3 w-[1270px] gap-8 max-[745px]:max-w-[695px] max-[745px]:grid-cols-2 max-[745px]:gap-[24px] max-[426px]:grid-cols-1 max-[426px]:max-w-[343px] max-[426px]:place-items-center">
-      <div class="max-w-[404px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
-        <div class="mt-7"><img src="assests/box.svg" alt=""
-            class='w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-23'></div>
+    <div class="grid grid-cols-3 w-[1270px] gap-8 
+      max-[745px]:max-w-[695px] 
+      max-[745px]:grid-cols-2 
+      max-[745px]:gap-[24px] 
+      max-[426px]:grid-cols-1 
+      max-[426px]:max-w-[343px] 
+      max-[426px]:place-items-center 
+      max-[426px]:w-full 
+      max-[1281px]:grid-cols-2 
+      max-[1281px]:place-items-center
+      max-[1441px]:max-w-[1280px] 
+      ">
+      <div
+        class="max-w-[404px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200 max-[426px]:full">
+        <div class="mt-7 max-[426px]:flex max-[426px]:justify-center"><img src="assests/box.svg" alt=""
+            class='w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0'>
+        </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
           <h1 class='pt-2 max-[426px]:text-center'>Secure</h1>
         </div>
         <div class="text-[19px]">
-          <ul class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] '>
+          <ul
+            class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0'>
             <li class='list-disc text-[19px]'>Cross-Platform Encryption</li>
             <li class='list-disc text-[19px]'>Separate Security Login</li>
             <li class='list-disc text-[19px]'>Reduced Exposure to Risk</li>
@@ -433,13 +477,15 @@
       </div>
 
       <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
-        <div class="mt-7"><img src="assests/box1.svg" alt=""
-            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-23"></div>
+        <div class="mt-7 max-[426px]:flex max-[426px]:justify-center"><img src="assests/box1.svg" alt=""
+            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0">
+        </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
           <h1 class='pt-2 max-[426px]:text-center'>Resilient</h1>
         </div>
         <div class="text-[19px]">
-          <ul class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] '>
+          <ul
+            class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0'>
             <li class='list-disc text-[19px]'>Live Backups</li>
             <li class='list-disc text-[19px]'>Distinguished Data Dumps</li>
             <li class='list-disc text-[19px]'>Write-Ahead Logging</li>
@@ -449,13 +495,15 @@
       </div>
 
       <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
-        <div class="mt-7"><img src="assests/box2.svg" alt=""
-            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-23"></div>
+        <div class="mt-7 max-[426px]:flex max-[426px]:justify-center"><img src="assests/box2.svg" alt=""
+            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0">
+        </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
           <h1 class='pt-2 max-[426px]:text-center'>Flexible</h1>
         </div>
         <div class="text-[19px]">
-          <ul class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] '>
+          <ul
+            class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0'>
             <li class='list-disc text-[19px]'>Multi-Language Support</li>
             <li class='list-disc text-[19px]'>Cross-Platform Support</li>
             <li class='list-disc text-[19px]'>Server Data Storage</li>
@@ -466,13 +514,15 @@
       </div>
 
       <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
-        <div class="mt-7"><img src="assests/box3.svg" alt=""
-            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-23"></div>
+        <div class="mt-7 max-[426px]:flex max-[426px]:justify-center"><img src="assests/box3.svg" alt=""
+            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0">
+        </div>
         <div class="head text-[32px] font-semibold ml-7 max-[426px]:ml-0">
           <h1 class='pt-2 max-[426px]:text-center'>Self-Relient</h1>
         </div>
         <div class="text-[19px]">
-          <ul class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] '>
+          <ul
+            class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0'>
             <li class='list-disc text-[19px]'>Independent Operation</li>
             <li class='list-disc text-[19px]'>Near-Zero Maintenance</li>
             <li class='list-disc text-[19px]'>Rapid Crash Recovery</li>
@@ -482,13 +532,15 @@
       </div>
 
       <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
-        <div class="mt-7"><img src="assests/box4.svg" alt=""
-            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-23"></div>
+        <div class="mt-7 max-[426px]:flex max-[426px]:justify-center"><img src="assests/box4.svg" alt=""
+            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0">
+        </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
           <h1 class='pt-2 max-[426px]:text-center'>Light Weight</h1>
         </div>
         <div class="text-[19px]">
-          <ul class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] '>
+          <ul
+            class='pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0'>
             <li class='list-disc text-[19px]'>Small Footprint</li>
             <li class='list-disc text-[19px]'>Fast Install</li>
             <li class='list-disc text-[19px]'>Fast Restores</li>
@@ -499,13 +551,15 @@
 
 
       <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
-        <div class="mt-7"><img src="assests/box5.svg" alt=""
-            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-23"></div>
+        <div class="mt-7 max-[426px]:flex max-[426px]:justify-center"><img src="assests/box5.svg" alt=""
+            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0">
+        </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
           <h1 class='pt-2 max-[426px]:text-center'>Efficient</h1>
         </div>
         <div class="text-[19px]">
-          <ul class='pl-16 pt-4 pb-12 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] '>
+          <ul
+            class='pl-16 pt-4 pb-12 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0'>
             <li class='list-disc text-[19px]'>Log-Less Replication</li>
             <li class='list-disc text-[19px]'>Data Change Subcriptions</li>
             <li class='list-disc text-[19px]'>ChangeViews Data Tracking</li>
@@ -517,14 +571,15 @@
 
       <div
         class="max-w-[403px] max-[745px]:max-w-[332px] p-8 flex flex-col gap-7 w-full bg-gray-100 rounded-3xl border border-gray-200">
-        <div class="flex gap-[10px] w-[80px] h-[80px]"><img src="assests/box6.svg" alt=""
-            class="w-[80px] h-[80px] max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-23">
+        <div class="flex gap-[10px] w-[80px] h-[80px] max-[426px]:mx-auto max-[426px]:gap-0">
+          <img src="assests/box6.svg" alt="" class="w-[80px] h-[80px]">
         </div>
         <div class=" font-semibold flex flex-col gap-[12px] max-[426px]:ml-0">
           <h1 class='text-[32px] max-[426px]:text-center'>Complaint</h1>
 
 
-          <ul class='leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] ml-9'>
+          <ul
+            class='leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] ml-9 max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0 max-[426px]:ml-0 max-[426px]:text-center'>
             <li class='list-disc text-[20px]'>ANSI.ISO SQL Complaint</li>
             <li class='list-disc text-[20px]'>Stored Procedures & Triggers</li>
             <li class='list-disc text-[20px]'>Open-Standards-Based <br> Connectivity</li>
@@ -556,28 +611,29 @@
   <!-- Image 30 Start Done no media queries yet -->
   <div class="flex justify-center pb-[128px] relative max-[745px]:pb-0 max-[745px]:pb-[80px] max-[426px]:w-screen">
     <!-- Gradients -->
-    <div
+    <!-- <div
       class='absolute w-[731px] h-[731px] -top-40 -left-[294px] bg-gradient-to-r from-transparent to-cyan-600 opacity-10 -z-50 border blur-[400px]'>
     </div>
 
     <div
       class='absolute w-[650px] h-[650px] right-0 top-[190px] bg-gradient-to-r from-transparent to-indigo-600 opacity-10 border blur-[400px]'>
-    </div>
+    </div> -->
 
-    <!-- Gradient -->
+    <!-- Gradient End-->
 
     <img src="assests/image 30.svg" alt="image"
-      class='w-[1536px] h-[380px] max-[745px]:max-w-[744px] max-[745px]:max-h-[196px] max-[426px]:w-[375px] max-[426px]:w-screen'>
+      class='max-w-[1536px] w-full max-[745px]:max-w-[744px] max-[745px]:max-w-full max-[745px]:max-h-[196px] max-[426px]:hidden'>
+    <img src="assests/mobileimagealone.png" alt="image" class='hidden max-[426px]:block max-[426px]:w-screen'>
   </div>
   <!-- Image 30 End -->
 
   <!-- Case Studies -->
   <div
     class="w-screen flex justify-center items-center pb-[128px] max-[745px]:pb-0 max-[426px]:pb-0 max-[426px]:pb-[80px] max-[1921px]:justify-center">
-    <div class="w-[1539px] w-screen max-[1920px]:w-[1536px]">
+    <div class="w-[1539px] max-[1920px]:max-w-[1536px] max-[1921px]:mx-auto">
 
       <div class="relative"><img src="assests/Arrow 5.svg" alt=""
-          class='absolute max-[1921px]:left-[650px] h-[56px] max-[1441px]:left-[430px] max-[745px]:hidden max-[426px]:hidden'>
+          class='absolute max-[1921px]:left-[470px] h-[56px] max-[1441px]:left-[430px] max-[745px]:hidden max-[426px]:hidden'>
       </div>
 
       <div>
@@ -590,27 +646,39 @@
       </div>
 
       <div class='flex flex-col justify-center
+        
         max-[745px]:flex-row 
         max-[745px]:max-w-screen 
         max-[745px]:justify-center 
         max-[745px]:gap-0
+       
         max-[426px]:flex-col  
         max-[426px]:justify-center
         max-[426px]:items-center
-        
+        max-[426px]:mx-auto
+       
+        max-[1920px]:max-w-[1536px]
+        max-[1920px]:max-w-screen
+        max-[1920px]:mx-auto
+        max-[1921px]:justify-center
 
-        max-[1921px]:max-w-[1536px]
-        max-[1921px]:justify-center 
-          
+        max-[1441px]:mx-auto
+        max-[1441px]:max-w-screen
+        max-[1441px]:justify-center
+        max-[1441px]:items-center
         '>
         <div class="flex gap-12 pb-[64px] mr-0 max-w-[1536px]
           max-[1921px]-justify-center
-          
+          max-[1921px]:items-center
+          max-[1921px]:mx-auto
 
           max-[1441px]:mr-0 
+          max-[1441px]:ml-0 
           max-[1441px]:gap-0 
           max-[1441px]:max-w-[1280px] 
-          max-[1441px]:ml-21 
+          max-[1441px]:justify-center
+          max-[1441px]:items-center
+          max-[1441px]:mx-auto
           
           max-[745px]:flex-wrap 
           max-[745px]:max-w-[696px]
@@ -631,6 +699,9 @@
           max-[426px]:pl-0 
           max-[426px]:ml-0
           max-[426px]:pb-0  
+          max-[426px]:pr-0
+
+
           ">
 
           <!-- Box-1 -->
@@ -643,9 +714,9 @@
                 Tap
               </h1>
             </div>
-            <div>
+            <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center flex-wrap'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
                 Using
                 InterBase And Delphi,
                 Bulgarium Firm "BSoft"
@@ -663,13 +734,13 @@
 
           <!-- Gradient -->
           <div class='relative'>
-            <div
+            <!-- <div
               class='w-[869px] h-[869px] absolute -left-190 top-30 bg-gradient-to-l from-transparent to-rose-600 opacity-10 -z-50 border blur-[400px]'>
             </div>
 
             <div
               class='w-[869px] h-[269px] absolute -right-230 top-90 bg-gradient-to-l from-transparent to-rose-600 opacity-10 -z-50 border blur-[400px]'>
-            </div>
+            </div> -->
 
             <!-- Box-2 -->
             <div
@@ -682,15 +753,15 @@
                 Mars?
               </h1>
             </div>
-            <div>
+            <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden max-[426px]:hidden'>
                 Patients rely on doctors to protect their eyesight. Doctors rely on
                 Delphi and
                 InterBase to show them how.
               </p>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 hidden max-[745px]:block max-[426px]:text-center'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 hidden max-[745px]:block max-[426px]:block max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
                 Sometimes there's no Room for error... When you’re exploring the
                 universe you
                 can’t use just any database.
@@ -713,9 +784,9 @@
                 Behind
               </h1>
             </div>
-            <div>
+            <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
                 Data security and management causing anxiety? InterBase keeps spa
                 managers as
                 happy as their clients.
@@ -736,7 +807,10 @@
           max-[1441px]:mr-0 
           max-[1441px]:gap-0 
           max-[1441px]:max-w-[1280px] 
-          max-[1441px]:ml-21 
+          max-[1441px]:ml-0
+          max-[1441px]:items-center
+          max-[1441px]:justify-center 
+          
           max-[745px]:flex-col
           max-[745px]:pt-4
           max-[745px]:w-[696px]
@@ -746,10 +820,20 @@
           max-[745px]:gap-[24px]
           max-[745px]:pt-0
           max-[745px]:mt-0
+          
+          max-[426px]:max-w-[343px] 
+          max-[426px]:pl-0
+          max-[426px]:pr-0
           max-[426px]:ml-0
-          max-[1920px]:justify-center
           max-[426px]:pb-0
-          max-[426px]:w-[343px] 
+          max-[426px]:mr-0
+          max-[426px]:gap-0
+          max-[426px]:items-center
+          max-[426px]:justify-center
+
+          max-[1921px]:mx-auto
+          max-[1921px]:justify-center
+          max-[1921px]:items-center
           ">
 
           <!-- Box-4 -->
@@ -759,8 +843,11 @@
             max-[745px]:w-[332px] 
             max-[745px]:pr-0 
             max-[745px]:gap-[24px] 
-            max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4
-            max-[426px]:pt-[32px] max-[426px]:pb-[32px]
+            max-[426px]:border-dotted 
+            max-[426px]:border-gray-300 
+            max-[426px]:border-t-4
+            max-[426px]:pt-[32px] 
+            max-[426px]:pb-[32px]
             '>
             <div>
               <h1 class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-0 max-[745px]:hidden'>
@@ -771,15 +858,15 @@
                 Lase Focus on Eyecare
               </h1>
             </div>
-            <div>
+            <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden max-[426px]:hidden'>
                 Sometimes there's no Room for error... When you’re exploring the
                 universe you
                 can’t use just any database.
               </p>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 hidden max-[745px]:block max-[426px]:text-center'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 hidden max-[745px]:block max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
                 Patients rely on doctors to protect their eyesight. Doctors rely on
                 Delphi and
                 InterBase to show them how.
@@ -802,9 +889,9 @@
                 Behind
               </h1>
             </div>
-            <div>
+            <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
                 Data security and management causing anxiety? InterBase keeps spa
                 managers as
                 happy as their clients.
@@ -825,9 +912,9 @@
                 class='text-[32px] font-semibold pb-4 max-[745px]:text-[24px] max-[745px]:pb-0 max-[426px]:text-center max-[426px]:pt-[32px]'>
                 View From The Tap</h1>
             </div>
-            <div>
+            <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
                 Using InterBase And Delphi, Bulgarium Firm "BSoft" Helps Industry
                 Leaders Keep
                 Operations Flowing
@@ -847,45 +934,74 @@
   <!-- Case Studies End -->
 
   <!-- Join us section Start Done no media queries yet -->
-  <div class="flex flex-row max-w-[1536px] bg-white justify-center border border-white border-top 
+  <div class="flex flex-row max-w-[1536px] w-screen bg-white justify-center mx-auto items-center border border-white border-top 
     max-[1441px]:pt-18 
+    max-[1441px]:w-screen
+    max-[1441px]:mx-auto
     max-[1441px]:pb-18
     max-[745px]:flex-col
     max-[426px]:w-screen
+    max-[426px]:mx-auto
+    max-[426px]:flex
+    max-[426px]:items-center
     ">
-    <div class="max-w-[700px] bg-white p-18 
-      max-[1921px]:ml-30 
-      max-[1441px]:-ml-4 
+    <div class="max-w-[700px] bg-white p-0 flex flex-col max-w-[1536px] 
+      max-[1921px]:ml-0
+      max-[1921px]:mr-0
+      max-[1921px]:pr-0
+      max-[1921px]:pl-0
+
+      max-[1441px]:ml-0
       max-[1441px]:p-0  
       max-[1441px]:max-w-[514px]
+      max-[1441px]:justify-center
+      max-[1441px]:items-center
+      
       max-[745px]:max-w-[696px] 
       max-[745px]:ml-0
       max-[745px]:p-0
       max-[745px]:ml-6
-      max-[426px]:w-screen
+      
+      max-[426px]:max-w-[343px]
       max-[426px]:ml-0
+      max-[426px]:mr-0
+      max-[426px]:pr-0
+      max-[426px]:pl-0
       max-[426px]:p-0
       max-[426px]:flex
       max-[426px]:flex-col
       max-[426px]:justify-center
       max-[426px]:items-center
+      max-[426px]:mx-auto
       ">
       <h1 class='text-[48px] leading-[120%] tracking-[-1] 
+      max-w-[633px]
         max-[1441px]:max-w-[700px] 
+       
         max-[745px]:text-[36px] 
         max-[745px]:text-center 
+
+        max-[1441px]:max-w-[514px]
+        max-[1441px]:text-left
+        max-[1441px]:flex
+        max-[1441px]:flex-col
+        max-[1441px]:flex-wrap
+
+
         max-[426px]:font-[600] 
         max-[426px]:text-[30px] 
         max-[426px]:leading-[140%] 
         max-[426px]:-tracking-1 
-        max-[426px]:text-center'>
+        max-[426px]:text-center
+        max-[426px]:max-w-[343px]
+        '>
         Join Our <span
           class='bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text'>
           Global Developer Community
         </span>
       </h1>
       <p
-        class='text-[24px] max-[745px]:text-[20px] max-[745px]:text-center max-[426px]:text-[20px] flex-wrap max-[426px]:w-[343px]'>
+        class='text-[24px] max-w-[633px] max-[745px]:text-[20px] max-[1441px]:max-w-[514px] max-[745px]:text-center max-[426px]:text-[20px] flex-wrap max-[426px]:w-[343px] max-[426px]:text-[20px] max-[426px]:leading-[28px] max-[426px]:tracking-0 max-[426px]:text-neutral-600'>
         Join our email list
         and receive the latest
         case studies, event
@@ -894,10 +1010,10 @@
       </p>
       <div class="mt-6 flex gap-4 max-[745px]:justify-center max-[426px]:flex-col max-[426px]:items-center">
         <input type="text"
-          class='w-[350px] h-[50px] text-[16px] border border-gray-200 rounded-lg pl-4 max-[426px]:w-[343px]'
+          class='w-[350px] h-[50px] text-[16px] border border-gray-200 rounded-lg pl-4 max-[426px]:max-w-[343px] max-[426px]:w-screen'
           placeholder='Your Email'>
         <button
-          class='bg-neutral-800 text-white text-[16px] w-[150px] h-[50px] rounded-lg pt-2 pb-2 pl-2 pr-2 max-[426px]:w-[343px]'>Subscribe</button>
+          class='bg-neutral-800 text-white text-[16px] w-[150px] h-[50px] rounded-lg pt-2 pb-2 pl-2 pr-2 max-[426px]:max-w-[343px] max-[426px]:w-full'>Subscribe</button>
       </div>
     </div>
     <div class='object-fill'>
@@ -907,10 +1023,16 @@
         max-[1441px]:pl-8 
         max-[745px]:max-w-[696px]
         max-[745px]:max-h-[365px]
+        max-[426px]:hidden
+
+      '>
+      <img src="assests/mobilejoinus.png" alt="image" class='
         max-[426px]:w-[343px]
         max-[426px]:h-[209px]
         max-[426px]:mt-[40px]
-      '>
+        hidden
+        max-[426px]:block
+        '>
     </div>
   </div>
 
@@ -920,23 +1042,33 @@
   <footer class='w-screen'>
     <div class="flex justify-center pt-[48px] pr-[80px] pb-[81px] 
     max-[1441px]:flex-col
+    
     max-[426px]:pt-0
     max-[426px]:pr-0
     max-[426px]:pb-0
+    max-[426px]:items-center
     ">
       <div class="pt-14 pr-32 
-      max-[1441px]:pr-0 
-      max-[1441px]:pl-21
       max-[745px]:pl-10
       max-[426px]:pr-0
       max-[426px]:pl-0
-      max-[426px]:pl-[16px]
+      max-[426px]:max-w-[343px]
+      max-[426px]:w-screen
+      
+      max-[1441px]:pr-0 
+      max-[1441px]:pl-21
+      max-[1441px]:max-w-[1280px]
+      max-[1441px]:w-screen
       ">
-        <img src="assests/Frame 811285.png" alt="">
+        <img src="assests/Frame 811285.png" alt="image" class='
+        max-[426px]:hidden'>
+        <img src="assests/imagemobile11.png" alt="image" class='hidden max-[426px]:block'>
       </div>
 
       <div class="flex justify-center gap-15 ml-[40px] pt-[50px] 
-        max-[1441px]:ml-[35px] 
+        max-[1441px]:ml-[35px]
+        max-[1441px]:flex-wrap 
+        
         max-[745px]:flex-wrap 
         max-[745px]:w-[695px] 
         max-[745px]:pl-0 
@@ -949,10 +1081,16 @@
         max-[426px]:ml-0
         max-[426px]:gap-0
         max-[426px]:gap-[16px]
-        max-[426px]:w-[343px]
-        max-[426px]:pl-4
+        max-[426px]:max-w-[343px]
+        max-[426px]:pl-0
         max-[426px]:pt-0
+        max-[426px]:mr-0
+        max-[426px]:pr-0
         max-[426px]:pt-[32px]
+        max-[426px]:items-center
+        max-[426px]:w-screen
+        
+
         ">
 
         <!-- Product -->
@@ -1047,7 +1185,7 @@
     </div>
 
     <!-- End -->
-    <div class="flex justify-between mt-9 pl-[80px] pr-[80px] pb-[48px] 
+    <div class="flex mt-9 pl-[80px] pr-[80px] pb-[48px] items-center
       max-[1441px]:ml-[12px] 
       max-[426px]:pl-0 
       max-[426px]:pr-0 
@@ -1057,6 +1195,10 @@
       max-[426px]:items-center
       max-[745px]:pl-10
       max-[745px]:pr-10
+      w-screen
+      max-w-[1760px]
+      mx-auto
+      justify-between
       ">
       <div>
         <ul class='flex mr-9 gap-7 max-[1441px]:mr-2 max-[426px]:mt-[32px]'>
