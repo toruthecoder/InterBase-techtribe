@@ -18,7 +18,7 @@
 
 <!-- Comment for simulating redeployment -->
 
-<body style='font-family: "Archivo", sans-serif;' class='overflow-x-hidden'>
+<body style='font-family: "Archivo", sans-serif;' class='overflow-x-hidden max-[1441px]:gap-[128px]'>
   <!-- Header Start Done No-media quires yet -->
   <header class='bg-neutral-800 h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 pl-80px 
     max-[745px]:max-w-screen
@@ -29,6 +29,9 @@
 
     max-[1441px]:max-w-screen
     max-[1441px]:pl-0
+
+    
+    max-[445px]:h-[90px]
 
     max-[426px]:h-[105px]
     max-[426px]:w-screen
@@ -47,10 +50,14 @@
     </div>
     <!-- End -->
     <div class='flex justify-between items-center w-screen
- 
+
+    
+    max-[445px]:flex-col
+
     max-[426px]:flex-col
     max-[426px]:justify-center
     max-[426px]:items-center
+
     '>
       <div class="flex gap-4 
       max-[426px]:max-w-[375px]
@@ -59,9 +66,10 @@
       ">
         <p class='ml-24 min-w-xs 
       max-[1441px]:ml-20  
-      max-[751px]:w-[600px]
-      max-[751px]:mr-0
-      max-[751px]:ml-5
+      max-[751px]:max-w-[600px]
+      max-[745px]:max-w-screen
+      max-[745px]:mr-0
+      max-[745px]:ml-5
       
       max-[426px]:max-w-[343px]
       max-[426px]:text-center
@@ -83,18 +91,21 @@
       max-[426px]:max-w-[350px]
       ">
         <ul class='flex gap-6 text-sm mr-14 
-        max-[1441px]:mr-6 text-[14px] 
+        max-[1441px]:mr-6 text-[14px] max-[1325px]:tex-xs
         max-[745px]:hidden 
         max-[745px]:mr-0 
         max-[745px]:gap-0
+        max-[745px]:pt-0
         max-[426px]:hidden
         max-[1441px]:items-center
         max-[1441px]:justify-center
         max-[1168px]:hidden
+        max-[1325px]:gap-2
+        max-[1267px]:hidden
         '>
           <li>My Downloads</li>
           <li>Upgrade Center</li>
-          <li class='max-[1325px]:hidden'>My Customer Portal</li>
+          <li>My Customer Portal</li>
           <li>Contact Us</li>
         </ul>
         <div>
@@ -102,6 +113,7 @@
         max-[1441px]:mr-[0px]
         max-[745px]:max-w-[129px]
         max-[745px]:mr-9
+        max-[745px]:pt-0
         max-[426px]:mr-0
         max-[426px]:my-0
         max-[426px]:mr-0
@@ -121,29 +133,29 @@
       class='w-[869px] h-[869px] absolute bg-gradient-to-r from-transparent to-rose-600 opacity-10 blur-[400px] top-0 right-0 -z-50 max-[426px]:max-w-[320px]'>
     </div> -->
 
-    <div class='max-[1441px]:-ml-17 max-[745px]:-ml-32 max-[426px]:ml-0'>
-      <img src="assests/Frame 811285.png" alt="logo" class='max-[426px]:hidden'>
+    <div class='max-[1441px]:-ml-17 max-[745px]:-ml-32 max-[426px]:ml-0 max-[1441px]-ml-0'>
+      <img src="assests/logo1440.svg" alt="logo" class='max-[426px]:hidden'>
       <img src="assests/imagemobile2.png" alt="" class='w-[138px] hidden max-[426px]:block'>
     </div>
     <div>
       <ul
-        class='flex gap-7 mr-14 text-sm max-[751px]:hidden max-[376px]:hidden  max-[426px]:hidden max-[1441px]:mr-0 max-[1181px]:hidden'>
+        class='flex gap-7 mr-14 text-sm max-[751px]:hidden max-[376px]:hidden  max-[426px]:hidden max-[1441px]:mr-0 max-[1101px]:hidden'>
         <li class='flex'>Products<img src="assests/Vector (3).svg" alt="" class='w-2 ml-2 mt-1'></li>
         <li class='flex'>Free Tools<img src="assests/Vector (3).svg" alt="" class='w-2 ml-2 mt-1'></li>
         <li>Blog</li>
         <li class='flex'>Resources<img src="assests/Vector (3).svg" alt="" class='w-2 ml-2 mt-1'></li>
-        <li class='max-[1124px]:hidden'>Getit</li>
-        <li class='max-[1201px]:hidden'>New Tools</li>
+        <li class=''>Getit</li>
+        <li class=''>New Tools</li>
       </ul>
 
 
     </div>
     <div class="mr-9 flex gap-2 max-[1441px]:-mr-17 max-[751px]:-mr-30 max-[426px]:mr-0">
-      <button class='text-sm max-[376px]:hidden max-[426px]:hidden'>Sign In</button>
+      <button class='text-sm max-[376px]:hidden max-[426px]:hidden max-[475px]:hidden'>Sign In</button>
       <button class='border border-solid text-sm rounded-lg px-4 max-[376px]:hidden max-[426px]:hidden'>Buy Now</button>
       <button class='bg-black text-white px-4 rounded-lg text-sm max-[426px]:w-[91px] max-[426px]:w-[91px]'>Free
         Trial</button>
-      <div class="max-[751px]:block hidden max-[751px]:mt-2 max-[1181px]:block max-[1441px]:mt-2"><i
+      <div class="max-[751px]:block hidden max-[751px]:mt-2 max-[1101px]:block max-[1441px]:mt-2"><i
           class="fa-solid fa-bars"></i></div>
     </div>
   </nav>
@@ -152,26 +164,40 @@
   <!-- What's new Start Done no media queries yet -->
   <div class="flex justify-between mt-7 h-[53px] pt-4 pr-[192px] pb-4 pl-[160px] mx-auto
     max-[751px]:flex-col 
+    max-[751px]:pt-9
+    
+    max-[745px]:pl-0
+    max-[745px]:pr-0
+    
+    
+
     max-[426px]:justify-center 
     max-[426px]:mx-auto 
     max-[426px]:pl-0 
     max-[426px]:pr-0
     max-[426px]:max-w-full
     max-[426px]:items-center
+    max-[821px]:flex-col
+    max-[821px]:justify-center
+    max-[821px]:items-center
     max-w-[1920px]
     mx-auto
     ">
     <p class='flex text-sm
-    max-[1441px]:-ml-31
+    max-[1441px]:-ml-23
     max-[1441px]:pl-4 
+
+    max-[751px]:pt-9
     
-    max-[751px]:pl-50
+    max-[821px]:justify-center
+    max-[821px]:items-center
+    max-[821px]:ml-0
     
     max-[376px]:justify-center
     max-[376px]:ml-0
     max-[376px]:pl-0 
     max-[376px]:text-[14px]
-    
+
     max-[426px]:pl-0
     max-[426px]:ml-0
     max-[426px]:justify-center
@@ -183,9 +209,19 @@
     <p class='text-sm just-between max-w-[1920px]
       max-[1441px]:pr-0 
       max-[1441px]:-mr-27 
+      max-[821px]:mt-[16px]
+      max-[821px]:-mr-[12px]
 
-      max-[751px]:pt-[16px] 
-      max-[751px]:-ml-6 
+      max-[745px]:pt-[16px] 
+      max-[745px]:ml-0
+      max-[745px]:pt-0
+      max-[745px]:mt-0
+      max-[745px]:max-w-screen
+      max-[745px]:text-center
+      max-[745px]:items-center
+      max-[745px]:justify-center
+      max-[745px]:flex-wrap
+
 
       max-[426px]:max-w-[343px]
       max-[426px]:w-screen
@@ -246,7 +282,8 @@
       </div>
       <div
         class="text-lg text-center text-zinc-500 font-semibold mt-4 max-[751px]:max-w-[515px] max-[1441px]:max-w-[842px] max-[1921px]:max-w-[752px] max-[426px]:max-w-[343px] max-[426px]:w-screen  max-[426px]:flex-wrap max-[426px]:max-w-[343px] max-[426px]:flex max-[426px]:text-center max-[426px]:justify-center max-[426px]:items-center max-[426px]:mr-0 max-[426px]:pr-0">
-        <p class='max-[426px]:text-[18px]'>InterBase is an ultrafast, scalable, embeddable SQL database with
+        <p class='max-[426px]:text-[18px] max-[745px]:pl-[25px] max-[745px]:pr-[25px]'>InterBase is an ultrafast,
+          scalable, embeddable SQL database with
           commercial-grade data
           security, disaster recovery, and change synchronization.</p>
       </div>
@@ -268,11 +305,20 @@
   </div> -->
 
   <!-- Video player Start Done no media queries yet -->
-  <div class="w-screen flex justify-center mt-24 max-[426px]:mt-20">
+  <div class="w-screen flex justify-center mt-24 
+      max-[426px]:mt-20 
+      max-[1325px]:px-[28px] 
+      pl-[80px] pr-[80px] 
+      max-[745px]:pl-0 
+      max-[745px]:pr-0 
+      max-[745px]:px-0
+      max-[745px]:pl-[25px]
+      max-[745px]:pr-[25px]
+      ">
     <div class="w-[1274px] h-[721px] bg-neutral-800 relative flex justify-center items-center rounded-xl 
       max-[745px]:max-w-[695px] 
       max-[745px]:max-h-[389px] 
-      max-[745px]:mr-2 
+      max-[745px]:mr-0 
       max-[745px]:bg-white
       max-[426px]:w-screen
       max-[426px]:justify-center
@@ -283,51 +329,107 @@
       max-[1273px]:max-w-[1273px]
       max-[1273px]:max-w-screen 
       max-[1273px]:mr-0
-      max-[1273px]:h-auto
+      max-[1273px]:bg-white
       border-white
+      max-[1441px]:px-auto
       ">
-      <img src="assests/image 28.png" alt="pic" class='max-[745px]:hidden max-[426px]:hidden max-[1273px]:hidden'>
+      <img src="assests/image 28.png" alt="pic" class='max-[745px]:hidden max-[426px]:hidden max-[1332px]:hidden'>
       <img src="assests/Group 811586.svg" alt=""
-        class='hidden max-[745px]:block max-[426px]:block max-[745px]:w-[695px] max-[426px]:max-w-[343px] max-[426px]:max-w-full max-[1273px]:block max-[1273px]:w-[1273px] border max-[1273px]:max-w-screen '>
+        class='hidden max-[745px]:block max-[426px]:block max-[745px]:w-[695px] max-[426px]:max-w-[343px] max-[426px]:max-w-full max-[1332px]:block max-[1332px]:w-[1273px] max-[1332px]:max-w-screen '>
       <div class="absolute bottom-3 flex">
         <img src="assests/play-btn.svg" alt="play"
-          class=' ml-3 max-[745px]:hidden max-[426px]:hidden max-[1273px]:hidden'>
-        <img src="assests/time.svg" alt="time"
-          class='ml-2 max-[745px]:hidden max-[426px]:hidden max-w-[1441px]:max-w-[1152px] max-[1441px]:w-full max-[1273px]:hidden'>
+          class=' ml-3 max-[745px]:hidden max-[426px]:hidden max-[1332px]:hidden'>
+        <img src="assests/time.svg" alt="time" class='ml-2 max-[745px]:hidden max-[426px]:hidden max-[1332px]:hidden'>
       </div>
     </div>
   </div>
   <!-- Video player End -->
 
   <!-- below video Start Done no media queries yet -->
-  <div class=" flex justify-center mt-12 max-[426px]:mt-[24px]">
+  <div class=" flex justify-center mt-12 max-[426px]:mt-[24px] 
+      pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[25px] max-[745px]:pr-[25px]">
     <div class="flex justify-between items-center shadow-md bg-zinc-100 w-[1274px] h-[107px] rounded-2xl 
       max-[745px]:max-w-[695px] 
+
+      max-[601px]:flex-col 
+      max-[601px]:h-[222px]
+      max-[601px]:w-full
+
       max-[426px]:flex-col 
       max-[426px]:max-w-[343px]
       max-[426px]:h-[222px]
       max-[426px]:w-full
       ">
-      <div class="div flex items-center 
+      <div class="flex items-center 
+      
+      max-[601px]:flex-col
+      max-[601px]:justify-center
+
       max-[426px]:flex-col 
       max-[426px]:justify-center">
-        <div class="pl-9 max-[426px]:mt-[16px] max-[426px]:pl-0 max-[426px]:pb-[16px]">
+        <div class="pl-9 
+        max-[426px]:mt-[16px] 
+        max-[426px]:pl-0 
+        max-[426px]:pb-[16px]
+        
+        max-[601px]:mt-[16px] 
+        max-[601px]:pl-0 
+        max-[601px]:pb-[16px]
+        
+        ">
           <img src="assests/image 28.png" alt="" class='w-12 h-12'>
         </div>
-        <div class="pl-4 max-[426px]:pl-0">
-          <p
-            class='font-semibold text-[22px] max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[426px]:justify-center'>
+        <div class="pl-4 max-[426px]:pl-0 max-[601px]:pl-0">
+          <p class='font-semibold text-[22px] 
+            max-[426px]:text-center 
+            max-[426px]:flex 
+            max-[426px]:flex-wrap 
+            max-[426px]:justify-center
+            
+            max-[601px]:text-center 
+            max-[601px]:flex 
+            max-[601px]:flex-wrap 
+            max-[601px]:justify-center
+            
+            '>
             InterBase
             Resources</p>
-          <p
-            class='text-[17px] max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[426px]:justify-center max-[426px]:items-center'>
+          <p class='text-[17px] 
+            max-[426px]:text-center 
+            max-[426px]:flex 
+            max-[426px]:flex-wrap 
+            max-[426px]:justify-center 
+            max-[426px]:items-center
+            
+            max-[601px]:text-center 
+            max-[601px]:flex 
+            max-[601px]:flex-wrap 
+            max-[601px]:justify-center 
+            max-[601px]:items-center
+            
+            '>
             PDF's, Video & Courses
             of the Product</p>
         </div>
       </div>
-      <div class="pr-9 max-[426px]:pr-0 max-[426px]:pb-[16px] max-[426px]:max-w-full">
-        <button
-          class='border border-solid rounded-xl text-base bg-neutral-800 text-white w-[167px] h-[43px] max-[426px]:w-[311px] max-[426px]:max-w-full'>View
+      <div class="pr-9 
+      max-[426px]:pr-0 
+      max-[426px]:pb-[16px] 
+      max-[426px]:max-w-full
+      
+      max-[601px]:pr-0 
+      max-[601px]:pb-[16px] 
+      max-[601px]:max-w-full
+      
+      ">
+        <button class='border border-solid rounded-xl text-base bg-neutral-800 text-white w-[167px] h-[43px] 
+          max-[426px]:w-[311px] 
+          max-[426px]:max-w-full
+          
+          max-[601px]:w-[311px] 
+          max-[601px]:max-w-full
+
+          '>View
           Resources</button>
       </div>
     </div>
@@ -335,9 +437,23 @@
   <!-- below video end -->
 
   <!-- text Start Done no media queries yet -->
-  <div class="flex w-screen justify-center mt-29 max-[426px]:mt-0">
-    <div
-      class="flex w-[1273px] justify-around max-[745px]:max-w-[695px] max-[426px]:w-[343px] max-[426px]:flex-col max-[426px]:justify-center max-[426px]:items-center">
+  <div class="flex w-screen justify-center mt-29 
+        max-[426px]:mt-0 
+        pl-[80px] pr-[80px] 
+        max-[745px]:pl-0 
+        max-[745px]:pr-0 
+        max-[745px]:pl-[25px] 
+        max-[745px]:pr-[25px] ">
+    <div class="flex w-[1273px] justify-around 
+      max-[745px]:max-w-[695px]
+      max-[651px]:flex-col
+      max-[651px]:justify-center
+      max-[651px]:items-center
+            
+      max-[426px]:w-[343px] 
+      max-[426px]:flex-col 
+      max-[426px]:justify-center 
+      max-[426px]:items-center">
       <div class="max-[745px]:max-w-[245px] max-[745px]:mt-19">
         <img src="assests/image 25.svg" alt="img" class='w-[229px] h-[133px] max-[426px]:pb-[24px] max-[426px]:h-auto'>
       </div>
@@ -350,6 +466,7 @@
         max-[426px]:text-center
         flex-wrap max-[426px]:w-screen
         gap-[30px]
+        max-[651px]:pt-[24px]
         ">
         InterBase® is the winner of Total Telco’s IoT Award for “the most innovative use of data” thanks to
         its
@@ -367,8 +484,8 @@
   <!-- text End -->
 
   <!-- Image Start Done no queries yet -->
-  <div
-    class="relative flex justify-center items-center mt-24 ml-4 max-[1441px]:ml-0 max-[745px]:mt-[80px] max-[426px]:w-screen max-[426px]:mt-20">
+  <div class="relative flex justify-center items-center mt-24 ml-4 max-[1441px]:ml-0 max-[745px]:mt-[80px] max-[426px]:w-screen max-[426px]:mt-20 
+      pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[25px] max-[745px]:pr-[25px]">
     <!-- Gradient -->
     <!-- <div
       class='absolute border w-[906px] h-[906px] -left-[279px] -top-[120px] bg-gradient-to-l from-transparent to-cyan-600 opacity-10  blur-[400px] -z-20'>
@@ -383,8 +500,8 @@
   <!-- Image End -->
 
   <!-- More Text Start Done no media queries yet -->
-  <div
-    class="w-screen flex justify-center mt-26 relative max-[426px]:w-screen max-[426px]:items-center max-[426px]:mt-0 max-[426px]:mt-[80px]">
+  <div class="w-screen flex justify-center mt-26 relative max-[426px]:w-screen max-[426px]:items-center max-[426px]:mt-0 max-[426px]:mt-[80px] 
+      pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0">
     <div
       class="w-screen p-9 max-[426px]:w-[343px] max-[426px]:flex max-[426px]:flex-col max-[426px]:justify-center max-[426px]:items-center">
       <img src="assests/Group.svg" alt="" class='absolute
@@ -437,7 +554,8 @@
 
   <!-- Boxes Start Done no media queries yet -->
   <div
-    class="relative w-screen flex justify-center mt-[128px] mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mt-0 max-[426px]:mt-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px]">
+    class="relative w-screen flex justify-center mt-[128px] mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mt-0 max-[426px]:mt-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] 
+      pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[1201px]:pl-0 max-[1201px]:pr-0 max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[25px] max-[745px]:pr-[25px]">
     <!-- Gradient -->
     <!-- <div
       class='w-[869px] h-[869px] absolute left-0 -top-[190px] bg-gradient-to-l from-transparent to-rose-600 opacity-10 border blur-[400px]'>
@@ -453,22 +571,23 @@
     <!-- Gradient -->
 
     <!-- 1 div -->
-    <div class="grid grid-cols-3 w-[1270px] gap-8 
+    <div class="grid grid-cols-3 max-w-[1270px] gap-8 
       max-[745px]:max-w-[695px] 
       max-[745px]:grid-cols-2 
       max-[745px]:gap-[24px] 
+      max-[569px]:grid-cols-1
+
       max-[426px]:grid-cols-1 
       max-[426px]:max-w-[343px] 
-      max-[426px]:place-items-center 
       max-[426px]:w-full 
-      max-[1281px]:grid-cols-2 
-      max-[1281px]:place-items-center
+      
       max-[1441px]:max-w-[1280px] 
+      max-w-[1441px]:w-full
       ">
-      <div
-        class="max-w-[404px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200 max-[426px]:full">
+      <div class="max-w-[404px] max-[745px]:max-w-[332px] 
+        bg-gray-100 rounded-3xl border border-gray-200 max-[426px]:full">
         <div class="mt-7 max-[426px]:flex max-[426px]:justify-center"><img src="assests/box.svg" alt=""
-            class='w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0'>
+            class='max-w-[80px] w-full pl-7 max-[426px]:max-w-[120px] max-[426px]:w-full max-[426px]:ml-0 max-[426px]:pl-0'>
         </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
           <h1 class='pt-2 max-[426px]:text-center'>Secure</h1>
@@ -606,9 +725,9 @@
 
   <!-- Strip Start Done no media queries yet -->
   <div
-    class="w-screen border-gray-200 bg-neutral-100 mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px]">
+    class="w-screen border-gray-200 bg-neutral-100 mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[426px]:pl-0 max-[425px]:pr-0 max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[25px] max-[745px]:pr-[25px]">
     <div
-      class="text-[20px] flex max-[745px]:flex-wrap justify-center pt-[32px] pb-[32px] font-semibold gap-34 max-[745px]:gap-[24px] max-[1441px]:gap-15 max-[1441px]:max-w-[1440px] max-[1441px]:tracking-0 max-[1441px]:leading-[150%]">
+      class="text-[20px] flex max-[745px]:flex-wrap justify-center pt-[32px] pb-[32px] font-semibold gap-34 max-[745px]:gap-[24px] max-[1441px]:gap-15 max-[1441px]:max-w-[1440px] max-[1441px]:tracking-0 max-[1441px]:leading-[150%] max-[1441px]:flex-wrap">
       <p class='max-w[360px] max-[1441px]:max-w-[300px] text-center'>InterBase & Database Security</p>
       <p class='max-w[360px] max-[1441px]:max-w-[260px] text-center'>InterBase & Visual Studio</p>
       <p class='max-w[360px] max-[1441px]:max-w-[260px] text-center'>InterBase & Change Views</p>
@@ -638,7 +757,7 @@
 
   <!-- Case Studies -->
   <div
-    class="w-screen flex justify-center items-center pb-[128px] max-[745px]:pb-0 max-[426px]:pb-0 max-[426px]:pb-[80px] max-[1921px]:justify-center">
+    class="w-screen flex justify-center items-center pb-[128px] max-[745px]:pb-0 max-[426px]:pb-0 max-[426px]:pb-[80px] max-[1921px]:justify-center pl-[80px] pr-[80px]">
     <div class="w-[1539px] max-[1920px]:max-w-[1536px] max-[1921px]:mx-auto">
 
       <div class="relative"><img src="assests/Arrow 5.svg" alt=""
@@ -660,7 +779,15 @@
         max-[745px]:max-w-screen 
         max-[745px]:justify-center 
         max-[745px]:gap-0
-       
+
+        max-[1281px]:flex-row 
+        max-[1281px]:max-w-screen 
+        max-[1281px]:justify-center 
+        max-[1281px]:gap-0
+        max-[1281px]:items-center
+        max-[1281px]:pl-[24px]
+        max-[1281px]:pr-[24px]
+        
         max-[426px]:flex-col  
         max-[426px]:justify-center
         max-[426px]:items-center
@@ -692,6 +819,9 @@
           max-[745px]:flex-wrap 
           max-[745px]:max-w-[696px]
           
+          max-[1281px]:flex-wrap 
+          max-[1281px]:max-w-[696px]
+          
           max-[426px]:w-[343px] 
           max-[426px]:items-center 
           max-[426px]:mr-0 
@@ -703,6 +833,16 @@
           max-[745px]:pl-10
           max-[745px]:gap-[24px]
           max-[745px]:pr-5 
+
+          max-[1281px]:flex-col
+          max-[1281px]:pt-4
+          max-[1281px]:w-[696px]
+          max-[1281px]:gap-0
+          max-[1281px]:ml-0
+          max-[1281px]:pr-10
+          max-[1281px]:gap-[24px]
+          max-[1281px]:pt-0
+          max-[1281px]:mt-0
           
           max-[426px]:max-w-[343px]
           max-[426px]:pl-0 
@@ -725,7 +865,7 @@
             </div>
             <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[1441px]:max-w-[405px] max-[1441px]:max-w-full'>
                 Using
                 InterBase And Delphi,
                 Bulgarium Firm "BSoft"
@@ -764,7 +904,7 @@
             </div>
             <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden max-[426px]:hidden'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden max-[426px]:hidden max-[1441px]:max-w-[405px] max-[1441px]:max-w-screen'>
                 Patients rely on doctors to protect their eyesight. Doctors rely on
                 Delphi and
                 InterBase to show them how.
@@ -795,7 +935,7 @@
             </div>
             <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[1441px]:max-w-[405px] max-[1441px]:max-w-screen'>
                 Data security and management causing anxiety? InterBase keeps spa
                 managers as
                 happy as their clients.
@@ -829,6 +969,16 @@
           max-[745px]:gap-[24px]
           max-[745px]:pt-0
           max-[745px]:mt-0
+
+          max-[1281px]:flex-col
+          max-[1281px]:pt-4
+          max-[1281px]:w-[696px]
+          max-[1281px]:gap-0
+          max-[1281px]:ml-0
+          max-[1281px]:pr-0
+          max-[1281px]:gap-[24px]
+          max-[1281px]:pt-0
+          max-[1281px]:mt-0
           
           max-[426px]:max-w-[343px] 
           max-[426px]:pl-0
@@ -869,13 +1019,13 @@
             </div>
             <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden max-[426px]:hidden'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[745px]:hidden max-[426px]:hidden max-[1441px]:max-w-[405px] max-[1441px]:max-w-screen'>
                 Sometimes there's no Room for error... When you’re exploring the
                 universe you
                 can’t use just any database.
               </p>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 hidden max-[745px]:block max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 hidden max-[745px]:block max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap '>
                 Patients rely on doctors to protect their eyesight. Doctors rely on
                 Delphi and
                 InterBase to show them how.
@@ -900,7 +1050,7 @@
             </div>
             <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[1441px]:max-w-[405px] max-[1441px]:max-w-screen'>
                 Data security and management causing anxiety? InterBase keeps spa
                 managers as
                 happy as their clients.
@@ -923,7 +1073,7 @@
             </div>
             <div class='max-[426px]:max-w-screen max-[426px]:mx-auto'>
               <p
-                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap'>
+                class='text-[20px] max-[745px]:text-[18px] max-[745px]:leading-[150%] max-[745px]:font-[400] max-[745px]:tracking-0 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[1441px]:max-w-[405px] max-[1441px]:max-w-screen'>
                 Using InterBase And Delphi, Bulgarium Firm "BSoft" Helps Industry
                 Leaders Keep
                 Operations Flowing
@@ -943,17 +1093,29 @@
   <!-- Case Studies End -->
 
   <!-- Join us section Start Done no media queries yet -->
-  <div class="flex flex-row max-w-[1536px] w-screen bg-white justify-center mx-auto items-center border border-white border-top 
+  <div class="flex flex-row max-w-[1536px] max-w-full mx-auto bg-white justify-center mx-auto items-center border border-white border-top 
     max-[1441px]:pt-18 
     max-[1441px]:w-screen
     max-[1441px]:mx-auto
     max-[1441px]:pb-18
+    
     max-[745px]:flex-col
+    max-[745px]:w-screen
+
     max-[426px]:w-screen
     max-[426px]:mx-auto
     max-[426px]:flex
     max-[426px]:items-center
     max-[426px]:pt-0
+    
+    pl-[80px] pr-[80px]
+    max-[1246px]:flex-col
+
+    max-[745px]:pl-0
+    max-[745px]:pr-0
+
+    max-[745px]:pl-[25px]
+    max-[745px]:pr-[25px]
     ">
     <div class="max-w-[700px] bg-white p-0 flex flex-col max-w-[1536px] 
       max-[1921px]:ml-0
@@ -970,7 +1132,8 @@
       max-[745px]:max-w-[696px] 
       max-[745px]:ml-0
       max-[745px]:p-0
-      max-[745px]:ml-6
+      max-[745px]:ml-0
+
       
       max-[426px]:max-w-[343px]
       max-[426px]:ml-0
@@ -986,16 +1149,14 @@
       ">
       <h1 class='text-[48px] leading-[120%] tracking-[-1] 
       max-w-[633px]
-        max-[1441px]:max-w-[700px] 
-       
-        max-[745px]:text-[36px] 
-        max-[745px]:text-center 
-
-        max-[1441px]:max-w-[514px]
+      
+      max-[745px]:max-w-[633px]
+      max-[745px]:text-[36px] 
+      max-[745px]:text-center 
+      
+        max-[1441px]:max-w-[514px] 
         max-[1441px]:text-left
-        max-[1441px]:flex
-        max-[1441px]:flex-col
-        max-[1441px]:flex-wrap
+        max-[1281px]:w-screen
 
 
         max-[426px]:font-[600] 
@@ -1010,30 +1171,65 @@
           Global Developer Community
         </span>
       </h1>
-      <p
-        class='text-[24px] max-w-[633px] max-[745px]:text-[20px] max-[1441px]:max-w-[514px] max-[745px]:text-center max-[426px]:text-[20px] flex-wrap max-[426px]:w-[343px] max-[426px]:text-[20px] max-[426px]:leading-[28px] max-[426px]:tracking-0 max-[426px]:text-neutral-600'>
+      <p class='text-[24px] 
+        
+      max-[1441px]:max-w-[514px] 
+        max-w-[633px]
+        
+        
+        max-[745px]:text-[20px] 
+        max-[745px]:text-center 
+        max-[745px]:max-w-[633px]
+        max-[745px]:flex
+        max-[745px]:flex-wrap
+
+        max-[426px]:text-[20px] 
+        
+        flex-wrap 
+        
+        max-[426px]:max-w-[343px] 
+        max-[426px]:text-[20px] 
+        max-[426px]:leading-[28px] 
+        max-[426px]:tracking-0 
+        max-[426px]:text-neutral-600'>
         Join our email list
         and receive the latest
         case studies, event
         updates,
         product news,and much more.
       </p>
-      <div class="mt-6 flex gap-4 max-[745px]:justify-center max-[426px]:flex-col max-[426px]:items-center">
+      <div
+        class="mt-6 flex gap-4 max-[745px]:justify-center max-[426px]:flex-col max-[426px]:items-center max-[535px]:flex-col">
         <input type="text"
-          class='w-[350px] h-[50px] text-[16px] border border-gray-200 rounded-lg pl-4 max-[426px]:max-w-[343px] max-[426px]:w-screen'
+          class='w-[350px] h-[50px] text-[16px] border border-gray-200 rounded-lg pl-4 max-[745px]:max-w-[350px] max-[745px]:max-w-full max-[426px]:max-w-[343px] max-[426px]:w-screen'
           placeholder='Your Email'>
-        <button
-          class='bg-neutral-800 text-white text-[16px] w-[150px] h-[50px] rounded-lg pt-2 pb-2 pl-2 pr-2 max-[426px]:max-w-[343px] max-[426px]:w-full'>Subscribe</button>
+        <button class='bg-neutral-800 
+          text-white 
+          text-[16px] 
+          w-[150px] 
+          h-[50px] 
+          rounded-lg 
+          pt-2 pb-2 pl-2 pr-2
+          
+          max-[745px]:max-w-[150px]
+          max-[745px]:max-w-full
+          max-[535px]:max-w-[350px]
+          max-[535px]:w-full
+
+          max-[426px]:max-w-[343px] 
+          max-[426px]:w-full'>Subscribe</button>
       </div>
     </div>
-    <div class='object-fill'>
-      <img src="assests/side.svg" alt="" class='z-[200] bg-white w-[882px] h-[438px] 
+    <div class='object-fit'>
+      <img src="assests/side.svg" alt="" class='z-[200] bg-white max-w-[882px] w-full 
         max-[1441px]:w-[734px] 
         max-[1441px]:max-h-[364px]
         max-[1441px]:pl-8 
         max-[745px]:max-w-[696px]
-        max-[745px]:max-h-[365px]
+        max-[745px]:w-full
         max-[426px]:hidden
+        max-[1246px]:mt-[48px]
+
 
       '>
       <img src="assests/mobilejoinus.png" alt="image" class='
@@ -1052,7 +1248,10 @@
   <footer class='w-screen'>
     <div class="flex justify-center pt-[48px] pr-[80px] pb-[81px] 
     max-[1441px]:flex-col
-    
+    max-[1441px]:pr-0
+    max-[1441px]:justify-center
+    max-[1441px]:items-center
+
     max-[426px]:pt-0
     max-[426px]:pr-0
     max-[426px]:pb-0
@@ -1066,9 +1265,11 @@
       max-[426px]:w-screen
       
       max-[1441px]:pr-0 
-      max-[1441px]:pl-21
-      max-[1441px]:max-w-[1280px]
+      max-[1441px]:pl-0
+      max-[1441px]:max-w-[1210px]
       max-[1441px]:w-screen
+
+      max-[1208px]:max-w-[800px]
       ">
         <img src="assests/Frame 811285.png" alt="image" class='
         max-[426px]:hidden'>
@@ -1076,18 +1277,26 @@
       </div>
 
       <div class="flex justify-center gap-15 ml-[40px] pt-[50px] 
-        max-[1441px]:ml-[35px]
-        max-[1441px]:flex-wrap 
+        max-[1441px]:ml-0
+        max-[1441px]:flex-wrap
+        max-[1441px]:justify-center
         
+        max-[745px]:flex
         max-[745px]:flex-wrap 
-        max-[745px]:w-[695px] 
+        max-[745px]:max-w-[695px] 
         max-[745px]:pl-0 
-        max-[745px]:max-w-[695px]
+        max-[745px]:w-full
         max-[745px]:gap-12
         max-[745px]:justify-between
         max-[745px]:items-left  
         max-[745px]:ml-0
+
+        max-[649px]:grid
+        max-[649px]:grid-cols-2
+        max-[649px]:place-items-center
+
         
+        max-[426px]:flex
         max-[426px]:ml-0
         max-[426px]:gap-0
         max-[426px]:gap-[16px]
@@ -1100,11 +1309,14 @@
         max-[426px]:items-center
         max-[426px]:w-screen
         
+        
+        max-[1208px]:grid
+        max-[1208px]:grid-cols-3
 
         ">
 
         <!-- Product -->
-        <div class='max-[745px]:pl-12 max-[426px]:pl-0'>
+        <div class='max-[745px]:pl-12 max-[426px]:pl-0 max-[649px]:pl-0'>
           <h1 class='text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0 max-[426px]:mt-[40px]'>
             Products
           </h1>
@@ -1162,7 +1374,7 @@
         </div>
 
         <!-- Company -->
-        <div class='max-[745px]:pl-12 max-[426px]:pl-0'>
+        <div class='max-[745px]:pl-12 max-[426px]:pl-0 max-[649px]:pl-0'>
           <h1 class='text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0 max-[426px]:mt-[40px]'>
             Company
           </h1>
@@ -1178,7 +1390,7 @@
 
 
         <!-- Get in touch -->
-        <div class='max-[745px]:pr-67 max-[426px]:pr-0'>
+        <div class='max-[745px]:pr-67 max-[426px]:pr-0 max-[649px]:pr-0'>
           <h1 class='text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0 max-[426px]:mt-[40px]'>
             Get In Touch
           </h1>
@@ -1209,6 +1421,8 @@
       max-w-[1760px]
       mx-auto
       justify-between
+
+      max-[549px]:flex-col
       ">
       <div>
         <ul class='flex mr-9 gap-7 max-[1441px]:mr-2 max-[426px]:mt-[32px]'>
@@ -1219,7 +1433,8 @@
         </ul>
       </div>
       <div>
-        <p class='text-[14px] max-[426px]:mt-[16px] max-[426px]:mb-[32px]'>2022 Embarcadero Inc. All Rights Reserved</p>
+        <p class='text-[14px] max-[426px]:mt-[16px] max-[426px]:mb-[32px] max-[549px]:mt-[16px]'>2022 Embarcadero Inc.
+          All Rights Reserved</p>
       </div>
     </div>
   </footer>
