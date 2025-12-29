@@ -21,7 +21,7 @@
 <body style="font-family: 'Archivo', sans-serif" class="overflow-x-hidden max-[1441px]:gap-[128px]">
   <!-- Header Start Done No-media quires yet -->
   <header
-    class="bg-neutral-800 h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 pl-80px max-[745px]:max-w-screen max-[745px]:pr-0 max-[745px]:0 max-[745px]:h-[53px] max-[745px]:py-4 max-[1441px]:max-w-screen max-[1441px]:pl-0 max-[445px]:h-[90px] max-[446px]:h-[90px] max-[426px]:h-[105px] max-[426px]:w-screen max-w-[1920px] mx-auto">
+    class="bg-neutral-800 h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 pl-80px max-[745px]:max-w-screen max-[745px]:pr-0 max-[745px]:0 max-[745px]:h-[53px] max-[745px]:py-4 max-[1441px]:max-w-screen max-[1441px]:pl-0 max-[445px]:h-[90px] max-[446px]:h-[90px] max-[426px]:h-[105px] max-[426px]:w-screen">
     <!-- Dotted line image div -->
     <div class="-z-50">
       <img src="assests/header-dotted-left-line.svg" alt="vector image"
@@ -36,10 +36,11 @@
       class="flex justify-between items-center w-screen max-[445px]:flex-col max-[426px]:flex-col max-[426px]:justify-center max-[426px]:items-center max-[446px]:flex-col">
       <div class="flex gap-4 max-[426px]:max-w-[375px] max-[426px]:items-center max-[426px]:justify-center">
         <p
-          class="ml-24 min-w-xs max-[1441px]:ml-20 max-[751px]:max-w-[600px] max-[745px]:max-w-screen max-[745px]:mr-0 max-[745px]:ml-5 max-[426px]:max-w-[343px] max-[426px]:text-center max-[426px]:items-center max-[426px]:ml-0 max-[426px]:mr-0 max-[446px]:flex-col">
+          class="font-[300] font-light text-[14px] leading-[150%] tracking-0 ml-24 min-w-xs max-[1441px]:ml-20 max-[751px]:max-w-[600px] max-[745px]:max-w-screen max-[745px]:mr-0 max-[745px]:ml-5 max-[426px]:max-w-[343px] max-[426px]:text-center max-[426px]:items-center max-[426px]:ml-0 max-[426px]:mr-0 max-[446px]:flex-col">
           See what's new in Delphi, C++ Builder, and RAD Studio
           <span class="max-[376px]:hidden max-[426px]:hidden max-[457px]:hidden">Watch the Replay</span>
-          <span class="underline ml-3 max-[745px]:ml-0 cursor-pointer">
+          <span
+            class="font-[500] font-medium text-[14px] leading-[150%] tracking-0 underline ml-3 max-[745px]:ml-0 cursor-pointer hover:text-gray-400">
             Watch The Replay
           </span>
         </p>
@@ -48,14 +49,18 @@
       <div class="flex max-[426px]:justify-center max-[426px]:max-w-[350px]">
         <ul
           class="flex gap-6 text-sm mr-14 max-[1441px]:mr-6 text-[14px] max-[1325px]:tex-xs max-[745px]:hidden max-[745px]:mr-0 max-[745px]:gap-0 max-[745px]:pt-0 max-[426px]:hidden max-[1441px]:items-center max-[1441px]:justify-center max-[1168px]:hidden max-[1325px]:gap-2 max-[1267px]:hidden">
-          <li class="cursor-pointer">My Downloads</li>
-          <li class="cursor-pointer">Upgrade Center</li>
-          <li class="cursor-pointer">My Customer Portal</li>
-          <li class="cursor-pointer">Contact Us</li>
+          <li class="cursor-pointer hover:text-gray-300 font-[500] font-medium text-[14px] leading-[150%] tracking-0">My
+            Downloads</li>
+          <li class="cursor-pointer hover:text-gray-300 font-[500] font-medium text-[14px] leading-[150%] tracking-0">
+            Upgrade Center</li>
+          <li class="cursor-pointer hover:text-gray-300 font-[500] font-medium text-[14px] leading-[150%] tracking-0">My
+            Customer Portal</li>
+          <li class="cursor-pointer hover:text-gray-300 font-[500] font-medium text-[14px] leading-[150%] tracking-0">
+            Contact Us</li>
         </ul>
-        <div>
+        <div class='cursor-pointer'>
           <img src="assests/header-three-icons.svg" alt="icons image"
-            class="mr-16 top-[0px] w-24 max-[1441px]:mr-[0px] max-[745px]:max-w-[129px] max-[745px]:mr-9 max-[745px]:pt-0 max-[426px]:mr-0 max-[426px]:my-0 max-[426px]:mr-0 max-[426px]:pt-4" />
+            class="mr-16 top-[0px] w-24 max-[1441px]:mr-[0px] max-[745px]:max-w-[129px] max-[745px]:mr-9 max-[745px]:pt-0 max-[426px]:mr-0 max-[426px]:my-0 max-[426px]:mr-0 max-[426px]:pt-4 cursor-pointer" />
         </div>
       </div>
     </div>
@@ -83,35 +88,47 @@
     </div>
 
     <div class="max-[1441px]:-ml-17 max-[745px]:-ml-32 max-[426px]:ml-0 max-[1441px]-ml-0 cursor-pointer">
-      <img src="assests/logo.svg" alt="logo" class="max-[426px]:hidden" />
-      <img src="assests/mobile-logo.png" alt="" class="w-[138px] hidden max-[426px]:block" />
+      <img src="assests/logo.svg" alt="logo" class="max-[426px]:hidden cursor-pointer" />
+      <img src="assests/mobile-logo.png" alt="" class="w-[138px] hidden max-[426px]:block cursor-pointer" />
     </div>
     <div>
       <ul
         class="flex gap-7 mr-14 text-sm max-[751px]:hidden max-[376px]:hidden max-[426px]:hidden max-[1441px]:mr-0 max-[1101px]:hidden">
-        <li class="flex cursor-pointer">
+        <li
+          class="flex cursor-pointer hover:text-gray-400 font-[400] text-[14px] font-regular leading-[150%] text-neutral-800 tracking-0">
           Products<img src="assests/chevron-down.svg" alt="" class="w-2 ml-2 mt-1" />
         </li>
-        <li class="flex cursor-pointer">
+        <li
+          class="flex cursor-pointer hover:text-gray-400 font-[400] text-[14px] font-regular text-neutral-800 leading-[150%] tracking-0">
           Free Tools<img src="assests/chevron-down.svg" alt="" class="w-2 ml-2 mt-1" />
         </li>
-        <li class="cursor-pointer">Blog</li>
-        <li class="flex cursor-pointer">
+        <li
+          class="cursor-pointer hover:text-gray-400 font-[400] text-neutral-800 text-[14px] font-regular leading-[150%] tracking-0">
+          Blog</li>
+        <li
+          class="flex cursor-pointer hover:text-gray-400 text-neutral-800 font-[400] text-[14px] font-regular leading-[150%] tracking-0">
           Resources<img src="assests/chevron-down.svg" alt="" class="w-2 ml-2 mt-1" />
         </li>
-        <li class="cursor-pointer">Getit</li>
-        <li class="cursor-pointer">New Tools</li>
+        <li
+          class="cursor-pointer text-neutral-800 hover:text-gray-400 font-[400] text-[14px] font-regular leading-[150%] tracking-0">
+          Getit</li>
+        <li
+          class="text-neutral-800 cursor-pointer hover:text-gray-400 font-[400] text-[14px] font-regular leading-[150%] tracking-0">
+          New
+          Tools</li>
       </ul>
     </div>
     <div class="mr-9 flex gap-2 max-[1441px]:-mr-17 max-[751px]:-mr-30 max-[426px]:mr-0">
-      <button class="text-sm max-[376px]:hidden max-[426px]:hidden max-[475px]:hidden cursor-pointer">
+      <button
+        class="text-sm max-[376px]:hidden max-[426px]:hidden max-[475px]:hidden hover:text-gray-400 cursor-pointer font-[500] font-medium text-[14px] leading-[22px] tracking-0 text-neutral-800">
         Sign In
       </button>
-      <button class="border border-solid text-sm rounded-lg px-4 max-[376px]:hidden max-[426px]:hidden cursor-pointer">
+      <button
+        class="border border-solid text-sm rounded-lg px-4 max-[376px]:hidden max-[426px]:hidden cursor-pointer hover:border-white hover:bg-black hover:text-white font-[500] font-medium text-[14px] leading-[22px] tracking-0 text-neutral-800">
         Buy Now
       </button>
       <button
-        class="bg-black text-white px-4 rounded-lg text-sm max-[426px]:w-[91px] max-[426px]:w-[91px] cursor-pointer hover:bg-neutral-800">
+        class="bg-black text-white px-4 rounded-lg text-sm max-[426px]:w-[91px] max-[426px]:w-[91px] cursor-pointer hover:bg-neutral-500 font-[500] font-medium text-[14px] leading-[22px] tracking-0 text-neutral-800">
         Free Trial
       </button>
       <div class="max-[751px]:block hidden max-[751px]:mt-2 max-[1101px]:block max-[1441px]:mt-2">
@@ -125,21 +142,29 @@
   <div
     class="flex justify-between mt-7 h-[53px] pt-4 pr-[192px] pb-4 pl-[160px] mx-auto max-[751px]:flex-col max-[751px]:pt-9 max-[745px]:pl-0 max-[745px]:pr-0 max-[426px]:justify-center max-[426px]:mx-auto max-[426px]:pl-0 max-[426px]:pr-0 max-[426px]:max-w-full max-[426px]:items-center max-[821px]:flex-col max-[821px]:justify-center max-[821px]:items-center max-w-[1920px] mx-auto">
     <p
-      class="flex text-sm max-[1441px]:-ml-23 max-[1441px]:pl-4 max-[751px]:pt-9 max-[821px]:justify-center max-[821px]:items-center max-[821px]:ml-0 max-[376px]:justify-center max-[376px]:ml-0 max-[376px]:pl-0 max-[376px]:text-[14px] max-[426px]:pl-0 max-[426px]:ml-0 max-[426px]:justify-center cursor-pointer">
+      class="flex text-sm max-[1441px]:-ml-23 max-[1441px]:pl-4 max-[751px]:pt-9 max-[821px]:justify-center max-[821px]:items-center max-[821px]:ml-0 max-[376px]:justify-center max-[376px]:ml-0 max-[376px]:pl-0 max-[376px]:text-[14px] max-[426px]:pl-0 max-[426px]:ml-0 max-[426px]:justify-center cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800">
       Home <img src="assests/greater-symbol.svg" alt="" class="pl-1" />
-      <span class="pl-1">Products</span>
+      <span class="pl-1 font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800">Products</span>
       <img src="assests/greater-symbol.svg" alt="" class="pl-1" />
-      <span class="text-rose-600 font-semibold pl-1">InterBase</span>
+      <span
+        class="text-rose-600 font-semibold pl-1 font-[500] text-medium text-[14px] leading-[150%] tracking-0 ">InterBase</span>
     </p>
     <p
       class="text-sm just-between max-w-[1920px] max-[1441px]:pr-0 max-[1441px]:-mr-27 max-[821px]:mt-[16px] max-[821px]:-mr-[12px] max-[745px]:pt-[16px] max-[745px]:ml-0 max-[745px]:pt-0 max-[745px]:mt-0 max-[745px]:max-w-screen max-[745px]:text-center max-[745px]:items-center max-[745px]:justify-center max-[745px]:flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen max-[426px]:ml-0 max-[426px]:mr-0 max-[426px]:pr-0 max-[426px]:pl-0 max-[426px]:flex-wrap max-[426px]:justify-center max-[426px]:items-center max-[426px]:text-center cursor-pointer">
-      <span class="underline pr-1 cursor-pointer">What's New?</span>
+      <span
+        class="underline pr-1 pl-1  cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800">What's
+        New?</span>
       -
-      <span class="pr-1 underline cursor-pointer">Product Edition</span>
+      <span
+        class="pr-1 pl-1  underline cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800">Product
+        Edition</span>
       -
-      <span class="pr-1 underline cursor-pointer">Previous Version</span>
+      <span
+        class="pr-1 pl-1 underline cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800">Previous
+        Version</span>
       -
-      <span class="underline cursor-pointer">Customers</span>
+      <span
+        class="underline pr-1 cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800">Customers</span>
     </p>
   </div>
   <!-- What's new End -->
@@ -154,11 +179,13 @@
     <p
       class="flex w-92 bg-zinc-100 pt-4 pt-2 pb-4 pl-4 rounded-xl text-sm max-[426px]:max-w-[343px] max-[426px]:w-full max-[426px]:pl-2">
       <img src="assests/arrow-symbol.svg" alt="" class="pr-2" />
-      <span>
+      <span class='text-[14px] leading-[150%] tracking-0'>
         <span
-          class="font-semibold bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text max-[426px]:text-[14px]">InterBase
+          class="font-bold bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text max-[426px]:text-[14px]">InterBase
           2020 </span>Update 3 Released!
-        <span class="underline pl-3 max-[426px]:text-[12px] max-[426px]:pl-1 cursor-pointer">Learn More</span>
+        <span
+          class="font-[600] font-semibold text-[12px] leading-[150%] tracking-0 underline pl-3 max-[426px]:text-[12px] max-[426px]:pl-1 cursor-pointer hover:bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] hover:text-transparent hover:bg-clip-text">Learn
+          More</span>
       </span>
     </p>
   </div>
@@ -172,13 +199,13 @@
         class="absolute right-[82px] -top-[60px] w-[112px] h-[96px] max-[1441px]:right-[120px] max-[751px]:hidden max-[426px]:hidden" />
       <div class="text-center">
         <h1
-          class="text-center font-semibold text-5xl bg-gradient-to-r from-[#FE3B76] from-0% via-[#AF29CE] via-50% to-[#2931DD] to-95% text-transparent bg-clip-text inline-block">
+          class="text-center font-[600] leading-[100%] -tracking-[1px] text-5xl bg-gradient-to-r from-[#FE3B76] from-0% via-[#AF29CE] via-50% to-[#2931DD] to-95% text-transparent bg-clip-text inline-block">
           InterBase
         </h1>
       </div>
       <div
         class="text-lg text-center text-zinc-500 font-semibold mt-4 max-[751px]:max-w-[515px] max-[1441px]:max-w-[842px] max-[1921px]:max-w-[752px] max-[426px]:max-w-[343px] max-[426px]:w-screen max-[426px]:flex-wrap max-[426px]:max-w-[343px] max-[426px]:flex max-[426px]:text-center max-[426px]:justify-center max-[426px]:items-center max-[426px]:mr-0 max-[426px]:pr-0">
-        <p class="max-[426px]:text-[18px] max-[745px]:pl-[25px] max-[745px]:pr-[25px]">
+        <p class="max-[426px]:text-[18px] text-neutral-600 text-[18px] font-[400] leading-[150%] tracking-[0]">
           InterBase is an ultrafast, scalable, embeddable SQL database with
           commercial-grade data security, disaster recovery, and change
           synchronization.
@@ -186,7 +213,7 @@
       </div>
       <div class="flex justify-center">
         <button
-          class="cursor-pointer text-base border border-solid rounded-lg h-12 text-base w-47 font-semibold bg-black text-white mt-6 max-[426px]:w-[343px] max-[426px]:max-w-screen hover:bg-neutral-800">
+          class="cursor-pointer font-[500] text-[16px] leading-[24px] tracking-0 text-base border border-solid rounded-lg h-12 text-base w-47 font-semibold bg-black text-white mt-6 max-[426px]:w-[343px] max-[426px]:max-w-screen hover:bg-neutral-800">
           Try InterBase for Free
         </button>
       </div>
@@ -241,11 +268,11 @@
         </div>
         <div class="pl-4 max-[426px]:pl-0 max-[601px]:pl-0">
           <p
-            class="font-semibold text-[22px] max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[426px]:justify-center max-[601px]:text-center max-[601px]:flex max-[601px]:flex-wrap max-[601px]:justify-center">
+            class="font-semibold font-[600] text-[22px] leading-[150%] tracking-0 text-neutral-800 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[426px]:justify-center max-[601px]:text-center max-[601px]:flex max-[601px]:flex-wrap max-[601px]:justify-center">
             InterBase Resources
           </p>
           <p
-            class="text-[17px] max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[426px]:justify-center max-[426px]:items-center max-[601px]:text-center max-[601px]:flex max-[601px]:flex-wrap max-[601px]:justify-center max-[601px]:items-center">
+            class="text-[17px] font-regular font-[400] leading-[150%] tracking-0 text-neutral-800 max-[426px]:text-center max-[426px]:flex max-[426px]:flex-wrap max-[426px]:justify-center max-[426px]:items-center max-[601px]:text-center max-[601px]:flex max-[601px]:flex-wrap max-[601px]:justify-center max-[601px]:items-center">
             PDF's, Video & Courses of the Product
           </p>
         </div>
@@ -253,7 +280,7 @@
       <div
         class="pr-9 max-[426px]:pr-0 max-[426px]:pb-[16px] max-[426px]:max-w-full max-[601px]:pr-0 max-[601px]:pb-[16px] max-[601px]:max-w-full">
         <button
-          class="border border-solid rounded-xl text-base bg-neutral-800 text-white w-[167px] h-[43px] max-[426px]:w-[311px] max-[426px]:max-w-full max-[601px]:w-[311px] max-[601px]:max-w-full cursor-pointer hover:bg-neutral-900">
+          class="font-[500] leading-[120%] tracking-0 font-medium border border-solid rounded-xl text-base bg-neutral-800 text-white w-[167px] h-[43px] max-[426px]:w-[311px] max-[426px]:max-w-full max-[601px]:w-[311px] max-[601px]:max-w-full cursor-pointer hover:bg-neutral-900">
           View Resources
         </button>
       </div>
@@ -266,12 +293,12 @@
     class="flex w-screen justify-center mt-29 max-[426px]:mt-0 pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[25px] max-[745px]:pr-[25px]">
     <div
       class="flex w-[1273px] justify-around max-[745px]:max-w-[695px] max-[651px]:flex-col max-[651px]:justify-center max-[651px]:items-center max-[426px]:w-[343px] max-[426px]:flex-col max-[426px]:justify-center max-[426px]:items-center">
-      <div class="max-[745px]:max-w-[245px] max-[745px]:mt-19">
+      <div class="max-w-[229px] max-[745px]:max-w-[245px] max-[745px]:mt-11 w-full">
         <img src="assests/text-logo.svg" alt="img"
-          class="w-[229px] h-[133px] max-[426px]:pb-[24px] max-[426px]:h-auto" />
+          class="max-w-[229px] w-full h-[133px] max-[426px]:pb-[24px] max-[426px]:h-auto" />
       </div>
       <div
-        class="text-[20px] font-[400] ml-7 leading-[150%] max-[745px]:max-w-[426px] max-[426px]:max-w-[343px] max-[426px]:ml-0 max-[426px]:font-[18px] max-[426px]:tracking-0 max-[426px]:text-center flex-wrap max-[426px]:w-screen gap-[30px] max-[651px]:pt-[24px]">
+        class="text-[20px] max-[745px]:text-[18px] font-[400] ml-[32px] max-[745px]:ml-[0px] max-[745px]:ml-[24px] leading-[150%] tracking-0 font-[400] text-neutral-800 max-[745px]:max-w-[426px] max-[426px]:max-w-[343px] max-[426px]:ml-0 max-[426px]:font-[18px] max-[426px]:tracking-0 max-[426px]:text-center flex-wrap max-[426px]:w-screen gap-[30px] max-[651px]:pt-[24px]">
         InterBase® is the winner of Total Telco’s IoT Award for “the most
         innovative use of data” thanks to its highly scalable patented Change
         Views technology, which ensures the fastest, simplest and most secure
@@ -312,7 +339,7 @@
       <img src="assests/curved-arrow.svg" alt=""
         class="absolute max-[1921px]:top-0 max-[1921px]:left-[1200px] max-[1441px]:top-0 max-[1441px]:left-[970px] max-[745px]:hidden" />
       <div class="text-5xl text-center max-[426px]:text-[30px] max-[426px]:w-[343px] max-[426px]:max-w-screen">
-        <h1 class="max-[745px]:font-[600] max-[426px]:max-w-full">
+        <h1 class="font-[600] font-semibold max-[426px]:max-w-full leading-[150%] -tracking-[1px] text-neutral-800">
           More About
           <span
             class="bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text">InterBase</span>
@@ -320,28 +347,28 @@
       </div>
       <div class="text-center mt-9 flex flex-col items-center max-[745px]:max-w-[696px] max-[426px]:w-[343px]">
         <p
-          class="text-2xl max-w-[1274px] font-[400] leading-[150%] tracking-[0] max-[426px]:text-[20px] flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen">
-          <span class="text-gray-600">InterBase® is a </span>full-featured,
-          high performance, ultrafast,<span class="text-grey-600">
+          class="text-2xl max-w-[1274px] font-regular text-neutral-800 font-[400] leading-[150%] tracking-[0] max-[426px]:text-[20px] flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen">
+          <span class="text-neutral-500">InterBase® is a </span>full-featured,
+          high performance, ultrafast,<span class="text-neutral-500">
             encryptable, scalable, relational and embeddable </span>multi-platform SQL database
-          <span class="text-grey-600"> with multi-dimensional </span>data
+          <span class="text-neutral-500"> with multi-dimensional </span>data
           security, disaster recovery
-          <span class="text-grey-600">and change synchronization for developers who want to embed a </span>low-cost,
+          <span class="text-neutral-500">and change synchronization for developers who want to embed a </span>low-cost,
           zero-admin,
-          <span class="text-grey-600">secure database into their cross-platform connected
+          <span class="text-neutral-500">secure database into their cross-platform connected
             applications.</span>
         </p>
         <p
           class="mt-8 text-2xl max-w-[1274px] font-[400] leading-[150%] tracking-[0] max-[426px]:text-[20px] flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen">
-          <span class="text-gray-600">InterBase® is one of the first</span>
+          <span class="text-neutral-500">InterBase® is one of the first</span>
           enterprise-grade relational databases
-          <span class="text-gray-600">ever produced. Since its inception it is based on a </span>superior versioning
+          <span class="text-neutral-500">ever produced. Since its inception it is based on a </span>superior versioning
           architecture
-          <span class="text-gray-600">still unmatched by many popular databases. It was also the</span>
+          <span class="text-neutral-500">still unmatched by many popular databases. It was also the</span>
           first DBMS
-          <span class="text-gray-600"> to implement </span>Multi-Version
+          <span class="text-neutral-500"> to implement </span>Multi-Version
           Concurrency Control (MVCC).
-          <span class="text-gray-600">
+          <span class="text-neutral-500">
             MVCC is referred to as Multi-Generational Architecture in
             InterBase®.</span>
         </p>
@@ -352,7 +379,7 @@
 
   <!-- Boxes Start Done gradient in this one done 1920, 1440,744-->
   <div
-    class="relative w-screen flex justify-center mt-[128px] mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mt-0 max-[426px]:mt-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[1201px]:px-[24px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[25px] max-[745px]:pr-[25px]">
+    class="relative w-screen flex justify-center mt-[128px] mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mt-0 max-[426px]:mt-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[1201px]:px-[24px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px]">
     <!-- Gradient -->
     <div
       class="w-[500px] h-[869px] absolute left-0 -top-[360px] bg-rose-600 opacity-[10%] blur-[400px] max-[1441px]:hidden max-[745px]:hidden max-[426px]:block max-[426px]:-top-[120px] max-[426px]:left-[260px] max-[426px]:w-[400px] max-[426px]:h-[780px]">
@@ -380,119 +407,178 @@
     <div
       class="grid grid-cols-3 max-w-[1270px] gap-8 max-[745px]:max-w-[695px] max-[745px]:grid-cols-2 max-[745px]:gap-[24px] max-[569px]:grid-cols-1 max-[426px]:grid-cols-1 max-[426px]:max-w-[343px] max-[426px]:w-full max-[1441px]:max-w-[1280px] max-w-[1441px]:w-full">
       <div
-        class="max-w-[404px] max-[745px]:max-w-[332px] bg-gray-100 rounded-3xl border border-gray-200 max-[426px]:full">
+        class="max-w-[404px] max-[745px]:max-w-[332px] bg-gray-100 rounded-3xl border border-gray-200 max-[426px]:full max-[569px]:order-1">
         <div class="mt-7 max-[426px]:flex max-[426px]:justify-center">
           <img src="assests/box-logo-1.svg" alt=""
-            class="max-w-[80px] w-full pl-7 max-[426px]:max-w-[120px] max-[426px]:w-full max-[426px]:ml-0 max-[426px]:pl-0" />
+            class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0" />
         </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
-          <h1 class="pt-2 max-[426px]:text-center">Secure</h1>
+          <h1 class="pt-2 max-[426px]:text-center font-[600] leading-[150%] tracking-0 font-[rgba(34, 34, 34, 1)]">
+            Secure</h1>
         </div>
         <div class="text-[19px]">
-          <ul
-            class="pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
-            <li class="list-disc text-[19px]">Cross-Platform Encryption</li>
-            <li class="list-disc text-[19px]">Separate Security Login</li>
-            <li class="list-disc text-[19px]">Reduced Exposure to Risk</li>
-            <li class="list-disc text-[19px]">Role-Based User Security</li>
-            <li class="list-disc text-[19px]">Encryption Backups</li>
+          <ul class="pl-16 pt-4 pb-9  max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Cross-Platform Encryption</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Separate Security Login</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Reduced Exposure to Risk</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Role-Based User Security</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Encryption Backups</li>
           </ul>
         </div>
       </div>
 
-      <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div
+        class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200 max-[569px]:order-5">
         <div class="mt-7 max-[426px]:flex max-[426px]:justify-center">
           <img src="assests/box-logo-2.svg" alt=""
             class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0" />
         </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
-          <h1 class="pt-2 max-[426px]:text-center">Resilient</h1>
+          <h1 class="pt-2 max-[426px]:text-center font-[600] leading-[150%] tracking-0 font-[rgba(34, 34, 34, 1)]">
+            Resilient</h1>
         </div>
         <div class="text-[19px]">
-          <ul
-            class="pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
-            <li class="list-disc text-[19px]">Live Backups</li>
-            <li class="list-disc text-[19px]">Distinguished Data Dumps</li>
-            <li class="list-disc text-[19px]">Write-Ahead Logging</li>
-            <li class="list-disc text-[19px]">Point-in Time Recovery</li>
+          <ul class="pl-16 pt-4 pb-9 max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Live Backups</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Distinguished Data Dumps</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Write-Ahead Logging</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Point-in Time Recovery</li>
           </ul>
         </div>
       </div>
 
-      <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div
+        class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200 max-[569px]:order-2">
         <div class="mt-7 max-[426px]:flex max-[426px]:justify-center">
           <img src="assests/box-logo-3.svg" alt=""
             class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0" />
         </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
-          <h1 class="pt-2 max-[426px]:text-center">Flexible</h1>
+          <h1 class="pt-2 max-[426px]:text-center font-[600] leading-[150%] tracking-0 font-[rgba(34, 34, 34, 1)]">
+            Flexible</h1>
         </div>
         <div class="text-[19px]">
-          <ul
-            class="pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
-            <li class="list-disc text-[19px]">Multi-Language Support</li>
-            <li class="list-disc text-[19px]">Cross-Platform Support</li>
-            <li class="list-disc text-[19px]">Server Data Storage</li>
-            <li class="list-disc text-[19px]">Local Data Storage</li>
-            <li class="list-disc text-[19px]">Single On-Disk Format</li>
+          <ul class="pl-16 pt-4 pb-9 max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Multi-Language Support</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Cross-Platform Support</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Server Data Storage</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Local Data Storage</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Single On-Disk Format</li>
           </ul>
         </div>
       </div>
 
-      <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div
+        class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200 max-[569px]:order-6">
         <div class="mt-7 max-[426px]:flex max-[426px]:justify-center">
           <img src="assests/box-logo-4.svg" alt=""
             class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0" />
         </div>
         <div class="head text-[32px] font-semibold ml-7 max-[426px]:ml-0">
-          <h1 class="pt-2 max-[426px]:text-center">Self-Relient</h1>
+          <h1 class="pt-2 max-[426px]:text-center font-[600] leading-[150%] tracking-0 font-[rgba(34, 34, 34, 1)]">
+            Self-Relient</h1>
         </div>
         <div class="text-[19px]">
-          <ul
-            class="pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
-            <li class="list-disc text-[19px]">Independent Operation</li>
-            <li class="list-disc text-[19px]">Near-Zero Maintenance</li>
-            <li class="list-disc text-[19px]">Rapid Crash Recovery</li>
-            <li class="list-disc text-[19px]">Disaster Recovery</li>
+          <ul class="pl-16 pt-4 pb-9 max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Independent Operation</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Near-Zero Maintenance</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Rapid Crash Recovery</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Disaster Recovery</li>
           </ul>
         </div>
       </div>
 
-      <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div
+        class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200 max-[569px]:order-3">
         <div class="mt-7 max-[426px]:flex max-[426px]:justify-center">
           <img src="assests/box-logo-5.svg" alt=""
             class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0" />
         </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
-          <h1 class="pt-2 max-[426px]:text-center">Light Weight</h1>
+          <h1 class="pt-2 max-[426px]:text-center font-[600] leading-[150%] tracking-0 font-[rgba(34, 34, 34, 1)]">Light
+            Weight</h1>
         </div>
         <div class="text-[19px]">
-          <ul
-            class="pl-16 pt-4 pb-9 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
-            <li class="list-disc text-[19px]">Small Footprint</li>
-            <li class="list-disc text-[19px]">Fast Install</li>
-            <li class="list-disc text-[19px]">Fast Restores</li>
-            <li class="list-disc text-[19px]">Fast Data</li>
+          <ul class="pl-16 pt-4 pb-9 max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Small Footprint</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Fast Install</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Fast Restores</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Fast Data</li>
           </ul>
         </div>
       </div>
 
-      <div class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200">
+      <div
+        class="max-w-[403px] max-[745px]:max-w-[332px] w-full bg-gray-100 rounded-3xl border border-gray-200 max-[569px]:order-7">
         <div class="mt-7 max-[426px]:flex max-[426px]:justify-center">
           <img src="assests/box-logo-6.svg" alt=""
             class="w-[80px] h-[80px] pl-7 max-[426px]:w-[120px] max-[426px]:h-[120px] max-[426px]:ml-0 max-[426px]:pl-0" />
         </div>
         <div class="text-[32px] font-semibold ml-7 max-[426px]:ml-0">
-          <h1 class="pt-2 max-[426px]:text-center">Efficient</h1>
+          <h1 class="pt-2 max-[426px]:text-center font-[600] leading-[150%] tracking-0 font-[rgba(34, 34, 34, 1)]">
+            Efficient</h1>
         </div>
         <div class="text-[19px]">
-          <ul
-            class="pl-16 pt-4 pb-12 leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
-            <li class="list-disc text-[19px]">Log-Less Replication</li>
-            <li class="list-disc text-[19px]">Data Change Subcriptions</li>
-            <li class="list-disc text-[19px]">ChangeViews Data Tracking</li>
-            <li class="list-disc text-[19px]">Role-Based User Security</li>
-            <li class="list-disc text-[19px]">Early Fetch Data Deltas</li>
+          <ul class="pl-16 pt-4 pb-12 max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0">
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Log-Less Replication</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Data Change Subcriptions</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              ChangeViews Data Tracking</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Role-Based User Security</li>
+            <li
+              class="list-disc text-[19px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+              Early Fetch Data Deltas</li>
           </ul>
         </div>
       </div>
@@ -507,26 +593,34 @@
       </div>
 
       <div
-        class="relative max-w-[403px] max-[745px]:max-w-[332px] p-8 flex flex-col gap-7 w-full bg-gray-100 rounded-3xl border border-gray-200">
+        class="relative max-w-[403px] max-[745px]:max-w-[332px] p-8 flex flex-col gap-7 w-full bg-gray-100 rounded-3xl border border-gray-200 -z-70 max-[569px]:order-4">
         <div class="flex gap-[10px] w-[80px] h-[80px] max-[426px]:mx-auto max-[426px]:gap-0">
           <img src="assests/box-logo-7.svg" alt="" class="w-[80px] h-[80px]" />
         </div>
         <div class="font-semibold flex flex-col gap-[12px] max-[426px]:ml-0">
-          <h1 class="text-[32px] max-[426px]:text-center">Complaint</h1>
-
-          <ul
-            class="leading-[150%] tracking-[0px] font-normal font-[rgba(82,82,82,1)] ml-9 max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0 max-[426px]:ml-0 max-[426px]:text-center">
-            <li class="list-disc text-[20px]">ANSI.ISO SQL Complaint</li>
-            <li class="list-disc text-[20px]">
-              Stored Procedures & Triggers
-            </li>
-            <li class="list-disc text-[20px]">
-              Open-Standards-Based <br />
-              Connectivity
-            </li>
-            <li class="list-disc text-[20px]">Multi-Gen Architecture/MVCC</li>
-            <li class="list-disc text-[20px]">Event Alerts & Generators</li>
-          </ul>
+          <h1
+            class="text-[32px] max-[426px]:text-center font-[600] leading-[150%] tracking-0 font-[rgba(34, 34, 34, 1)]">
+            Complaint</h1>
+          <div class='text-[19px]'>
+            <ul
+              class="ml-9 max-[426px]:flex max-[426px]:flex-col max-[426px]:items-center max-[426px]:pl-0 max-[426px]:ml-0 max-[426px]:text-center">
+              <li
+                class="list-disc text-[20px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+                ANSI.ISO SQL Complaint</li>
+              <li
+                class="list-disc text-[20px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+                Stored Procedures & Triggers</li>
+              <li
+                class="list-disc text-[20px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+                Open-Standards-Based <br />Connectivity</li>
+              <li
+                class="list-disc text-[20px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+                Multi-Gen Architecture/MVCC</li>
+              <li
+                class="list-disc text-[20px] font-[rgba(82,82,82,1)] leading-[150%] tracking-[0px] font-regular font-[400]">
+                Event Alerts & Generators</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -536,19 +630,23 @@
 
   <!-- Strip Start Done no gradient in this one -->
   <div
-    class="w-screen border-gray-200 bg-neutral-100 mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[426px]:pl-0 max-[425px]:pr-0 max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[25px] max-[745px]:pr-[25px]">
+    class="w-screen border-gray-200 bg-neutral-100 mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[426px]:pl-0 max-[425px]:pr-0 max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px]">
     <div
-      class="text-[20px] flex max-[745px]:flex-wrap justify-center pt-[32px] pb-[32px] font-semibold gap-34 max-[745px]:gap-[24px] max-[1441px]:gap-15 max-[1441px]:max-w-[1440px] max-[1441px]:tracking-0 max-[1441px]:leading-[150%] max-[1441px]:flex-wrap">
-      <p class="max-w[360px] max-[1441px]:max-w-[300px] text-center z-50">
+      class="text-[20px] flex max-[745px]:flex-wrap justify-center pt-[32px] pb-[32px] font-semibold gap-34 max-[745px]:gap-[24px] max-[1441px]:gap-15 max-[1426px]:gap-[24px] max-[1441px]:max-w-[1440px] max-[1441px]:tracking-0 max-[1441px]:leading-[150%] max-[1441px]:flex-wrap">
+      <p
+        class="max-w[360px] max-[1441px]:max-w-[300px] text-center z-50 font-semibold font-[600] leading-[150%] tracking-0 text-neutral-800">
         InterBase & Database Security
       </p>
-      <p class="max-w[360px] max-[1441px]:max-w-[260px] text-center z-50">
+      <p
+        class="max-w[360px] max-[1441px]:max-w-[260px] text-center z-50 font-semibold font-[600] leading-[150%] tracking-0 text-neutral-800">
         InterBase & Visual Studio
       </p>
-      <p class="max-w[360px] max-[1441px]:max-w-[260px] text-center z-50">
+      <p
+        class="max-w[360px] max-[1441px]:max-w-[260px] text-center z-50 font-semibold font-[600] leading-[150%] tracking-0 text-neutral-800">
         InterBase & Change Views
       </p>
-      <p class="max-w[360px] max-[1441px]:max-w-[340px] text-center z-50">
+      <p
+        class="max-w[360px] max-[1441px]:max-w-[340px] text-center z-50 font-semibold font-[600] leading-[150%] tracking-0 text-neutral-800">
         InterBase & Database Technologies
       </p>
     </div>
@@ -581,116 +679,130 @@
 
       <div class='relative'>
         <div
-          class="w-[869px] h-[869px] absolute -left-[442px] top-[200px] bg-rose-600 opacity-[10%] blur-[300px] -z-50">
+          class="w-[869px] h-[869px] absolute -left-[442px] top-[200px] bg-rose-600 opacity-[10%] blur-[400px] -z-50 max-[745px]:z-50 max-[745px]:top-[1000px] ">
         </div>
 
         <div
-          class="w-[650px] h-[650px] absolute -right-[200px] top-[450px] bg-rose-600 opacity-[10%] blur-[300px] -z-50">
+          class="w-[650px] h-[650px] absolute -right-[200px] top-[450px] bg-rose-600 opacity-[10%] blur-[400px] -z-50 max-[745px]:z-50 max-[745px]:top-[1050px] max-[745px]:-right-[300px]">
         </div>
       </div>
 
       <div class="relative max-[745px]:hidden">
-        <img src="assests/curly-arrow.svg" alt="" class="absolute left-[450px] h-[56px] " />
+        <img src="assests/curly-arrow.svg" alt="" class="absolute left-[450px] h-[56px] max-[1441px]:left-[320px]" />
       </div>
 
-      <h1 class="text-[48px] text-center mb-20 max-[426px]:text-[32px]">
+      <h1
+        class="text-[48px] text-center mb-20 max-[426px]:text-[32px] font-[600] font-semibold leading-[150%] -tracking-[1px]">
         InterBase
         <span class="bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] text-transparent bg-clip-text">
           Case Studies
         </span>
       </h1>
 
-      <div class="grid grid-cols-3 gap-12
+      <div class="grid grid-cols-3
              max-[1382px]:grid-cols-2
-             max-[426px]:grid-cols-1 gap-[64px] relative">
+             max-[426px]:grid-cols-1 gap-[64px] relative max-[426px]:gap-0">
 
-        <div class="flex flex-col gap-6 max-[426px]:text-center order-1 max-[1328px]:order-0">
-          <h2 class="text-[32px] font-semibold max-[745px]:text-[24px]">
+        <div class="flex flex-col gap-6 max-[426px]:text-center max-[1921px]:order-1 max-[1382px]:order-1">
+          <h2
+            class="text-[32px] font-semibold max-[745px]:text-[24px] font-[600] leading-[150%] tracking-0 text-neutral-800">
             View From The Tap
           </h2>
-          <p class="text-[20px] max-[745px]:text-[18px]">
-            Using InterBase And Delphi, Bulgarium Firm “BSoft” Helps Industry
-            Leaders Keep Operations Flowing
+          <p class="text-[20px] max-[745px]:text-[18px] text-neutral-600 font-[400] leading-[150%] tracking-0">
+            Using InterBase And Delphi, Bulgarian Firm "BSoft" Helps Industry Leaders Keep Operations Flowing
           </p>
-          <span class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center">
+          <span
+            class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center max-[426px]:pb-[32px] text-neutral-600 font-[400] leading-[150%] tracking-0">
             Read More
             <img src="assests/right-arrow.svg" class="w-6 h-6" />
           </span>
         </div>
 
         <div
-          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 order-4 max-[1328px]:order-0">
-          <h2 class="text-[32px] font-semibold max-[745px]:text-[24px]">
+          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 max-[1921px]:order-4 max-[426px]:pt-[32px] max-[1382px]:order-3">
+          <h2
+            class="text-[32px] font-semibold max-[745px]:text-[24px] font-[600] leading-[150%] tracking-0 text-neutral-800">
             InterBase on Mars?
           </h2>
-          <p class="text-[20px] max-[745px]:text-[18px]">
-            Sometimes there’s no room for error. When exploring the universe,
-            you can’t use just any database.
+          <p class="text-[20px] max-[745px]:text-[18px] text-neutral-600 font-[400] leading-[150%] tracking-0">
+            Sometimes there's no Room for error... When you’re exploring the universe you can’t use just any database.
+
           </p>
-          <span class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center">
+          <span
+            class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center max-[426px]:pb-[32px] text-neutral-600 font-[400] leading-[150%] tracking-0">
             Read More
             <img src="assests/right-arrow.svg" class="w-6 h-6" />
           </span>
         </div>
 
         <div
-          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 order-3 max-[1328px]:order-0">
-          <h2 class="text-[32px] font-semibold max-[745px]:text-[24px]">
+          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 max-[1921px]:order-3 max-[426px]:pt-[32px] max-[1382px]:order-4">
+          <h2
+            class="text-[32px] font-semibold max-[745px]:text-[24px] font-[600] leading-[150%] tracking-0 text-neutral-800">
             Leave The Stress Behind
           </h2>
-          <p class="text-[20px] max-[745px]:text-[18px]">
-            Data security and management causing anxiety? InterBase keeps spa
-            managers as happy as their clients.
+          <p class="text-[20px] max-[745px]:text-[18px] text-neutral-600 font-[400] leading-[150%] tracking-0">
+            Data security and management causing anxiety? InterBase keeps spa managers as happy as their clients.
           </p>
-          <span class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center">
+          <span
+            class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center max-[426px]:pb-[32px] text-neutral-600 font-[400] leading-[150%] tracking-0">
             Read More
             <img src="assests/right-arrow.svg" class="w-6 h-6" />
           </span>
         </div>
 
-        <div class='absolute w-full border border-dotted border-gray-300 top-[250px]'>
+        <div
+          class='absolute w-full border border-dotted border-gray-300 top-[250px] max-[1382px]:top-[220px] max-[745px]:top-[220px] max-[709px]:top-[250px] max-[639px]:top-[285px] max-[568px]:top-[320px] max-[493px]:top-[340px] max-[446px]:top-[370px] max-[426px]:hidden max-[1204px]:top-[240px] max-[927px]:top-[290px] max-[870px]:top-[320px]'>
+        </div>
+
+        <div
+          class='absolute w-full border border-dotted border-gray-300 hidden max-[1382px]:block max-[1382px]:top-[460px] max-[1212px]:top-[490px] max-[1204px]:top-[520px] max-[954px]:top-[570px] max-[927px]:top-[610px] max-[891px]:top-[650px] max-[870px]:top-[670px] max-[771px]:top-[700px] max-[745px]:block max-[745px]:top-[480px] max-[426px]:hidden max-[723px]:top-[500px] max-[709px]:top-[530px] max-[659px]:top-[565px] max-[639px]:top-[600px] max-[605px]:top-[630px] max-[568px]:top-[655px] max-[493px]:top-[680px] max-[487px]:top-[710px] max-[462px]:top-[735px] max-[446px]:top-[760px]'>
         </div>
 
 
         <div
-          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 order-2 max-[1328px]:order-0">
-          <h2 class="text-[32px] font-semibold max-[745px]:text-[24px]">
+          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 max-[1921px]:order-2 max-[426px]:pt-[32px] max-[1382px]:order-2">
+          <h2
+            class="text-[32px] font-semibold max-[745px]:text-[24px] font-[600] leading-[150%] tracking-0 text-neutral-800">
             Laser Focus on Eyecare
           </h2>
-          <p class="text-[20px] max-[745px]:text-[18px]">
-            Patients rely on doctors to protect their eyesight. Doctors rely
-            on Delphi and InterBase to guide them.
+          <p class="text-[20px] max-[745px]:text-[18px] text-neutral-600 font-[400] leading-[150%] tracking-0">
+            Patients rely on doctors to protect their eyesight. Doctors rely on Delphi and InterBase to show them how.
           </p>
-          <span class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center">
+          <span
+            class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center max-[426px]:pb-[32px] text-neutral-600 font-[400] leading-[150%] tracking-0">
             Read More
             <img src="assests/right-arrow.svg" class="w-6 h-6" />
           </span>
         </div>
 
         <div
-          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 order-5 max-[1328px]:order-0">
-          <h2 class="text-[32px] font-semibold max-[745px]:text-[24px]">
+          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 max-[1921px]:order-5 max-[426px]:pt-[32px] max-[1382px]:order-5">
+          <h2
+            class="text-[32px] font-semibold max-[745px]:text-[24px] font-[600] leading-[150%] tracking-0 text-neutral-800">
             Leave The Stress Behind
           </h2>
-          <p class="text-[20px] max-[745px]:text-[18px]">
-            InterBase keeps data secure and businesses calm under pressure.
+          <p class="text-[20px] max-[745px]:text-[18px] text-neutral-600 font-[400] leading-[150%] tracking-0">
+            Data security and management causing anxiety? InterBase keeps spa managers as happy as their clients.
           </p>
-          <span class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center">
+          <span
+            class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center max-[426px]:pb-[32px] text-neutral-600 font-[400] leading-[150%] tracking-0">
             Read More
             <img src="assests/right-arrow.svg" class="w-6 h-6" />
           </span>
         </div>
 
         <div
-          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 order-6 max-[1328px]:order-0">
-          <h2 class="text-[32px] font-semibold max-[745px]:text-[24px]">
+          class="flex flex-col gap-6 max-[426px]:text-center  max-[426px]:border-dotted max-[426px]:border-gray-300 max-[426px]:border-t-4 max-[1921px]:order-6 max-[426px]:pt-[32px] max-[1382px]:order-6">
+          <h2
+            class="text-[32px] font-semibold max-[745px]:text-[24px] font-[600] leading-[150%] tracking-0 text-neutral-800">
             View From The Tap
           </h2>
-          <p class="text-[20px] max-[745px]:text-[18px]">
-            Using InterBase and Delphi, industry leaders keep systems running
-            smoothly.
+          <p class="text-[20px] max-[745px]:text-[18px] text-neutral-600 font-[400] leading-[150%] tracking-0">
+            Using InterBase And Delphi, Bulgarian Firm "BSoft" Helps Industry Leaders Keep Operations Flowing
           </p>
-          <span class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center">
+          <span
+            class="underline inline-flex items-center gap-2 cursor-pointer max-[426px]:justify-center text-neutral-600 font-[400] leading-[150%] tracking-0">
             Read More
             <img src="assests/right-arrow.svg" class="w-6 h-6" />
           </span>
@@ -709,7 +821,7 @@
     <div
       class="max-w-[700px] bg-white p-0 flex flex-col max-w-[1536px] max-[1921px]:ml-0 max-[1921px]:mr-0 max-[1921px]:pr-0 max-[1921px]:pl-0 max-[1441px]:ml-0 max-[1441px]:p-0 max-[1441px]:max-w-[514px] max-[1441px]:justify-center max-[1441px]:items-center max-[745px]:max-w-[696px] max-[745px]:ml-0 max-[745px]:p-0 max-[745px]:ml-0 max-[426px]:max-w-[343px] max-[426px]:ml-0 max-[426px]:mr-0 max-[426px]:pr-0 max-[426px]:pl-0 max-[426px]:p-0 max-[426px]:flex max-[426px]:flex-col max-[426px]:justify-center max-[426px]:items-center max-[426px]:mx-auto max-[745px]:px-[24px]">
       <h1
-        class="text-[48px] leading-[120%] tracking-[-1] max-w-[633px] max-[745px]:max-w-[633px] max-[745px]:text-[36px] max-[745px]:text-center max-[1441px]:max-w-[514px] max-[1441px]:text-left max-[1281px]:w-screen max-[426px]:font-[600] max-[426px]:text-[30px] max-[426px]:leading-[140%] max-[426px]:-tracking-1 max-[426px]:text-center max-[426px]:max-w-[343px] max-[745px]:z-70 max-[1246px]:max-w-[850px] max-[1246px]:text-center">
+        class="text-[48px] leading-[120%] tracking-[-1] font-semibold text-nuetral-800 max-w-[633px] max-[745px]:max-w-[633px] max-[745px]:text-[36px] max-[745px]:text-center max-[1441px]:max-w-[514px] max-[1441px]:text-left max-[1281px]:w-screen max-[426px]:font-[600] max-[426px]:text-[30px] max-[426px]:leading-[140%] max-[426px]:-tracking-1 max-[426px]:text-center max-[426px]:max-w-[343px] max-[745px]:z-70 max-[1246px]:max-w-[850px] max-[1246px]:text-center ">
         Join Our
         <span
           class="bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text">
@@ -717,17 +829,17 @@
         </span>
       </h1>
       <p
-        class="text-[24px] max-[745px]:z-70 max-[1441px]:max-w-[514px] max-w-[633px] max-[745px]:text-[20px] max-[745px]:text-center max-[745px]:max-w-[633px] max-[745px]:flex max-[745px]:flex-wrap max-[426px]:text-[20px] flex-wrap max-[426px]:max-w-[343px] max-[426px]:text-[20px] max-[426px]:leading-[28px] max-[426px]:tracking-0 max-[426px]:text-neutral-600">
+        class="font-[400] font-regular leading-[150%] tracking-0 text-neutral-600 text-[24px] max-[745px]:z-70 max-[1441px]:max-w-[514px] max-w-[633px] max-[745px]:text-[20px] max-[745px]:text-center max-[745px]:max-w-[633px] max-[745px]:flex max-[745px]:flex-wrap max-[426px]:text-[20px] flex-wrap max-[426px]:max-w-[343px] max-[426px]:text-[20px] max-[426px]:leading-[28px] max-[426px]:tracking-0 max-[426px]:text-neutral-600">
         Join our email list and receive the latest case studies, event
         updates, product news,and much more.
       </p>
       <div
         class="mt-6 flex gap-4 max-[745px]:justify-center max-[426px]:flex-col max-[426px]:items-center max-[535px]:flex-col max-[745px]:z-70">
         <input type="text"
-          class="w-[350px] h-[50px] text-[16px] border border-gray-200 rounded-lg pl-4 bg-white max-[745px]:max-w-[350px] max-[745px]:max-w-full max-[426px]:max-w-[343px] max-[426px]:w-screen"
+          class="w-[350px] h-[50px] text-[16px] font-[400] font-regular leading-[150%] tracking-0 text-neutral-600 border border-gray-200 rounded-lg pl-4 bg-white max-[745px]:max-w-[350px] max-[745px]:max-w-full max-[426px]:max-w-[343px] max-[426px]:w-screen"
           placeholder="Your Email " />
         <button
-          class="bg-neutral-800 text-white text-[16px] w-[150px] h-[50px] rounded-lg pt-2 pb-2 pl-2 pr-2 max-[745px]:max-w-[150px] max-[745px]:max-w-full max-[535px]:max-w-[350px] max-[535px]:w-full max-[426px]:max-w-[343px] max-[426px]:w-full cursor-pointer hover:bg-neutral-900">
+          class="bg-neutral-800 text-white text-[16px] font-medium leading-[24px] tracking-0 font-[500] w-[150px] h-[50px] rounded-lg pt-2 pb-2 pl-2 pr-2 max-[745px]:max-w-[150px] max-[745px]:max-w-full max-[535px]:max-w-[350px] max-[535px]:w-full max-[426px]:max-w-[343px] max-[426px]:w-full cursor-pointer hover:bg-neutral-900">
           Subscribe
         </button>
       </div>
@@ -743,9 +855,9 @@
   <!-- Join us End -->
 
   <!-- Footer Start Doneno media queries yet  -->
-  <footer class="w-screen">
+  <footer class="w-screen bg-white">
     <div
-      class="flex justify-center pt-[48px] pr-[80px] pl-[80px] pb-[81px] max-[1441px]:flex-col max-[1441px]:pr-0 max-[1441px]:justify-center max-[1441px]:items-center max-[426px]:pt-0 max-[426px]:pr-0 max-[426px]:pb-0 max-[426px]:pl-0 max-[426px]:items-center max-[745px]:pl-0 max-[745px]:pr-0">
+      class="flex justify-center pt-[48px] pr-[80px] pl-[80px] pb-[81px] max-[1441px]:flex-col max-[1441px]:pr-0 max-[1441px]:pl-0 max-[1441px]:justify-center max-[1441px]:items-center max-[426px]:pt-0 max-[426px]:pr-0 max-[426px]:pb-0 max-[426px]:pl-0 max-[426px]:items-center max-[745px]:pl-0 max-[745px]:pr-0">
       <div
         class="pt-14 pr-32 max-[745px]:pl-10 max-[426px]:pr-0 max-[426px]:pl-0 max-[426px]:max-w-[343px] max-[426px]:w-screen max-[1441px]:pr-0 max-[1441px]:pl-0 max-[1441px]:max-w-[1210px] max-[1441px]:w-screen max-[1208px]:max-w-[800px]">
         <img src="assests/footer-logo.png" alt="image" class="max-[426px]:hidden" />
@@ -756,31 +868,31 @@
         class="flex justify-center gap-15 ml-[40px] pt-[50px] max-[1441px]:ml-0 max-[1441px]:flex-wrap max-[1441px]:justify-center max-[745px]:flex max-[745px]:flex-wrap max-[745px]:max-w-[695px] max-[745px]:pl-0 max-[745px]:w-full max-[745px]:gap-12 max-[745px]:justify-between max-[745px]:items-left max-[745px]:ml-0 max-[649px]:grid max-[649px]:grid-cols-2 max-[649px]:place-items-center max-[426px]:flex max-[426px]:ml-0 max-[426px]:gap-0 max-[426px]:gap-[16px] max-[426px]:max-w-[343px] max-[426px]:pl-0 max-[426px]:pt-0 max-[426px]:mr-0 max-[426px]:pr-0 max-[426px]:pt-[32px] max-[426px]:items-center max-[426px]:w-screen max-[1208px]:grid max-[1208px]:grid-cols-3 max-[745px]:pl-[24px] max-[745px]:pr-[24px]">
         <!-- Product -->
         <div class="max-[426px]:pl-0 max-[649px]:pl-0 max-[426px]:w-[163px]">
-          <h1 class="text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0">
+          <h1 class="text-[20px] font-[700] leading-[20px] tracking-0 font-bold">
             Products
           </h1>
-          <ul class="text-base font-normal text-gray-600 cursor-pointer">
-            <li class="pt-6 max-[426px]:pt-[16px]">RAD STUDIO™</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">DELPHI®</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">C++BUILDER®</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">INTERBASE®</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">RAD SERVER™</li>
+          <ul class="text-base font-regular text-gray-600 cursor-pointer">
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">RAD STUDIO™</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">DELPHI®</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">C++BUILDER®</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">INTERBASE®</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">RAD SERVER™</li>
           </ul>
         </div>
 
         <!-- Free Tools -->
         <div class="max-[426px]:w-[163px]">
-          <h1 class="text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0 max-[426px]:mt-[40px]">
+          <h1 class="text-[20px] font-[700] leading-[20px] tracking-0 font-bold max-[426px]:mt-[40px]">
             Free Tools
           </h1>
-          <ul class="text-base font-normal text-gray-600 cursor-pointer">
+          <ul class="text-base font-regular text-gray-600 cursor-pointer">
             <li class="pt-6 max-[426px]:pt-[16px]">C++ Compiler</li>
             <li class="pt-6 max-[426px]:pt-[16px]">
               C++Builder Community ED
             </li>
-            <li class="pt-6 max-[426px]:pt-[16px]">DELPHI Community ED</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">REST Debugger</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">DELPHI Community ED</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">REST Debugger</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">
               INTERBASE Developer Edition
             </li>
             <li class="pt-6 max-[426px]:pt-[16px]">FMX STENCILS</li>
@@ -790,57 +902,57 @@
 
         <!-- Resources -->
         <div class="w-[163px]">
-          <h1 class="text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0 max-[426px]:mt-[40px]">
+          <h1 class="text-[20px] font-[700] leading-[20px] tracking-0 font-bold max-[426px]:mt-[40px]">
             Resources
           </h1>
-          <ul class="text-base font-normal text-gray-600 cursor-pointer">
-            <li class="pt-6 max-[426px]:pt-[16px]">Events and Webinars</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">White Papers</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">Success Strories</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">For Educators</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">Partners</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">Certifications</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">MVP Program</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">WEB APP Development</li>
+          <ul class="text-base font-regular text-gray-600 cursor-pointer">
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Events and Webinars</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">White Papers</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Success Strories</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">For Educators</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Partners</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Certifications</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">MVP Program</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">WEB APP Development</li>
           </ul>
         </div>
 
         <!-- Community -->
         <div class="max-[376px]:hidden max-[745px]:hidden">
-          <h1 class="text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0 max-[426px]:mt-[40px]">
+          <h1 class="text-[20px] font-[700] leading-[20px] tracking-0 font-bold max-[426px]:mt-[40px]">
             Community
           </h1>
-          <ul class="text-base font-normal text-gray-600">
-            <li class="pt-6 cursor-pointer">Blogs</li>
+          <ul class="text-base font-regular text-gray-600">
+            <li class="pt-6 cursor-pointer leading-[16px] tracking-0">Blogs</li>
           </ul>
         </div>
 
         <!-- Company -->
         <div class="max-[426px]:pl-0 max-[649px]:pl-0">
-          <h1 class="text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0 max-[426px]:mt-[40px]">
+          <h1 class="text-[20px] font-[700] leading-[20px] tracking-0 font-bold max-[426px]:mt-[40px]">
             Company
           </h1>
-          <ul class="text-base font-normal text-gray-600 cursor-pointer">
-            <li class="pt-6 max-[426px]:pt-[16px]">About us</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">Contact us</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">Contact sales</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">Legal</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">Privacy Policy</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">Logo</li>
+          <ul class="text-base font-regular text-gray-600 cursor-pointer">
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">About us</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Contact us</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Contact sales</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Legal</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Privacy Policy</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">Logo</li>
           </ul>
         </div>
 
         <!-- Get in touch -->
         <div class="max-[745px]:pr-[65px] max-[426px]:pr-0 max-[649px]:pr-0">
-          <h1 class="text-[20px] font-[700] max-[426px]:leading-[20px] max-[426px]:tracking-0 max-[426px]:mt-[40px]">
+          <h1 class="text-[20px] font-[700] leading-[20px] tracking-0 font-bold max-[426px]:mt-[40px]">
             Get In Touch
           </h1>
-          <ul class="text-base font-normal text-gray-600 cursor-pointer">
-            <li class="pt-6 max-[426px]:pt-[16px]">US: 1 (512) 226-8080</li>
-            <li class="pt-6 max-[426px]:pt-[16px]">
+          <ul class="text-base font-regular text-gray-600 cursor-pointer">
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">US: 1 (512) 226-8080</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">
               DE: +49 (0)6103-3866-100
             </li>
-            <li class="pt-6 max-[426px]:pt-[16px]">info@embarcadero.com</li>
+            <li class="pt-6 max-[426px]:pt-[16px] leading-[16px] tracking-0">info@embarcadero.com</li>
           </ul>
         </div>
       </div>
@@ -849,13 +961,13 @@
     <!-- End -->
     <div
       class="flex mt-9 pl-[80px] pr-[80px] pb-[48px] items-center max-[1441px]:ml-[12px] max-[426px]:pl-0 max-[426px]:pr-0 max-[426px]:pb-0 max-[426px]:ml-0 max-[426px]:flex-col max-[426px]:items-center max-[745px]:pl-10 max-[745px]:pr-10 w-screen max-w-[1760px] mx-auto justify-between max-[549px]:flex-col">
-      <div>
+      <div class='max-[2561px]:order-2 max-[549px]:order-1'>
         <ul class="flex mr-9 gap-7 max-[1441px]:mr-2 max-[426px]:mt-[32px]">
           <li class="cursor-pointer">
             <a href="https://twitter.com"><img src="assests/footer-logo-twitter.svg" alt="" /></a>
           </li>
           <li class="cursor-pointer">
-            <a href="https://facebook.com"><img src="assests/footer-logo-twitter.svg" alt="" /></a>
+            <a href="https://facebook.com"><img src="assests/footer-logo-facebook.svg" alt="" /></a>
           </li>
           <li class="cursor-pointer">
             <a href="https://dribble.com"><img src="assests/footer-logo-dribbble.svg" alt="" /></a>
@@ -865,7 +977,7 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class='max-[2561px]:order-1 max-[549px]:order-2'>
         <p class="text-[14px] max-[426px]:mt-[16px] max-[426px]:mb-[32px] max-[549px]:mt-[16px]">
           2022 Embarcadero Inc. All Rights Reserved
         </p>
