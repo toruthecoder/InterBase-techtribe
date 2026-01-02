@@ -21,7 +21,7 @@
 <body style="font-family: 'Archivo', sans-serif" class="overflow-x-hidden max-[1441px]:gap-[128px]">
   <!-- Header Start Done No-media quires yet -->
   <header
-    class="z-100 relative bg-neutral-800 max-[745px]:max-w-[695px] max-[745px]:w-full h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 max-[745px]:max-w-screen max-[745px]:justify-center max-[745px]:pr-0 max-[745px]:pl-0 max-[745px]:h-[53px] max-[745px]:py-4 max-[1441px]:max-w-screen max-[1441px]:pl-0 max-[445px]:h-[90px] max-[446px]:h-[90px] max-[426px]:h-[105px] max-[426px]:w-screen max-[376px]:px-[16px]">
+    class="z-[100] relative bg-neutral-800 max-[745px]:max-w-[695px] max-[745px]:w-full h-14 text-sm text-white flex justify-between w-screen pt-4 pr-20 pb-4 max-[745px]:max-w-screen max-[745px]:justify-center max-[745px]:pr-0 max-[745px]:pl-0 max-[745px]:h-[53px] max-[745px]:py-4 max-[1441px]:max-w-screen max-[1441px]:pl-0 max-[445px]:h-[90px] max-[446px]:h-[90px] max-[426px]:h-[105px] max-[426px]:w-screen max-[376px]:px-[16px]">
     <div
       class="z-90 flex max-w-[1920px] w-full mx-auto justify-between max-[745px]:justify-start max-[745px]:gap-8 max-[426px]:gap-0  items-center w-full max-[445px]:flex-col max-[426px]:flex-col max-[426px]:justify-center max-[426px]:items-center max-[446px]:flex-col">
       <div
@@ -63,28 +63,27 @@
     </div>
   </header>
   <!-- Header End -->
-  <div class='bg-red-600 relative h-auto max-w-[1920px] w-full mx-auto'>
+
+  <div class='bg-red-600 relative h-auto max-w-[1920px] w-full mx-auto max-[1836px]:hidden '>
     <!-- Dotted line image div -->
-    <div class="-z-100">
-      <img src="assests/header-dotted-left-line.svg" alt="vector image"
-        class="xl:absolute max-w-[1051px] w-full h-[1162px] -top-[95px] -left-[75px] max-[1800px]:hidden max-[1441px]:hidden max-[2561px]:left-16 -z-50" />
-    </div>
-    <div class="-z-150">
-      <img src="assests/header-dotted-right-line.svg" alt="verctor image"
-        class="xl:absolute max-w-[1050px] w-full h-[1161px] -top-[70px] right-0 max-[1441px]:hidden max-[1800px]:hidden max-[2561px]:right-120 -z-100" />
-    </div>
+    <img src="assests/header-dotted-left-line.svg" alt="vector image"
+      class="absolute max-w-[1051px] w-full h-[1162px] max-[1441px]:hidden -left-[58px] -top-[135px] -z-50" />
+
+    <img src="assests/header-dotted-right-line.svg" alt="verctor image"
+      class="absolute max-w-[1051px] w-full h-[1162px] max-[1441px]:hidden right-0 -top-[140px] -z-100" />
     <!-- End -->
   </div>
 
+  <!-- Variant -->
   <div
-    class='max-w-[1920px] w-full h-[1018px] max-[1441px]:h-[638px] absolute z-80 mx-auto inset-0 overflow-hidden max-[1025px]:hidden'>
+    class='max-w-[1920px] w-full h-[1086px] max-[1441px]:h-[685px] absolute z-80 mx-auto inset-0 max-[1921px]:overflow-hidden max-[1025px]:hidden'>
 
     <div
-      class="absolute overflow-x-hidden max-[426px]:hidden max-w-[906px] w-full h-[906px] bg-cyan-500 opacity-[10%] blur-[400px] top-[280px] -left-[280px] max-[426px]:hidden max-[1441px]:top-45 max-[1441px]:w-[906px] max-[651px]:hidden max-[745px]:h-[970px] max-[426px]:hidden">
+      class="absolute overflow-x-hidden max-[426px]:hidden max-w-[906px] w-full h-[906px] bg-cyan-500 opacity-[10%] blur-[400px] top-[280px] -left-[10px] rounded-3xl max-[745px]:hidden max-[426px]:hidden max-[1441px]:top-45 max-[1441px]:w-[906px] max-[651px]:hidden max-[745px]:h-[970px] max-[426px]:hidden">
     </div>
 
     <div
-      class="max-w-[679px] w-screen h-[869px] hidden max-[1441px]:block max-[1025px]:hidden absolute bg-rose-600 opacity-[5%] blur-[500px] top-[0px] right-0 -z-50 max-[745px]:block max-[745px]:w-[475px] max-[426px]:max-w-[446px] max-[426px]:h-[446px] max-[426px]:left-[105px] max-[426px]:block">
+      class="max-w-[679px] w-screen h-[869px] hidden max-[1441px]:block max-[1025px]:hidden absolute bg-rose-600 opacity-[5%] blur-[500px] top-[0px] right-0 -z-50 max-[745px]:hidden max-[745px]:block max-[745px]:w-[475px] max-[426px]:max-w-[446px] max-[426px]:h-[446px] max-[426px]:left-[105px] max-[426px]:block">
     </div>
   </div>
   <!-- Navbar Start Done gradient in this one gradient done for 1920 , 1440, 744,375-->
@@ -92,11 +91,11 @@
     class="z-100 w-screen h-[70px] flex justify-between py-[16px] max-[426px]:py-[12px] pl-[150px] pr-[150px] bg-white relative z-50 max-[426px]:justify-around max-[426px]:items-center max-[426px]:pr-0 max-[426px]:pl-0 max-w-[1920px] mx-auto">
     <!-- Gradient -->
     <div
-      class="w-[869px] h-[869px] absolute bg-rose-600 opacity-[10%] max-[1441px]:hidden blur-[400px] top-[0px] right-0 -z-90 max-[426px]:max-w-[320px] max-[1441px]:hidden max-[745px]:block max-[745px]:-left-[130px] max-[745px]:w-[432px] max-[745px]:h-[432px] max-[745px]:-top-[190px] max-[426px]:hidden">
+      class="-z-100 w-[869px] h-[869px] absolute bg-rose-600 opacity-[10%] max-[1441px]:hidden blur-[400px] top-[0px] right-0 -z-90 max-[426px]:max-w-[320px] max-[1441px]:hidden max-[745px]:block max-[745px]:-left-[130px] max-[745px]:w-[432px] max-[745px]:h-[432px] max-[745px]:-top-[190px] max-[426px]:hidden">
     </div>
 
     <div
-      class="max-w-[679px] w-screen h-[869px] hidden max-[1441px]:block absolute bg-rose-600 opacity-[10%] blur-[100px] top-[0px] right-0 -z-50 max-[745px]:blur-[400px] max-[745px]:block max-[745px]:-right-50 max-[745px]:w-[475px] max-[426px]:max-w-[446px] max-[426px]:h-[446px] max-[426px]:left-[105px] max-[426px]:block">
+      class="max-w-[679px] w-screen h-[869px] hidden max-[1441px]:block absolute bg-rose-600 opacity-[10%] blur-[350px] top-[0px] right-0 -z-50 max-[745px]:blur-[400px] max-[745px]:block max-[745px]:-right-50 max-[745px]:w-[475px] max-[426px]:max-w-[446px] max-[426px]:h-[446px] max-[426px]:left-[105px] max-[426px]:block max-[426px]:blur-[100px] max-[426px]:-right-30">
     </div>
 
     <div
@@ -104,7 +103,7 @@
     </div>
 
     <div
-      class="max-w-[215px] w-full h-[535px] hidden absolute bg-cyan-500 opacity-[10%] blur-[400px] top-[25px] left-[0px] -z-50 max-[425px]:block">
+      class="max-w-[215px] w-full h-[535px] hidden absolute bg-cyan-500 opacity-[10%] blur-[400px] top-[25px] left-[0px] -z-50 max-[425px]:block max-[425px]:blur-[100px]">
     </div>
 
     <div
@@ -173,26 +172,26 @@
     <p
       class="z-80 text-sm just-between max-w-[1920px] max-[1441px]:pr-0 max-[1441px]:-mr-27 max-[821px]:mt-[16px] max-[821px]:-mr-[12px] max-[745px]:pt-[16px] max-[745px]:ml-0 max-[745px]:pt-0 max-[745px]:mt-0 max-[745px]:max-w-screen max-[745px]:text-center max-[745px]:items-center max-[745px]:justify-center max-[745px]:flex-wrap max-[426px]:max-w-[343px] max-[426px]:w-screen max-[426px]:ml-0 max-[426px]:mr-0 max-[426px]:pr-0 max-[426px]:pl-0 max-[426px]:flex-wrap max-[426px]:justify-center max-[426px]:items-center max-[426px]:text-center cursor-pointer">
       <span
-        class="underline pr-1 pl-1  cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800 z-80">What's
+        class="underline pr-1 pl-1  cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800 z-[100px]">What's
         New?</span>
       -
       <span
-        class="pr-1 pl-1  underline cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800 z-80">Product
+        class="pr-1 pl-1  underline cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800 z-[100px]">Product
         Edition</span>
       -
       <span
-        class="pr-1 pl-1 underline cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800 z-80">Previous
+        class="pr-1 pl-1 underline cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800 z-[100px]">Previous
         Version</span>
       -
       <span
-        class="underline pr-1 cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800 z-80">Customers</span>
+        class="underline pr-1 cursor-pointer font-[500] text-medium text-[14px] leading-[150%] tracking-0 text-neutral-800 z-[100px]">Customers</span>
     </p>
 
 
-    <!-- Gradient done for 1920,1440,744
+    <!-- Gradient done for 1920,1440,744 -->
     <div
-      class="absolute overflow-x-hidden max-[426px]:hidden max-w-[906px] w-full h-[906px] bg-cyan-500 opacity-[100%] blur-[100px] top-[280px] -left-[280px] max-[426px]:hidden max-[1441px]:top-45 max-[1441px]:w-[906px] max-[651px]:hidden max-[745px]:h-[970px] max-[426px]:hidden">
-    </div> -->
+      class="absolute overflow-x-hidden max-[426px]:hidden max-w-[906px] w-full h-[906px] bg-cyan-500 opacity-[10%] blur-[300px] top-[178px] -left-[240px] max-[426px]:left-[0px] max-[745px]:block hidden max-[1441px]:hidden max-[1921px]:hidden">
+    </div>
   </div>
   <!-- What's new End -->
 
@@ -204,7 +203,7 @@
       <img src="assests/arrow-symbol.svg" alt="" class="pr-2" />
       <span class='text-[14px] leading-[150%] tracking-0'>
         <span
-          class="font-bold bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text max-[376px]:text-[14px]">InterBase
+          class="font-bold bg-[linear-gradient(77deg,_#FE3B76_40%,_#AF29CE_90%,_#2931DD_100%)] ... text-transparent bg-clip-text max-[376px]:text-[14px]">InterBase
           2020 </span>Update 3 Released!
         <span
           class="font-[600] font-semibold text-[12px] leading-[150%] tracking-0 underline pl-3 max-[376px]:text-[12px] max-[376px]:pl-1 cursor-pointer hover:bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] hover:text-transparent hover:bg-clip-text z-80">Learn
@@ -222,7 +221,7 @@
         class="absolute right-[100px] -top-[60px] w-[112px] h-[96px] max-[1441px]:right-[180px] max-[751px]:hidden max-[426px]:hidden" />
       <div class="text-center">
         <h1
-          class="text-center font-[600] leading-[100%] -tracking-[1px] text-5xl max-[745px]:text-[40px] bg-gradient-to-r from-[#FE3B76] from-0% via-[#AF29CE] via-50% to-[#2931DD] to-95% text-transparent bg-clip-text inline-block">
+          class="text-center font-[600] leading-[100%] -tracking-[1px] text-5xl max-[745px]:text-[40px] bg-gradient-to-r from-[#FE3B76] from-0% via-[#AF29CE] via-50% to-[#2931DD] to-95% text-transparent bg-clip-text inline-block max-[745px]:bg-[linear-gradient(90deg,_rgba(175,41,206,1)_180%,_rgba(41,49,221,1)_10%)]">
           InterBase
         </h1>
       </div>
@@ -342,14 +341,14 @@
 
   <!-- Image Start Done  gradient in this one gradient done-->
   <div
-    class="relative flex justify-center items-center mt-[128px] ml-0 max-[1441px]:ml-0 max-[745px]:mt-[80px] max-[426px]:w-screen max-[426px]:mt-20 pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px] max-[376px]:px-[16px]">
+    class="relative flex max-w-[1920px] mx-auto justify-center items-center mt-[128px] max-[1441px]:ml-0 max-[745px]:mt-[80px] max-[426px]:w-screen max-[426px]:mt-20 pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px] max-[376px]:px-[16px]">
     <!-- Gradient -->
     <div
-      class="absolute max-w-[906px] w-full h-[906px] max-[2561px]:left-0 -left-[279px] -top-[270px] bg-cyan-600 opacity-[10%] blur-[400px] -z-20 max-[1441px]:bg-cyan-500 max-[745px]:top-[110px] max-[745px]:h-[1145px] max-[745px]:-left-[120px] max-[426px]:left-0 max-[426px]:-top-[60px] max-[426px]:h-[930px]">
+      class="absolute max-w-[906px] w-full h-[906px] max-[2561px]:left-0 -left-[279px] -top-[270px] bg-cyan-600 opacity-[10%] blur-[300px] -z-20 max-[1441px]:bg-cyan-500 max-[745px]:top-[110px] max-[745px]:h-[1145px] max-[745px]:-left-[120px] max-[426px]:left-0 max-[426px]:-top-[60px] max-[426px]:h-[930px]">
     </div>
 
     <div
-      class="absolute max-[1921px]:-right-30 max-[2561px]:right-80 max-w-[644px] w-full h-[760px] bg-indigo-500 opacity-[10%] blur-[400px] top-[0px] max-[426px]:hidden">
+      class="absolute -right-30  max-w-[644px] w-full h-[760px] bg-indigo-500 opacity-[10%] blur-[400px] top-[0px] max-[426px]:hidden">
     </div>
 
     <img src="assests/only-image.svg" alt="image"
@@ -373,7 +372,7 @@
           class="font-[600] font-semibold max-[426px]:max-w-full leading-[150%] max-[745px]:leading-[140%] -tracking-[1px] text-neutral-800">
           More About
           <span
-            class="bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text">InterBase</span>
+            class="bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] to-[#2931DD] ... text-transparent bg-clip-text max-[745px]:bg-[linear-gradient(90deg,_rgba(175,41,206,1)_0%,_rgba(41,49,221,1)_100%)]">InterBase</span>
         </h1>
       </div>
       <div
@@ -411,10 +410,10 @@
 
   <!-- Boxes Start Done gradient in this one done 1920, 1440,744-->
   <div
-    class="relative w-screen flex justify-center mt-[128px] mb-[128px] max-[745px]:mt-[80px] max-[745px]:mb-[80px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mt-0 max-[426px]:mt-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[1201px]:px-[24px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px] max-[376px]:px-[16px]">
+    class="relative w-full max-w-[1920px] mx-auto flex justify-center mt-[128px] mb-[128px] max-[745px]:mt-[80px] max-[745px]:mb-[80px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mt-0 max-[426px]:mt-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[745px]:pl-0 max-[745px]:pr-0 max-[1201px]:px-[24px] max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px] max-[376px]:px-[16px]">
     <!-- Gradient -->
     <div
-      class="w-[500px] h-[869px] absolute max-[1921px]:left-5 max-[2561px]:left-80 -top-[360px] bg-rose-600 opacity-[10%] blur-[340px] max-[1441px]:hidden max-[745px]:hidden max-[426px]:block max-[426px]:-top-[120px] max-[426px]:left-[260px] max-[426px]:w-[400px] max-[426px]:h-[780px]">
+      class="w-[500px] h-[869px] absolute left-0  -top-[360px] bg-rose-600 opacity-[10%] blur-[340px] max-[1441px]:hidden max-[745px]:hidden max-[426px]:block max-[426px]:-top-[120px] max-[426px]:left-[260px] max-[426px]:w-[400px] max-[426px]:h-[780px]">
     </div>
 
     <div
@@ -426,18 +425,18 @@
     </div>
 
     <div
-      class="max-w-[410px] w-full h-[497px] absolute max-[2561px]:left-80 max-[1921px]:left-5 top-150 bg-indigo-500 opacity-[10%] blur-[400px] max-[745px]:block max-[745px]:max-w-[678px] max-[745px]:h-[750px] max-[745px]:top-[945px] max-[426px]:block max-[426px]:max-w-[200px]">
+      class="max-w-[410px] w-full h-[497px] absolute max-[2561px]:left-80 max-[1921px]:left-5 top-150 bg-indigo-500 opacity-[10%] blur-[400px] max-[1441px]:blur-[150px] max-[745px]:block max-[745px]:blur-[500px] max-[745px]:max-w-[678px] max-[745px]:h-[750px] max-[745px]:top-[945px] max-[426px]:block max-[426px]:max-w-[200px]">
     </div>
 
     <div
-      class="max-w-[731px] w-full h-[731px] absolute max-[1921px]:right-0 bg-cyan-500 opacity-[5%] blur-[500px] top-[560px] max-[2561px]:right-[120px] max-[745px]:-right-[382px] max-[745px]:top-[1300px] max-[745px]:block max-[745px]:max-w-[731px] max-[745px]:h-[731px] max-[426px]:block max-[426px]:right-0 max-[426px]:top-[1075px] max-[426px]:h-[770px] max-[426px]:max-w-[200px]">
+      class="max-w-[731px] w-full h-[731px] absolute right-0 bg-cyan-500 opacity-[10%] blur-[350px] top-[600px] max-[1441px]:-right-[510px] max-[1441px]:blur-[200px] max-[745px]:-right-[382px] max-[745px]:blur-[400px] max-[745px]:top-[1300px] max-[745px]:block max-[745px]:max-w-[731px] max-[745px]:h-[731px] max-[426px]:block max-[426px]:right-0 max-[426px]:top-[1075px] max-[426px]:h-[770px] max-[426px]:max-w-[200px]">
     </div>
 
     <!-- Gradient -->
 
     <!-- 1 div -->
     <div
-      class="max-[745px]:-z-50 grid grid-cols-3 max-w-[1274px] w-full gap-[32px] max-[745px]:max-w-[695px] max-[745px]:w-full max-[745px]:grid-cols-2 max-[745px]:gap-[24px] max-[569px]:grid-cols-1 max-[569px]:place-items-center  max-[426px]:grid-cols-1 max-[426px]:max-w-[343px] max-[426px]:w-full max-[1441px]:max-w-[1280px] max-w-[1441px]:w-full max-[376px]:max-w-[343px] max-[376px]:w-full max-[376px]:gap-[16px]">
+      class="max-[745px]:-z-50 grid grid-cols-3 max-w-[1274px] max-[1075px]:grid-cols-2 w-full gap-[32px] max-[745px]:max-w-[695px] max-[745px]:w-full max-[745px]:grid-cols-2 max-[745px]:gap-[24px] max-[569px]:grid-cols-1 max-[569px]:place-items-center  max-[426px]:grid-cols-1 max-[426px]:max-w-[343px] max-[426px]:w-full max-[1441px]:max-w-[1280px] max-w-[1441px]:w-full max-[376px]:max-w-[343px] max-[376px]:w-full max-[376px]:gap-[16px]">
       <div
         class="max-w-[405px] max-[745px]:h-[351px] max-[653px]:h-auto max-[745px]:max-w-[332px] max-[745px]:w-full max-[376px]:max-w-[332px] max-[376px]:w-full bg-[#F9F9F9] rounded-3xl border border-gray-200 max-[426px]:full max-[569px]:order-1">
         <div class="mt-7 max-[426px]:flex max-[426px]:justify-center">
@@ -662,7 +661,7 @@
 
   <!-- Strip Start Done no gradient in this one -->
   <div
-    class="flex justify-center w-screen border-gray-200 bg-[#F9F9F9] mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[426px]:pl-0 max-[425px]:pr-0 max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px]">
+    class="flex justify-center w-screen border border-gray-200 max-[426px]:border-gray-200 max-[426px]:-z-60 bg-[#F9F9F9] mb-[128px] max-[745px]:mb-0 max-[745px]:mb-[80px] max-[426px]:mb-0 max-[426px]:mb-[80px] pl-[80px] pr-[80px] max-[426px]:pl-0 max-[425px]:pr-0 max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px]">
     <div
       class="text-[20px] max-[745px]:text-[18px] max-w-[1536px] w-full flex max-[745px]:flex-wrap justify-between max-[1318px]:justify-center items-center items-center pt-[32px] pb-[32px] font-semibold gap-[32px] max-[745px]:gap-[24px] max-[1441px]:gap-15 max-[1426px]:gap-[24px] max-[1441px]:max-w-[1440px] max-[1441px]:tracking-0 max-[1441px]:leading-[150%] max-[1441px]:flex-wrap max-[349px]:px-[8px]">
       <p
@@ -686,14 +685,19 @@
   <!-- Strip End -->
 
   <!-- Image 30 Start Done gradient in this one done -->
-  <div class="flex justify-center pb-[128px] relative max-[745px]:pb-0 max-[745px]:pb-[80px] max-[426px]:w-screen">
+  <div
+    class="flex max-w-[1920px] w-full mx-auto justify-center pb-[128px] relative max-[745px]:pb-0 max-[745px]:pb-[80px] max-[426px]:w-screen">
     <!-- Gradients -->
     <div
-      class="absolute w-[731px] h-[731px] -top-55 max-[1921px]:-left-[294px] max-[2561px]:left-0 bg-cyan-500 opacity-[10%] -z-50 border blur-[200px] max-[1441px]:blur-[350px] max-[1441px]:top-0 max-[745px]:top-[260px] max-[745px]:-left-[275px] max-[745px]:h-[570px] max-[745px]:opacity-[10%] max-[745px]:blur-[400px] max-[426px]:hidden">
+      class="absolute w-[731px] h-[731px] -top-55 -left-[294px] bg-cyan-500 opacity-[10%] -z-50 border blur-[200px] max-[1441px]:top-0 max-[745px]:top-[260px] max-[745px]:-left-[275px] max-[745px]:h-[570px] max-[745px]:opacity-[10%] max-[745px]:blur-[400px] max-[426px]:hidden">
     </div>
 
     <div
-      class="absolute w-[497px] h-[497px] max-[1921px]:right-22 max-[2561px]:right-80 top-[220px] bg-indigo-500 opacity-[10%] blur-[400px] max-[1441px]:right-0 max-[745px]:top-[410px] max-[745px]:-right-[260px] max-[426px]:hidden">
+      class="w-[650px] h-[650px] absolute -left-20 -top-[50px] bg-red-600 opacity-[10%] blur-[100px] -z-50 hidden max-[426px]:block">
+    </div>
+
+    <div
+      class="absolute w-[497px] h-[497px] right-0 top-[220px] bg-indigo-500 opacity-[10%] blur-[400px] max-[1441px]:right-0 max-[745px]:top-[410px] max-[745px]:-right-[260px] max-[426px]:hidden">
     </div>
 
     <!-- Gradient End-->
@@ -711,7 +715,7 @@
 
       <div class='relative'>
         <div
-          class="w-[869px] h-[869px] absolute -left-[442px] top-[200px] bg-rose-600 opacity-[10%] max-[745px]:opacity-[5%] max-[375px]:opacity-[10%] blur-[400px] -z-50  max-[745px]:z-50 max-[745px]:top-[1000px] ">
+          class="w-[869px] h-[869px] absolute -left-[442px] top-[200px] bg-rose-600 opacity-[10%] max-[745px]:opacity-[5%] max-[375px]:opacity-[10%] blur-[400px] -z-50  max-[745px]:z-50 max-[436px]:hidden max-[745px]:top-[1000px] ">
         </div>
 
         <div
@@ -734,7 +738,8 @@
 
       <div class="grid grid-cols-3
              max-[1382px]:grid-cols-2
-             max-[426px]:grid-cols-1 gap-[64px] relative max-[426px]:gap-0">
+             max-[426px]:grid-cols-1
+             gap-[64px] relative max-[426px]:gap-0">
 
         <div
           class="z-80 flex flex-col gap-6 max-[426px]:text-center max-[1921px]:order-1 max-[1382px]:order-1 max-[745px]:pb-[32px]">
@@ -852,22 +857,23 @@
 
   <!-- Join us section Start Done no gradient in this one -->
   <div
-    class="flex flex-row mx-auto w-screen bg-white bg-clip-padding mx-auto items-center border border-white border-top max-[1441px]:pt-18 max-[1441px]:w-screen max-[1441px]:mx-auto max-[1441px]:pb-18 max-[745px]:flex-col max-[745px]:w-screen max-[426px]:w-screen max-[426px]:mx-auto max-[426px]:flex max-[426px]:items-center max-[426px]:pt-0 pl-[80px] pr-[80px] max-[1246px]:flex-col max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px] py-[101px] max-[745px]:py-[64px] max-[425px]:py-[48px] max-[376px]:px-[16px]">
-    <div
-      class='flex max-w-[1536px] w-full mx-auto justify-between items-center gap-8 max-[1363px]:flex-col max-[745px]:flex-col max-[745px]:gap-0 max-[426px]:gap-0'>
+    class="flex flex-row mx-auto w-screen justify-center bg-white mx-auto items-center border border-white border-top max-[1441px]:pt-18 max-[1441px]:w-screen max-[1441px]:mx-auto max-[1441px]:pb-18 max-[745px]:flex-col max-[745px]:w-screen max-[426px]:w-screen max-[426px]:mx-auto max-[426px]:flex max-[426px]:items-center max-[426px]:pt-0 pl-[80px] pr-[80px] max-[1246px]:flex-col max-[745px]:pl-0 max-[745px]:pr-0 max-[745px]:pl-[24px] max-[745px]:pr-[24px] py-[101px] max-[745px]:py-[64px] max-[425px]:py-[48px] max-[376px]:px-[16px]">
 
-      <div class='relative max-[744px]:hidden'>
-        <div
-          class="w-[390px] h-[390px] absolute -left-[190px] -top-[290px] bg-rose-600 opacity-[10%] blur-[300px] max-[745px]:hidden">
-        </div>
-
-        <div
-          class="w-[650px] h-[250px] absolute -right-[1790px] -top-[300px] bg-rose-600 opacity-[10%] blur-[400px] max-[745px]:hidden">
-        </div>
+    <div class='relative max-[744px]:hidden'>
+      <div
+        class="w-[390px] h-[390px] absolute -left-[190px] -top-[290px] bg-rose-600 opacity-[10%] blur-[200px] max-[745px]:hidden">
       </div>
 
       <div
-        class="bg-white border border-white p-0 flex flex-col max-w-[1536px] max-[1921px]:ml-0 max-[1921px]:mr-0 max-[1921px]:pr-0 max-[1921px]:pl-0 max-[1441px]:ml-0 max-[1441px]:p-0 max-[1441px]:max-w-[514px] max-[1441px]:justify-center max-[1441px]:items-center max-[745px]:max-w-[696px] max-[745px]:ml-0 max-[745px]:p-0 max-[745px]:ml-0 max-[426px]:max-w-[343px] max-[426px]:ml-0 max-[426px]:mr-0 max-[426px]:pr-0 max-[426px]:pl-0 max-[426px]:p-0 max-[426px]:flex max-[426px]:flex-col max-[426px]:justify-center max-[426px]:items-center max-[426px]:mx-auto max-[745px]:px-[24px] max-[1363px]:max-w-[850px] max-[349px]:px-[16px]">
+        class="w-[650px] h-[250px] absolute -right-[1790px] -top-[300px] bg-rose-600 opacity-[10%] blur-[200px] max-[745px]:hidden">
+      </div>
+    </div>
+
+
+    <div
+      class='flex max-w-[1536px] w-full justify-between items-center gap-0 max-[1363px]:flex-col max-[745px]:flex-col max-[745px]:gap-0 max-[426px]:gap-0'>
+      <div
+        class="bg-white border border-white p-0 px-0 flex flex-col max-w-[633px] w-full max-[1921px]:ml-0 max-[1921px]:mr-0 max-[1921px]:pr-0 max-[1921px]:pl-0 max-[1441px]:ml-0 max-[1441px]:p-0 max-[1441px]:max-w-[514px] max-[1441px]:justify-center max-[1441px]:items-center max-[745px]:max-w-[696px] max-[745px]:ml-0 max-[745px]:p-0 max-[745px]:ml-0 max-[426px]:max-w-[343px] max-[426px]:ml-0 max-[426px]:mr-0 max-[426px]:pr-0 max-[426px]:pl-0 max-[426px]:p-0 max-[426px]:flex max-[426px]:flex-col max-[426px]:justify-center max-[426px]:items-center max-[426px]:mx-auto max-[745px]:px-[24px] max-[1363px]:max-w-[850px] max-[349px]:px-[16px]">
         <p
           class="text-[48px] font-semibold leading-[120%] max-[349px]:px-[16px] max-[745px]:leading-[120%] max-[745px]:text-[36px] max-[426px]:text-[30px] tracking-[-1px] text-neutral-800 max-[1150px]:text-[36px] max-[1150px]:text-center max-[376px]:text-[30px]">
           Join Our <br class="max-[1780px]:hidden">
